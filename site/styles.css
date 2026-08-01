@@ -1,0 +1,744 @@
+/*
+  Atualizações — folha de estilos
+  ---------------------------------------------------------------------------
+  Página editorial de leitura profunda. Sistema de 3 papéis tipográficos,
+  todos via system font stack (zero web fonts, zero CDN):
+
+    --font-heading  estrutura / navegação (h1, h2, nav, botões)
+    --font-body     conteúdo de leitura (parágrafos, títulos de item/tensão)
+    --font-mono     metadados / dados (eyebrows, badges, fonte, datas)
+
+  Tema claro/escuro via prefers-color-scheme, com override manual persistido
+  (atributo data-theme no <html>, aplicado por site/template.mjs via script
+  inline curto). Toda a leitura funciona sem JS — o toggle é a única
+  dependência de script (e ele só aparece se o JS rodar).
+
+  Contraste (WCAG 2.2):
+    - corpo de texto e títulos ......... >= 7:1  (AAA)
+    - texto secundário / metadados ..... >= 7:1  (AAA, folga sobre o AA 4.5:1)
+    - links ............................ >= 7:1  (AAA)
+    - limites de componentes de UI ..... >= 3:1  (1.4.11, --color-border-strong)
+    - réguas puramente decorativas ..... sem exigência (--color-border)
+*/
+
+/* ---------------------------------------------------------------------- */
+/* Tokens de cor                                                          */
+/* ---------------------------------------------------------------------- */
+/*
+  Dois tokens de linha, de propósito diferente:
+
+    --color-border         réguas/divisórias DECORATIVAS (separadores de
+                           seção, divisor das tensões). Isentas de 1.4.11
+                           porque a estrutura já é dada por headings e
+                           landmarks — nenhuma informação depende delas.
+
+    --color-border-strong  limites que CARREGAM informação e por isso
+                           precisam de >= 3:1 contra o fundo: contorno do
+                           botão de tema, borda dos badges de tier,
+                           sublinhado de link e separadores de ação.
+*/
+
+/* Tema claro — "papel". Padrão, e também o override explícito. */
+:root,
+:root[data-theme="light"] {
+  --color-bg: #f5f3ee;
+  --color-bg-raised: #eae6db;
+  --color-text: #201d19;
+  --color-text-muted: #52493f;
+  --color-border: #c2b8a0;
+  --color-border-strong: #8f8168;
+  --color-accent: #234876;
+  --color-accent-strong: #14304f;
+  --color-latam: #2e6b57;
+  --color-focus: #234876;
+  --color-skip-bg: #234876;
+  --color-skip-text: #f5f3ee;
+
+  color-scheme: light;
+}
+
+/* Tema escuro por preferência de sistema — exceto se o usuário forçou claro. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-bg: #14181c;
+    --color-bg-raised: #1e242b;
+    --color-text: #ece8e0;
+    --color-text-muted: #aca79b;
+    --color-border: #3e4852;
+    --color-border-strong: #657280;
+    --color-accent: #9fc1f2;
+    --color-accent-strong: #cfe1fb;
+    --color-latam: #7fc4ac;
+    --color-focus: #9fc1f2;
+    --color-skip-bg: #9fc1f2;
+    --color-skip-text: #14181c;
+
+    color-scheme: dark;
+  }
+}
+
+/* Tema escuro por override explícito do toggle (persistido em localStorage). */
+:root[data-theme="dark"] {
+  --color-bg: #14181c;
+  --color-bg-raised: #1e242b;
+  --color-text: #ece8e0;
+  --color-text-muted: #aca79b;
+  --color-border: #3e4852;
+  --color-border-strong: #657280;
+  --color-accent: #9fc1f2;
+  --color-accent-strong: #cfe1fb;
+  --color-latam: #7fc4ac;
+  --color-focus: #9fc1f2;
+  --color-skip-bg: #9fc1f2;
+  --color-skip-text: #14181c;
+
+  color-scheme: dark;
+}
+
+/* Fontes — independentes de tema. */
+:root {
+  --font-heading: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-body: ui-serif, Georgia, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", "Times New Roman", serif;
+  --font-mono: ui-monospace, "Cascadia Code", "Segoe UI Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+
+  /* Alvo mínimo de toque/clique (WCAG 2.5.5 AAA — mais rígido que o 24px
+     exigido por 2.5.8 AA). Aplicado a todo controle interativo. */
+  --target-min: 44px;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Reset mínimo                                                           */
+/* ---------------------------------------------------------------------- */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  text-rendering: optimizeLegibility;
+  /* Nenhuma string longa (URL, nome de fonte) pode estourar a viewport a
+     320px de largura — requisito de 1.4.10 Reflow. */
+  overflow-wrap: break-word;
+}
+
+img, svg { max-width: 100%; display: block; }
+
+ul, ol { padding: 0; margin: 0; list-style: none; }
+p { margin: 0 0 1.15em; }
+p:last-child { margin-bottom: 0; }
+
+a {
+  color: var(--color-accent);
+  /* `max()` para o sublinhado engrossar junto com o zoom, em vez de virar
+     um fio de 1px físico a 200%. */
+  text-decoration-thickness: max(1px, 0.07em);
+  text-underline-offset: 0.15em;
+}
+a:hover { color: var(--color-accent-strong); }
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* O toggle de tema nasce com [hidden] e só é revelado pelo JS. Sem esta
+   regra, o `display: inline-flex` de .theme-toggle venceria o
+   `display: none` do user-agent e o botão apareceria mesmo sem script. */
+[hidden] { display: none !important; }
+
+/* ---------------------------------------------------------------------- */
+/* Utilidades                                                             */
+/* ---------------------------------------------------------------------- */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Movimento — opt-in apenas para quem não pediu redução de movimento     */
+/* ---------------------------------------------------------------------- */
+
+@media (prefers-reduced-motion: no-preference) {
+  a, button, .skip-link, .theme-toggle {
+    transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease, top 0.15s ease, opacity 0.15s ease;
+  }
+  html { scroll-behavior: smooth; }
+}
+
+/* ---------------------------------------------------------------------- */
+/* Foco visível                                                           */
+/* ---------------------------------------------------------------------- */
+/*
+  Anel de 3px com 3px de afastamento: o vão exposto é sempre a cor de fundo
+  da página, então o par relevante para 1.4.11 é --color-focus x --color-bg
+  (8.4:1 no claro, 9.7:1 no escuro). Sem border-radius forçado aqui — o
+  outline já acompanha o raio do próprio elemento, e sobrescrevê-lo
+  esquadrinhava o botão-pílula do tema.
+*/
+
+:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 3px;
+}
+
+/* Fallback para navegadores sem :focus-visible. */
+:focus:not(:focus-visible) { outline: none; }
+
+/* ---------------------------------------------------------------------- */
+/* Skip link                                                              */
+/* ---------------------------------------------------------------------- */
+
+.skip-link {
+  position: absolute;
+  left: 0.75rem;
+  top: -4rem;
+  z-index: 1000;
+  background: var(--color-skip-bg);
+  color: var(--color-skip-text);
+  font-family: var(--font-heading);
+  font-weight: 600;
+  padding: 0.85rem 1.25rem;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target-min);
+}
+.skip-link:focus {
+  top: 0.75rem;
+}
+/* --color-focus e --color-skip-bg são a mesma cor: um anel externo comum
+   ficaria "azul sobre azul" assim que encostasse. Aqui o anel é interno e
+   usa a cor do texto do próprio link (8.4:1 claro / 9.7:1 escuro contra o
+   fundo azul do botão). */
+.skip-link:focus,
+.skip-link:focus-visible {
+  outline: 3px solid var(--color-skip-text);
+  outline-offset: -7px;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Coluna de leitura                                                      */
+/* Aplicado a header/main/footer diretamente (nenhum tem font-family      */
+/* própria no elemento raiz, então herdam o serif de body e a métrica     */
+/* `ch` fica consistente entre os três — coluna de 65-70ch).              */
+/* ---------------------------------------------------------------------- */
+
+body > header,
+body > main,
+body > footer {
+  max-width: 68ch;
+  margin-inline: auto;
+  padding-inline: clamp(1rem, 4vw, 2rem);
+}
+
+/* <main> recebe tabindex="-1" para ser alvo real do skip link; isso não
+   pode desenhar um anel de foco quando o alvo é alcançado por clique. */
+main:focus { outline: none; }
+
+/* ---------------------------------------------------------------------- */
+/* Eyebrow (rótulo de seção — camada de metadado/mono)                    */
+/* ---------------------------------------------------------------------- */
+
+.eyebrow {
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  margin: 0 0 0.4rem;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Cabeçalho                                                              */
+/* ---------------------------------------------------------------------- */
+
+.site-header {
+  padding-top: clamp(2rem, 5vw, 3.25rem);
+  padding-bottom: 1.75rem;
+}
+
+.header-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.site-title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.5rem, 1.2rem + 1.3vw, 2.05rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+.site-title a {
+  color: var(--color-text);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target-min);
+}
+.site-title a:hover { color: var(--color-accent); }
+
+.week-meta {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin: 0.6rem 0 0;
+}
+
+.site-nav {
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--color-border);
+  padding-top: 1rem;
+}
+.site-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1.5rem;
+}
+.site-nav a {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target-min);
+}
+.site-nav a:hover,
+.site-nav a[aria-current] {
+  color: var(--color-accent);
+}
+.site-nav a[aria-current] {
+  text-decoration: underline;
+  text-decoration-thickness: max(2px, 0.1em);
+  text-underline-offset: 0.25em;
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: var(--target-min);
+  padding: 0.4rem 0.85rem;
+  /* Contorno é o único limite visual do botão → precisa de >= 3:1 (1.4.11). */
+  border: 1.5px solid var(--color-border-strong);
+  border-radius: 999px;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.theme-toggle:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+/* Estado pressionado também visível, não só no aria-pressed: o rótulo é
+   fixo ("Modo escuro"), então o estado precisa de um sinal próprio. */
+.theme-toggle[aria-pressed="true"] {
+  background: var(--color-bg-raised);
+  border-color: var(--color-text);
+}
+.theme-toggle__icon {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Main — ritmo entre seções                                              */
+/* ---------------------------------------------------------------------- */
+
+main {
+  padding-bottom: clamp(3rem, 6vw, 5rem);
+}
+
+main > * {
+  margin-top: 3.5rem;
+  padding-top: 3rem;
+  border-top: 1px solid var(--color-border);
+}
+main > *:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
+main h2 {
+  font-family: var(--font-heading);
+  font-size: clamp(1.3rem, 1.15rem + 0.6vw, 1.55rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 0 0 1.25rem;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Convergências                                                          */
+/* ---------------------------------------------------------------------- */
+
+main p { max-width: 100%; }
+
+/* ---------------------------------------------------------------------- */
+/* Tensões vivas — layout "dois lados" com divisor central                */
+/* ---------------------------------------------------------------------- */
+
+.tension + .tension {
+  margin-top: 2.75rem;
+  padding-top: 2.75rem;
+  border-top: 1px dashed var(--color-border);
+}
+
+.tension h3 {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  margin: 0 0 1.25rem;
+}
+
+.tension-grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 1.75rem;
+  align-items: start;
+}
+
+.tension-side { min-width: 0; }
+
+.side-label {
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+  margin: 0 0 0.5rem;
+}
+
+.tension-divider {
+  position: relative;
+  width: 1px;
+  align-self: stretch;
+  background: var(--color-border);
+}
+.tension-divider::before {
+  content: "◆";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--color-bg);
+  color: var(--color-text-muted);
+  font-size: 0.7rem;
+  padding: 0.35rem 0;
+  line-height: 1;
+}
+
+.tension-refs {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+}
+.tension-refs li {
+  display: inline-flex;
+  align-items: center;
+}
+/* A sintaxe `content: "..." / ""` dá texto alternativo vazio ao
+   pseudo-elemento: a seta fica visível mas some da árvore de acessibilidade. */
+.tension-refs li::before {
+  content: "→ " / "";
+  color: var(--color-text-muted);
+}
+.tension-refs a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target-min);
+}
+
+@media (max-width: 640px) {
+  .tension-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .tension-divider {
+    width: 100%;
+    height: 1px;
+  }
+}
+
+/* ---------------------------------------------------------------------- */
+/* Itens (por eixo)                                                       */
+/* ---------------------------------------------------------------------- */
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+article.item h3 {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  margin: 0 0 0.6rem;
+}
+/* O título é um link inline que ocupa o h3 inteiro — a caixa da fonte dá só
+   ~22px de altura. O padding vertical leva a área de clique a >= 44px sem
+   mexer no layout: padding em elemento inline não empurra as linhas
+   vizinhas, só amplia a região sensível ao toque. */
+article.item h3 a {
+  color: var(--color-text);
+  padding-block: 0.7rem;
+}
+article.item h3 a:hover,
+article.item h3 a:focus-visible {
+  color: var(--color-accent);
+}
+
+.item-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  margin: 0 0 0.85rem;
+}
+.item-source { color: var(--color-text-muted); }
+
+/* Badges de tier: diferenciados por peso/estilo de borda, não só por cor —
+   funcionam em escala de cinza e para daltonismo. O rótulo textual já
+   carrega a informação; as bordas ainda assim ficam >= 3:1. */
+.tier-badge {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.2rem 0.55rem;
+  border-radius: 3px;
+  line-height: 1.4;
+}
+.tier-referencia {
+  background: var(--color-text);
+  color: var(--color-bg);
+  border: 1.5px solid var(--color-text);
+  font-weight: 700;
+}
+.tier-citada {
+  background: transparent;
+  color: var(--color-text);
+  border: 1.5px solid var(--color-text);
+  font-weight: 600;
+}
+.tier-solida,
+.tier-desconhecida {
+  background: transparent;
+  color: var(--color-text-muted);
+  border: 1px dashed var(--color-border-strong);
+  font-weight: 500;
+}
+
+.item-synthesis { color: var(--color-text); }
+
+.latam-note {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  border-left: 3px solid var(--color-latam);
+  padding-left: 0.9rem;
+  margin: 0.9rem 0 0;
+}
+.latam-note strong {
+  color: var(--color-text);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-right: 0.15em;
+}
+.latam-marker {
+  margin-right: 0.3em;
+}
+
+/* Ações de feedback: dois links pequenos. Viram alvos de 44x44 sem inchar
+   o bloco, e o sublinhado passa a usar currentColor (antes usava a cor de
+   régua decorativa, praticamente invisível — o link não se distinguia). */
+.item-feedback {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 0.15rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+}
+.item-feedback a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--target-min);
+  min-width: var(--target-min);
+  padding: 0 0.5rem;
+  color: var(--color-text-muted);
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+  text-underline-offset: 0.2em;
+}
+.item-feedback a:hover,
+.item-feedback a:focus-visible {
+  color: var(--color-accent);
+}
+.feedback-sep {
+  color: var(--color-border-strong);
+}
+
+/* ---------------------------------------------------------------------- */
+/* Fontes com falha na coleta                                             */
+/* ---------------------------------------------------------------------- */
+
+aside ul {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Arquivo                                                                */
+/* ---------------------------------------------------------------------- */
+
+.archive-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.archive-entry a {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target-min);
+}
+.archive-entry a:hover { color: var(--color-accent); }
+.archive-meta {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  margin: 0.3rem 0 0;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Rodapé                                                                 */
+/* ---------------------------------------------------------------------- */
+
+.site-footer {
+  padding-top: 2.5rem;
+  padding-bottom: clamp(2.5rem, 6vw, 4rem);
+  border-top: 1px solid var(--color-border);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+.site-footer a {
+  color: inherit;
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target-min);
+}
+.site-footer a:hover { color: var(--color-accent); }
+.site-footer p + p { margin-top: 0.6rem; }
+
+/* ---------------------------------------------------------------------- */
+/* Telas estreitas                                                        */
+/* ---------------------------------------------------------------------- */
+
+@media (max-width: 480px) {
+  .header-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+}
+
+/* ---------------------------------------------------------------------- */
+/* Preferência por mais contraste                                         */
+/* ---------------------------------------------------------------------- */
+/*
+  Quem pede contraste reforçado no SO recebe as réguas decorativas na cor
+  de componente (>= 3:1) e um anel de foco mais grosso.
+*/
+
+@media (prefers-contrast: more) {
+  /* Os quatro seletores do bloco de tokens precisam estar aqui: o escuro por
+     sistema usa `:root:not([data-theme="light"])`, que tem especificidade
+     maior que `:root` e venceria a substituição abaixo. */
+  :root,
+  :root[data-theme="light"],
+  :root[data-theme="dark"],
+  :root:not([data-theme="light"]) {
+    --color-border: var(--color-border-strong);
+  }
+  :focus-visible {
+    outline-width: 4px;
+  }
+  .item-feedback a,
+  .site-footer a {
+    text-decoration-thickness: max(2px, 0.1em);
+  }
+}
+
+/* ---------------------------------------------------------------------- */
+/* Modo de alto contraste forçado (Windows)                               */
+/* ---------------------------------------------------------------------- */
+/*
+  No forced-colors o navegador substitui as cores; o que precisa de ajuda é
+  o anel de foco (que perderia a cor do token) e as bordas dos badges, que
+  devem seguir a cor de texto do sistema.
+*/
+
+@media (forced-colors: active) {
+  :focus-visible {
+    outline: 3px solid CanvasText;
+    outline-offset: 3px;
+  }
+  .theme-toggle,
+  .tier-badge {
+    border-color: CanvasText;
+  }
+  .skip-link:focus,
+  .skip-link:focus-visible {
+    outline: 3px solid CanvasText;
+    outline-offset: -7px;
+  }
+}

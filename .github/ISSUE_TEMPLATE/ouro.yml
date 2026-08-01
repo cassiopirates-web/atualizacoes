@@ -1,0 +1,18 @@
+name: "Feedback: ouro"
+description: "Quero mais itens como este"
+title: "[ouro] "
+labels: ["feedback:ouro"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: URL do item
+    validations:
+      required: true
+  - type: textarea
+    id: motivo
+    attributes:
+      label: O que o torna valioso?
+      description: Opcional — ajuda a calibrar o filtro da próxima rodada
+    validations:
+      required: false

@@ -1,0 +1,160 @@
+{
+  "week": "2026-W00",
+  "generated_at": "2026-07-27T09:15:00-03:00",
+  "items": [
+    {
+      "title_original": "The Bitter Lesson",
+      "url": "http://www.incompleteideas.net/IncIdeas/BitterLesson.html",
+      "source": "Rich Sutton",
+      "axis": "ia-aplicada",
+      "tier": "referencia",
+      "synthesis_ptbr": "Sutton argumenta que, em sete décadas de pesquisa em IA, métodos genéricos que aproveitam mais computação superam consistentemente abordagens que codificam conhecimento humano especializado. É uma lição desconfortável para quem constrói produtos sobre heurísticas cuidadosamente desenhadas: escala tende a vencer engenhosidade no médio prazo."
+    },
+    {
+      "title_original": "Attention Is All You Need",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "source": "arXiv — Vaswani et al. (Google)",
+      "axis": "ia-aplicada",
+      "tier": "referencia",
+      "synthesis_ptbr": "O paper que introduziu a arquitetura Transformer, substituindo recorrência por mecanismos de atenção, e que se tornou a base técnica de praticamente todos os modelos de linguagem em produção hoje. Leitura obrigatória para entender por que os LLMs atuais escalam do jeito que escalam."
+    },
+    {
+      "title_original": "Machines of Loving Grace",
+      "url": "https://www.darioamodei.com/essay/machines-of-loving-grace",
+      "source": "Dario Amodei (Anthropic)",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "Ensaio longo do CEO da Anthropic especulando sobre um cenário otimista de cinco a dez anos em que IA poderosa acelera biologia, neurociência, desenvolvimento econômico e governança — condicionado a uma lista de 'ses' que o próprio autor reconhece como não triviais. Útil como contraponto deliberado ao ciclo de ceticismo e hype.",
+      "latam_note": "Amodei cita a redução da desigualdade global e o desenvolvimento acelerado de economias emergentes como um dos cenários possíveis — vale ler com ceticismo aplicado ao contexto latino-americano específico, que raramente aparece detalhado nesses ensaios de origem americana."
+    },
+    {
+      "title_original": "Continuous Discovery Habits (the Book) is Finally Here!",
+      "url": "https://www.producttalk.org/continuous-discovery-habits/",
+      "source": "Product Talk — Teresa Torres",
+      "axis": "produto-descoberta",
+      "tier": "referencia",
+      "synthesis_ptbr": "Torres condensa oito anos de trabalho com times de produto em um método estruturado de descoberta contínua: entrevistas semanais com clientes, mapeamento de oportunidades e árvores de solução. O ponto central é que descoberta não é uma fase do projeto, é um hábito permanente da equipe."
+    },
+    {
+      "title_original": "The Mom Test",
+      "url": "http://momtestbook.com/",
+      "source": "Rob Fitzpatrick",
+      "axis": "produto-descoberta",
+      "tier": "referencia",
+      "synthesis_ptbr": "Guia curto e direto sobre como conduzir conversas com clientes sem contaminar as respostas com validação social — mesmo quando a pessoa entrevistada está sendo educada em vez de honesta. Adotado em currículos de Harvard e da UCL, e ainda a referência mais citada em onboarding de PMs."
+    },
+    {
+      "title_original": "Silicon Valley Product Group",
+      "url": "https://www.svpg.com/",
+      "source": "SVPG — Marty Cagan",
+      "axis": "produto-descoberta",
+      "tier": "citada",
+      "synthesis_ptbr": "O site que popularizou a distinção entre descoberta (discovery) e entrega (delivery) como responsabilidades simultâneas — não sequenciais — de times de produto capacitados ('empowered teams'). Cagan segue sendo a referência central contra times de produto que apenas executam roadmap."
+    },
+    {
+      "title_original": "StaffEng",
+      "url": "https://staffeng.com/",
+      "source": "Will Larson",
+      "axis": "design-lideranca",
+      "tier": "citada",
+      "synthesis_ptbr": "Coleção de relatos reais de profissionais seniores sobre a trilha técnica de carreira — Staff, Principal — como alternativa à gestão de pessoas. Documenta um caminho de liderança que segue pouco formalizado na maioria das organizações de design e produto."
+    },
+    {
+      "title_original": "Design in Tech Report 2026",
+      "url": "https://designintech.report/",
+      "source": "John Maeda",
+      "axis": "design-lideranca",
+      "tier": "referencia",
+      "synthesis_ptbr": "A edição 2026 do relatório anual de Maeda desloca o foco para 'AX' (Agent Experience): como projetar para agentes de IA que navegam sistemas no lugar de — ou junto com — pessoas. Levanta a pergunta que toda liderança de design vai precisar responder em breve: o que muda quando a interface não tem mais um único usuário humano do outro lado.",
+      "latam_note": "O relatório histórico do Maeda raramente traz dados ou estudos de caso de mercados latino-americanos — um ponto cego recorrente em relatórios de tendência originados no Vale do Silício, que vale sinalizar a cada nova edição."
+    },
+    {
+      "title_original": "Web Content Accessibility Guidelines (WCAG) 2.2",
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "source": "W3C",
+      "axis": "acessibilidade",
+      "tier": "referencia",
+      "synthesis_ptbr": "A recomendação oficial que define os critérios de sucesso de acessibilidade web nos níveis A, AA e AAA. Continua sendo o documento normativo contra o qual qualquer auditoria séria de acessibilidade deve ser medida — inclusive os critérios novos introduzidos na versão 2.2."
+    },
+    {
+      "title_original": "Contrast and Color Accessibility: Understanding WCAG 2 Contrast and Color Requirements",
+      "url": "https://webaim.org/articles/contrast/",
+      "source": "WebAIM",
+      "axis": "acessibilidade",
+      "tier": "referencia",
+      "synthesis_ptbr": "Explicação clara dos critérios de contraste 1.4.3, 1.4.6, 1.4.11 e 1.4.1 da WCAG, com exemplos de como calcular razões de contraste e por que cor sozinha nunca deve carregar significado. Leitura obrigatória antes de aprovar qualquer paleta de marca ou sistema de badges de status."
+    },
+    {
+      "title_original": "Inclusive Design",
+      "url": "https://inclusive.microsoft.design/",
+      "source": "Microsoft Design",
+      "axis": "acessibilidade",
+      "tier": "citada",
+      "synthesis_ptbr": "O toolkit da Microsoft reformula acessibilidade como design inclusivo: reconhecer exclusão, aprender com a diversidade humana e resolver para um caso específico para beneficiar muitos. Traz contribuições de defensores com deficiência, como Haben Girma, o que muda o tom de 'compliance' para 'design'.",
+      "latam_note": "A maturidade de acessibilidade digital na América Latina segue muito atrás da referência americana e europeia citada aqui — vale usar o toolkit como vocabulário e método, não como benchmark de onde o mercado local já está."
+    },
+    {
+      "title_original": "Brand New",
+      "url": "https://www.underconsideration.com/brandnew/",
+      "source": "UnderConsideration",
+      "axis": "branding-tendencias",
+      "tier": "citada",
+      "synthesis_ptbr": "O blog mais antigo e ainda mais influente de crítica de identidade visual corporativa, publicando análises diárias de rebrands e novos logotipos. Serve como termômetro de consenso profissional sobre o que passa despercebido versus o que gera debate público na categoria."
+    },
+    {
+      "title_original": "Best Global Brands",
+      "url": "https://interbrand.com/best-global-brands/",
+      "source": "Interbrand",
+      "axis": "branding-tendencias",
+      "tier": "solida",
+      "synthesis_ptbr": "O ranking anual de valor de marca da Interbrand introduz o framework 'Arena Thinking', substituindo categorias de indústria por motivações humanas. Sinal de para onde a disciplina de branding corporativo está movendo o próprio vocabulário de estratégia."
+    },
+    {
+      "title_original": "Adapting to Endure",
+      "url": "https://www.sequoiacap.com/article/adapting-to-endure/",
+      "source": "Sequoia Capital",
+      "axis": "macro-capital",
+      "tier": "referencia",
+      "synthesis_ptbr": "A apresentação que a Sequoia levou a fundadores de portfólio em maio de 2022, recalibrando expectativas de crescimento a qualquer custo em favor de disciplina de capital. Ainda é citada como o momento em que o consenso de venture capital virou publicamente."
+    },
+    {
+      "title_original": "Big Debt Crises",
+      "url": "https://economicprinciples.org/",
+      "source": "Ray Dalio — Economic Principles",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "Dalio sistematiza padrões históricos de como países entram e saem de crises de dívida, com um framework replicável para reconhecer em qual fase de um ciclo de alavancagem uma economia está. Contexto útil para qualquer decisão de alocação de médio prazo no ciclo de juros atual."
+    },
+    {
+      "title_original": "Memos from Howard Marks",
+      "url": "https://www.oaktreecapital.com/insights",
+      "source": "Oaktree Capital — Howard Marks",
+      "axis": "macro-capital",
+      "tier": "solida",
+      "synthesis_ptbr": "O arquivo completo dos memorandos de Howard Marks, publicados sem paywall, sobre ciclos de mercado, risco e psicologia de investidores. A qualidade varia memo a memo, mas o corpus continua sendo um dos poucos lugares em que raciocínio de risco é explicado em linguagem simples."
+    }
+  ],
+  "convergences_ptbr": "[SEMANA DE DEMONSTRAÇÃO] Os textos desta semana convergem em um tema pouco confortável: a distância entre o discurso de eficiência — seja em pesquisa de IA, em times de produto ou em disciplina de capital — e a prática de quem de fato reduz risco em vez de apenas prometer velocidade. Sutton e o paper de Transformers mostram que escala tende a vencer engenhosidade artesanal em IA; Sequoia e Dalio documentam o mesmo padrão em ciclos de capital, onde disciplina supera crescimento a qualquer custo; e o relatório de Maeda sugere que a próxima fronteira de design não é mais a interface humana, mas o comportamento de agentes autônomos navegando sistemas em nome de pessoas.\n\nDo lado da prática, o fio condutor é o custo real de pular etapas: Torres e Fitzpatrick insistem que descoberta de produto malfeita gera decisões caras disfarçadas de velocidade, e a WCAG 2.2 somada ao toolkit de design inclusivo da Microsoft reforçam que acessibilidade tratada como checklist tardio custa mais caro do que acessibilidade desenhada desde a primeira decisão de contraste. Esta é uma semana de demonstração: os itens, fontes e sínteses acima são reais, mas a seleção não reflete uma coleta feita nesta semana específica — serve apenas para validar o gerador do site.",
+  "tensions": [
+    {
+      "title_ptbr": "Escala vence conhecimento especializado?",
+      "side_a": "A 'lição amarga' de Sutton — validada pela trajetória dos Transformers e dos LLMs atuais — argumenta que métodos gerais que exploram mais computação superam sistematicamente abordagens artesanais baseadas em conhecimento humano de domínio. Investir em computação e dados genéricos venceria investir em heurísticas especializadas.",
+      "side_b": "Críticos como Gary Marcus apontam que a lição amarga é uma leitura post-hoc de um período específico — deep learning combinado a GPUs baratas — e que domínios com dados escassos, alto risco ou necessidade de interpretabilidade, como saúde, direito e acessibilidade, continuam dependendo de conhecimento especializado e curadoria humana para funcionar com segurança.",
+      "refs": [
+        "http://www.incompleteideas.net/IncIdeas/BitterLesson.html",
+        "https://nautil.us/deep-learning-is-hitting-a-wall-238440/"
+      ]
+    },
+    {
+      "title_ptbr": "Descoberta contínua ou apostas fixas de seis semanas?",
+      "side_a": "Torres e Cagan defendem que descoberta é um hábito semanal contínuo do time inteiro — não uma fase isolada — com entrevistas de cliente toda semana e mapeamento constante de oportunidades antes de qualquer compromisso de entrega.",
+      "side_b": "O método Shape Up, da Basecamp, argumenta o oposto: em times pequenos, descoberta contínua vira teatro de processo. Melhor moldar o problema uma vez, apostar seis semanas de foco ininterrupto e deixar o uso real do produto — não mais entrevistas — informar o próximo ciclo.",
+      "refs": [
+        "https://www.producttalk.org/continuous-discovery-habits/",
+        "https://basecamp.com/shapeup"
+      ]
+    }
+  ],
+  "feedback_processed": [],
+  "fetch_report": { "failed_sources": [] }
+}

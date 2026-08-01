@@ -1,0 +1,34 @@
+name: weekly-curation
+on:
+  schedule:
+    - cron: "0 9 * * 1"   # segunda 06:00 BRT
+  workflow_dispatch: {}
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+concurrency:
+  group: weekly-curation
+  cancel-in-progress: false
+jobs:
+  collect-and-curate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - name: Coleta determinística
+        run: node scripts/collect.mjs
+      - name: Curadoria (Claude Code)
+        uses: anthropics/claude-code-action@v1
+        env:
+          GH_TOKEN: ${{ github.token }}
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: "Leia e execute integralmente prompts/weekly-curation.md para a semana corrente."
+          claude_args: |
+            --allowedTools "Read,Write,Edit,Glob,Grep,WebFetch,Bash(git:*),Bash(gh issue:*),Bash(node:*)"
+            --model claude-opus-5

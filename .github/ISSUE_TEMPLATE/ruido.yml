@@ -1,0 +1,18 @@
+name: "Feedback: ruído"
+description: "Marcar um item do feed como ruído (não me serviu)"
+title: "[ruído] "
+labels: ["feedback:ruido"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: URL do item
+    validations:
+      required: true
+  - type: textarea
+    id: motivo
+    attributes:
+      label: Por que é ruído?
+      description: Opcional — ajuda a calibrar o filtro da próxima rodada
+    validations:
+      required: false

@@ -1,0 +1,40 @@
+sources:
+  - id: nngroup
+    name: "Nielsen Norman Group"
+    axis: design-lideranca
+    tier: 1
+    type: rss
+    url: "https://www.nngroup.com/feed/rss/"
+    homepage: "https://www.nngroup.com"
+    access: open
+    latam: false
+
+  - id: arxiv-hc
+    name: "arXiv cs.HC"
+    axis: ia-aplicada
+    tier: 1
+    type: arxiv
+    url: "http://export.arxiv.org/api/query?search_query=cat:cs.HC&sortBy=submittedDate&sortOrder=descending&max_results=30"
+    homepage: "https://arxiv.org"
+    access: open
+    latam: false
+
+  - id: smashing-magazine
+    name: "Smashing Magazine"
+    axis: design-lideranca
+    tier: 1
+    type: rss
+    url: "https://www.smashingmagazine.com/feed/"
+    homepage: "https://www.smashingmagazine.com"
+    access: open
+    latam: false
+
+  - id: alistapart
+    name: "A List Apart"
+    axis: design-lideranca
+    tier: 2
+    type: rss
+    url: "https://alistapart.com/main/feed/"
+    homepage: "https://alistapart.com"
+    access: open
+    latam: false

@@ -1,0 +1,29 @@
+window_days: 10
+max_candidates: 120
+per_source_cap: 8
+arxiv_cap: 15
+exclude_keywords:   # descarte global, case-insensitive, título+excerpt
+  - "hands-on"
+  - "unboxing"
+  - "deal"
+  - "discount"
+  - "black friday"
+  - "top 10"
+  - "you won't believe"
+  - "sponsored"
+  - "giveaway"
+  - "coupon"
+  - "affiliate"
+  - "buy now"
+  - "limited time"
+  - "clickbait"
+  - "you need to know"
+  - "life hack"
+  - "listicle"
+axes:               # quotas proporcionais do cap global
+  ia-aplicada: 25
+  produto-descoberta: 20
+  design-lideranca: 20
+  acessibilidade: 15
+  branding-tendencias: 20
+  macro-capital: 20

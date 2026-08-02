@@ -13,7 +13,7 @@ import Parser from 'rss-parser';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 
-const USER_AGENT = 'atualizacoes-feed/0.1 (+github)';
+const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36';
 const FETCH_TIMEOUT_MS = 15_000;
 const CONCURRENCY = 5;
 const RETRIES_PER_SOURCE = 1; // 1 retry = até 2 tentativas

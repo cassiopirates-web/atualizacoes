@@ -1,0 +1,262 @@
+{
+  "week": "2026-W31",
+  "generated_at": "2026-08-02T14:18:43.642Z",
+  "items": [
+    {
+      "title_original": "Transforming Health Care Logistics With Low-Cost AI",
+      "url": "https://knowledge.wharton.upenn.edu/article/transforming-health-care-logistics-with-low-cost-ai",
+      "source": "Knowledge at Wharton",
+      "axis": "ia-aplicada",
+      "tier": "referencia",
+      "synthesis_ptbr": "Pesquisadores da Wharton e da Penn Engineering construíram um sistema de previsão de demanda que realoca estoque de medicamentos em Serra Leoa e mediram o resultado em campo: alta de 19% no consumo dos produtos alocados nas áreas-piloto e de 32% no acesso a medicamentos em populações remotas. O método é a contribuição principal — aprendizado multitarefa que empresta padrões de clínicas bem documentadas para as subnotificadas, complementado por censo e imagem de satélite, rodando a US$ 30 mensais de servidor e sem contratações adicionais. A escolha de arquitetura mais relevante é política, não técnica: o sistema é de apoio à decisão, com o gestor local mantendo poder de veto sobre a recomendação. É o contra-exemplo mais forte do ano à tese de que ROI de IA exige orçamento de fronteira."
+    },
+    {
+      "title_original": "How a Different AI Approach Can Cut the Queue",
+      "url": "https://insight.kellogg.northwestern.edu/article/how-a-different-ai-approach-can-cut-the-queue",
+      "source": "Kellogg Insight",
+      "axis": "ia-aplicada",
+      "tier": "referencia",
+      "synthesis_ptbr": "O estudo treina um classificador para prever diretamente a fila de prioridade de um raio-X de tórax, em vez de primeiro diagnosticar a doença e só depois derivar a urgência — e a eliminação desse passo intermediário reduziu o custo total de espera em mais de 30% sobre 112.120 exames anonimizados. O princípio generaliza muito além da saúde: o modelo deve ser treinado contra o objetivo operacional real, não contra o rótulo que a intuição do domínio sugere. Para quem decide onde aplicar IA, isso inverte a pergunta padrão de \"qual é a precisão do modelo\" para \"qual decisão o sistema realmente precisa tomar\", com aplicação imediata em triagem de atendimento, priorização de suporte e roteamento de demanda."
+    },
+    {
+      "title_original": "UX-Context Design: Using UX Knowledge to Inform AI-Generated Design",
+      "url": "https://www.nngroup.com/articles/ux-context-design",
+      "source": "Nielsen Norman Group",
+      "axis": "design-lideranca",
+      "tier": "referencia",
+      "synthesis_ptbr": "O NN/g nomeia uma prática que já está se formando: o entregável de pesquisa e design deixa de ser o documento escrito para humanos e passa a ser o contexto curado que governa o que a IA gera. A evidência é um artefato concreto em circulação — o formato DESIGN.md do Google Labs, publicado em abril de 2026, que vive ao lado do código e combina valores precisos (cor, espaçamento, tipografia) com diretrizes em prosa. A consequência para liderança de design é estrutural: com não-designers gerando interface via prompt, o padrão organizacional só se aplica se estiver codificado como contexto, e a métrica de sucesso da pesquisa passa a ser a melhora da saída do modelo, não a persuasão do stakeholder."
+    },
+    {
+      "title_original": "Stop Shipping AI Agents on Faith: Capability Is Not Production Readiness",
+      "url": "https://arxiv.org/abs/2607.27677v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "O artigo separa duas coisas que a prática de mercado ainda confunde: capacidade demonstrada e prontidão para produção. Propõe o ProofAgent Index, que combina avaliação de comportamento observado, contexto de operação, conformidade e capacidade organizacional de autorizar e monitorar, validado em saúde e finanças dentro de um harness aberto de avaliação auditável. Três achados importam para quem decide liberar um agente: engenharia de contexto altera fortemente a confiabilidade, ganho de capacidade melhora comportamento sem determinar prontidão, e a evidência de governança precisa permanecer visível em vez de ser diluída em uma média. É o vocabulário que faltava para transformar \"o agente foi bem na demo\" em critério defensável de liberação."
+    },
+    {
+      "title_original": "OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding",
+      "url": "https://arxiv.org/abs/2607.27155v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "O benchmark OmegaUse-OfficeVal ancora a avaliação de agentes em economia real: 100 tarefas derivadas de pedidos de profissionais, cada uma com o tempo de trabalho humano correspondente (média de 2,32 horas) e um proxy de preço, verificadas por código a partir de rubricas detalhadas. O resultado é o par de fatos que define a fronteira atual: todos os modelos avaliados são substancialmente mais baratos e mais rápidos que o trabalhador humano, e nenhum alcança a qualidade humana do entregável. Para decisão de adoção, isso desloca a pergunta de \"o agente consegue?\" para \"qual é o custo de revisão que fecha a diferença de qualidade?\" — que é onde o ROI de fato é ganho ou perdido."
+    },
+    {
+      "title_original": "Skill Use or Skill Theater? Evaluating the Reasoning Backroom in Skill-Augmented Language Agents",
+      "url": "https://arxiv.org/abs/2607.27484v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "Os autores testam se as \"skills\" fornecidas a um agente realmente mudam suas decisões ou apenas aparecem no raciocínio visível, e batizam a lacuna de Reasoning Backroom. O método é o valor da peça: cada resposta condicionada a uma skill é pareada com um contrafactual sem ela, o significado e a identidade da skill são manipulados, e a atribuição só é pedida ao agente depois que ele já se comprometeu com a resposta — bloqueando a racionalização retroativa. O achado é uma falha generalizada de proveniência: uso declarado permanece estável enquanto a dependência causal varia, os detectores usuais (menção no texto, similaridade de trace, juiz LLM) não identificam as decisões que de fato dependeram da skill, e em cenários multiagente os agentes citaram skills que nunca receberam. Qualquer avaliação de agente baseada em ler o raciocínio declarado está medindo teatro."
+    },
+    {
+      "title_original": "Echoverse: Deep, evolving environments for computer-use agents",
+      "url": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents",
+      "source": "Microsoft Research Blog",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "A Microsoft Research argumenta que o gargalo de agentes de uso de computador é a profundidade do ambiente de treino, não a quantidade de tarefas, e sustenta isso com números: um modelo de 9 bilhões de parâmetros treinado em doze mundos sintéticos funcionais (com banco de dados, estado compartilhado e permissões reais) saltou de 36,5% para 67,1%, a 14 pontos do GPT-5.4. O teste que separa a tese é o contraste com mundos rasos, que chegaram a degradar o desempenho no Allrecipes de 80% para 75%, enquanto os profundos elevaram os mesmos domínios; treino focado em um só widget (date picker) subiu de 60% para 82,6% e transferiu para interfaces nunca vistas. A implicação operacional é direta para empresas com sistemas proprietários: réplicas sintéticas fiéis do próprio sistema tornam treinável o que não pode ser exposto em produção."
+    },
+    {
+      "title_original": "The AI Productivity Paradox",
+      "url": "https://www.svpg.com/the-ai-productivity-paradox",
+      "source": "Silicon Valley Product Group",
+      "axis": "produto-descoberta",
+      "tier": "citada",
+      "synthesis_ptbr": "O SVPG dá nome e diagnóstico ao descompasso que define a adoção corporativa de IA em 2026: 89% dos executivos afirmam que a IA acelerou o trabalho, mas apenas 6% se dizem confiantes em apontar ROI organizacional específico. A explicação proposta não é a ferramenta, e sim o modelo de trabalho — organizações usam IA para acelerar fluxos por projeto em vez de adotar o modelo de produto, colapsando a distinção entre usar IA para aprender (testar hipótese com usuário real) e usar IA para entregar (produzir qualidade comercial). A consequência é o argumento mais útil da semana para conversas com liderança: quando construir fica barato, o custo de errar a direção cresce na mesma proporção da velocidade."
+    },
+    {
+      "title_original": "No New Name Has Replaced “UX”",
+      "url": "https://www.nngroup.com/articles/no-new-name-ux",
+      "source": "Nielsen Norman Group",
+      "axis": "design-lideranca",
+      "tier": "citada",
+      "synthesis_ptbr": "Pesquisa com 604 profissionais de tecnologia e design, feita em abril de 2026 com um desenho inteligente — apresentar a descrição do trabalho sem nomeá-lo e pedir que o participante o nomeasse —, encerra empiricamente o debate recorrente sobre rebatizar o campo. \"UX\" apareceu como rótulo primário em 47,8% das respostas e termos correlatos em 70%; as alternativas ficaram pulverizadas, com \"experience design\" em 4 respostas e \"human-centered design\" em 5, e \"produto\" concentrado em 12,4% (38% entre gerentes de produto). A recomendação dos autores é a parte acionável para liderança: energia gasta em renomear a disciplina rende menos do que energia gasta em demonstrar sua contribuição."
+    },
+    {
+      "title_original": "For your business to thrive in the agentic AI era, treat accessibility as foundational to your AI strategy",
+      "url": "https://www.deque.com/blog/for-your-business-to-thrive-in-the-agentic-ai-era-treat-accessibility-as-foundational-to-your-ai-strategy",
+      "source": "Deque Systems",
+      "axis": "acessibilidade",
+      "tier": "citada",
+      "synthesis_ptbr": "A tese conecta acessibilidade e confiabilidade de agentes por um mecanismo técnico verificável: a árvore de acessibilidade é o modelo de dados primário que agentes usam para ler a interface, de modo que semântica quebrada não degrada apenas o leitor de tela — ela produz falha de tarefa e alucinação apresentada como fato, em escala transacional. A evidência é majoritariamente de terceiros: 95,9% das home pages com falhas detectáveis (WebAIM 2026), 35 de 37 modelos líderes gerando problemas críticos de acessibilidade por padrão no benchmark AIMAC, e 88% dos líderes de engenharia confiando na acessibilidade do código gerado por IA. O número que muda alocação de orçamento é o custo de correção: cerca de US$ 21 na fase de design contra US$ 637 depois de produção. Autoria da CEO da Deque, então trate o call to action como interessado — o mecanismo, não."
+    },
+    {
+      "title_original": "AWS's Road to a Trillion",
+      "url": "https://www.tomtunguz.com/aws-answers-the-cloud-race",
+      "source": "Tomasz Tunguz",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "A AWS cresceu 36,7% no 2T26, para US$ 42,2 bilhões, quinto trimestre consecutivo de aceleração, e reduziu a diferença de crescimento para o Azure de 16 para 6 pontos — com margem operacional de 39,4%. O preço dessa retomada aparece no fluxo de caixa: capex de US$ 53,1 bilhões no trimestre, plano de 2026 elevado para US$ 220 bilhões e fluxo de caixa livre dos últimos doze meses em menos US$ 7,6 bilhões, contra mais US$ 18,2 bilhões um ano antes. A incerteza que Jassy admite é o que importa para planejamento: a adoção está \"em halteres\", com laboratórios de fronteira em uma ponta e economia de custo na outra, enquanto o meio — as cargas de produção já existentes, o maior segmento absoluto — pode não seguir a mesma curva íngreme."
+    },
+    {
+      "title_original": "Stablecoins and (Non)Crypto Shocks: A 2026 Update",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/stablecoins-and-noncrypto-shocks-a-2026-update",
+      "source": "Liberty Street Economics — Federal Reserve Bank of New York",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "O Fed de Nova York documenta que a capitalização das stablecoins em dólar cresceu US$ 71 bilhões (30%) para cerca de US$ 308 bilhões após o GENIUS Act de julho de 2025, e mostra que a composição de reservas dos dois maiores emissores — que respondem por mais de 80% dos ativos — divergiu materialmente: a USDC concentrada em caixa e Treasuries curtos, a Tether com cerca de 24% das reservas atestadas em ativos como títulos corporativos, ouro, Bitcoin e empréstimos garantidos. O achado analítico está na reação ao choque não-cripto: após a quebra do SVB, o fundo que lastreia a USDC derrubou seu prazo médio abaixo do 5º percentil dos fundos de Treasuries e levou compromissadas de zero a mais de 90%, estabilizando em torno de 69%. A conclusão relevante para quem constrói produto financeiro é que o canal de contágio entre finanças tradicionais e infraestrutura cripto já opera nos dois sentidos."
+    },
+    {
+      "title_original": "The evolution from SaaS to SaS",
+      "url": "https://jocatorres.medium.com/the-evolution-from-saas-to-sas-096f6f6513fd",
+      "source": "Joca Torres",
+      "axis": "produto-descoberta",
+      "tier": "solida",
+      "synthesis_ptbr": "Joca Torres reposiciona a categoria a partir de um erro que cometeu no próprio produto: o ReveLumi era vendido como ferramenta de pesquisa quando na verdade executa a pesquisa, e essa diferença define Service as Software — o agente faz o trabalho em vez de acelerar quem o faz. O teste que ele oferece é comercial, não retórico: SaS cobra por tarefa concluída (no caso dele, por entrevista com insight), não por licença de usuário, e é o modelo de cobrança que revela a categoria real antes do marketing. Os exemplos citados (Sierra em atendimento, Lovable e Replit em código com precificação ainda híbrida) mostram que a transição está no meio do caminho, o que torna o argumento acionável para quem está precificando produto com agente agora."
+    },
+    {
+      "title_original": "How to Cut Your AI Bill From $200 to $20 a Month",
+      "url": "https://www.productcompass.pm/p/ai-coding-bill-20-a-month",
+      "source": "The Product Compass — Paweł Huryn",
+      "axis": "produto-descoberta",
+      "tier": "solida",
+      "synthesis_ptbr": "O autor rodou um benchmark próprio — 105 bugs ocultos em dois repositórios reais, 10 modelos de fronteira, 14 execuções — e o resultado inverte a intuição de que preço acompanha qualidade: a execução de US$ 1,80 corrigiu 33 bugs enquanto a de US$ 104,49 corrigiu 29. O achado secundário é mais útil que o placar: o nível de esforço configurado importa mais que a troca de modelo, com o mesmo modelo caindo de 33 para 13 bugs entre esforço máximo e alto. A conclusão prática é uma tabela de roteamento por tipo de tarefa, e vale ler com a ressalva de que benchmark de um autor sobre dois repositórios não substitui medição no seu próprio código."
+    },
+    {
+      "title_original": "A Concrete Definition of “Product Sense” (and How to Build It)",
+      "url": "https://www.nngroup.com/articles/product-sense-definition",
+      "source": "Nielsen Norman Group",
+      "axis": "design-lideranca",
+      "tier": "solida",
+      "synthesis_ptbr": "O artigo troca a definição vaga de \"product sense\" como empatia e criatividade por uma operacionalizável: a capacidade de reconhecer quando o problema atual se parece com sucessos ou fracassos passados e estimar de forma confiável como soluções semelhantes afetarão o resultado desejado. A fundamentação vem da pesquisa de Kahneman e Klein sobre expertise intuitiva, que condiciona o desenvolvimento de julgamento confiável a ciclos completos de decisão com retorno — daí a receita concreta: registrar a hipótese antes, medir resultado e não entrega, e permanecer no problema tempo suficiente para ver a consequência. Como diagnóstico de carreira, é o argumento de que a rotatividade rápida entre projetos impede exatamente a formação da competência que a automação da execução torna escassa."
+    },
+    {
+      "title_original": "Exploring large language models for persona construction: a case study in educational ergonomics",
+      "url": "https://infodesign.emnuvens.com.br/infodesign/article/view/1310",
+      "source": "InfoDesign — Revista Brasileira de Design da Informação",
+      "axis": "design-lideranca",
+      "tier": "solida",
+      "synthesis_ptbr": "Estudo revisado por pares que testa um fluxo híbrido de construção de personas: limpeza automatizada de dados, clusterização por k-prototypes, teste estatístico e geração narrativa com ChatGPT 4o, aplicado a dados reais de percepção ergonômica entre educadores em Ho Chi Minh. O valor está na honestidade metodológica — os autores registram que a base era limitada em tamanho e profundidade e que não houve validação por especialista dos procedimentos estatísticos, o que delimita a conclusão a \"viável e reprodutível\" em vez de \"melhor que o método tradicional\". Serve como referência de processo para times que precisam de personas ancoradas em dado quantitativo sem orçamento para uma equipe de pesquisa dedicada.",
+      "latam_note": "Publicado por pesquisadores da UFSC no único periódico brasileiro de design revisado por pares com continuidade desde 2004, o que dá um protocolo citável em português para times locais que precisem defender método de persona diante de área técnica."
+    },
+    {
+      "title_original": "Bootstrapping Your Intelligence Stack",
+      "url": "https://jarango.com/2026/07/31/bootstrapping-your-intelligence-stack",
+      "source": "Jorge Arango",
+      "axis": "design-lideranca",
+      "tier": "solida",
+      "synthesis_ptbr": "Arango propõe estratificar o uso de IA em três camadas — direção e estratégia com modelos de fronteira, fluxos complexos de decisão no meio, tarefas discretas e padronizadas com modelos comuns — e sustenta a economia com um caso citado pelo Wall Street Journal: a mesma tarefa custou pouco mais de US$ 10.000 inteiramente no GPT-5.5 contra US$ 1.339 combinando o modelo de código do Cursor com o Opus 4.8. O ganho que ele destaca não é só custo: decompor o fluxo em passos com critério de sucesso definido reduz dependência de fornecedor, porque cada camada pode trocar de modelo isoladamente conforme o que hoje é fronteira vira commodity. É argumento de arquitetura, e o custo antecipado dessa decomposição é a contrapartida honesta que ele registra."
+    },
+    {
+      "title_original": "Building accessible digital experiences through user journey testing",
+      "url": "https://equalentry.com/accessibility-user-journey-testing-pac-nyc",
+      "source": "Equal Entry",
+      "axis": "acessibilidade",
+      "tier": "solida",
+      "synthesis_ptbr": "Caso documentado do Perelman Performing Arts Center, em Nova York, em que o teste foi conduzido por jornada de usuário — comprar ingresso e doar — e não por varredura de páginas, com a acessibilidade integrada ao ciclo de desenvolvimento desde o início do projeto. As duas barreiras encontradas são específicas e reproduzíveis em qualquer checkout: após acionar \"Buy tickets\", o foco de teclado não avançava para a primeira data disponível, exigindo de 30 a 50 tabulações, e a seleção de valor predefinido de doação era anulada porque o Tab pulava para o campo de valor livre. As correções (armadilha de foco no diálogo e remoção do campo livre da ordem de foco até ser selecionado) levaram as 30–50 tabulações a uma. O artigo não traz métrica de conversão, então trate o ganho de receita como hipótese, e o ganho de fluxo como fato medido."
+    },
+    {
+      "title_original": "Why Mature Enterprise Accessibility Programs Plateau",
+      "url": "https://www.levelaccess.com/blog/why-mature-enterprise-accessibility-programs-plateau",
+      "source": "Level Access",
+      "axis": "acessibilidade",
+      "tier": "solida",
+      "synthesis_ptbr": "A tese é que programas maduros de acessibilidade não fracassam, eles estagnam — e as três causas apontadas são de gestão, não técnicas: fluxos acelerados por IA que correm à frente da validação de acessibilidade, portfólio digital que cresceu além do escopo original do programa, e propriedade que se dissolve a cada reorganização porque existia no papel e não em sistema. A primeira causa é a que muda a agenda agora: sem regra explícita sobre o que a IA pode resolver e o que exige revisão humana, o time passa a acumular dívida de acessibilidade na mesma velocidade em que ganhou produtividade. As recomendações apoiam-se no Digital Accessibility Maturity Model e no relatório da própria consultoria com mais de 1.600 profissionais, mas o texto não expõe os números — leia como diagnóstico estruturado, não como evidência quantitativa."
+    },
+    {
+      "title_original": "Marketing teams are stuck in single-player Claude mode. Here's how to go multiplayer.",
+      "url": "https://newsletter.mkt1.co/p/multiplayer-claude-1",
+      "source": "MKT1 Newsletter",
+      "axis": "branding-tendencias",
+      "tier": "solida",
+      "synthesis_ptbr": "Emily Kramer descreve por que o ganho de IA em times de marketing não se acumula: cada pessoa constrói sua própria capacidade em modo \"single-player\" e nada disso se propaga. O framework dos 4 Cs — ferramenta, contexto compartilhado em repositório acessível, capacidades reutilizáveis (skills, prompts, integrações MCP) e colaboração com dono designado — é operacional o suficiente para ser implementado: repositório único como fonte da verdade, arquivo de contexto de cada pessoa apontando para o compartilhado, e a distinção entre \"skills que fazem trabalho\" e \"skills que constroem skills\". As barreiras que ela nomeia são as reais: o construtor da ferramenta raramente é quem decide, e meta de pipeline sempre expulsa investimento em infraestrutura."
+    },
+    {
+      "title_original": "Airlines have a naming problem — here’s how to fix it",
+      "url": "https://www.siegelgale.com/airlines-have-a-naming-problem-heres-how-to-fix-it",
+      "source": "Siegel+Gale",
+      "axis": "branding-tendencias",
+      "tier": "solida",
+      "synthesis_ptbr": "A peça usa o caso \"Basic Business\" da Delta — nome que se contradiz e gerou reação pública — para mostrar como convenções genéricas de nomenclatura (Basic, Economy, Premium, First) transferem a hierarquia de preço para dentro da experiência do cliente, rebaixando quem compra o nível de entrada. Os contraexemplos são o argumento: \"Saver\" da Alaska, \"Upper Class\" da Virgin Atlantic e \"Qsuite\" da Qatar mantêm identidade própria da marca em vez de descrever posição na escada. O princípio transfere direto para arquitetura de planos em SaaS: o nome do tier é ponto de contato de marca, e nomear pela ausência do que o cliente não comprou é decisão de produto disfarçada de decisão de copy. É argumento por caso e opinião de especialistas, sem dado quantitativo."
+    },
+    {
+      "title_original": "O papel do marketing no crescimento das empresas: onde está o desalinhamento",
+      "url": "https://anacouto.com.br/artigos/2026/07/28/papel-do-marketing-no-crescimento-desalinhamento",
+      "source": "Ana Couto",
+      "axis": "branding-tendencias",
+      "tier": "solida",
+      "synthesis_ptbr": "Ana Couto sustenta que o marketing foi posicionado como função executora e não como parte do sistema que decide mercado, portfólio e alocação de capital — e ancora o diagnóstico na 34ª edição da The CMO Survey (Duke, com Deloitte e AMA): a área lidera formalmente o crescimento de receita em 32% das empresas, comanda a agenda de inovação em 26%, e a pressão do CFO por comprovação de impacto financeiro subiu para 63% dos casos. O diagnóstico central é de linguagem: a liderança discute capital, portfólio e vantagem competitiva enquanto o marketing responde em canal, alcance e engajamento. As três recomendações são concretas — migrar a métrica para share, margem e valor de vida do cliente, tratar diferenciação como ativo corporativo, e entrar na formação da estratégia em vez de validá-la depois."
+    },
+    {
+      "title_original": "The CMO’s real budget crisis",
+      "url": "https://www.siegelgale.com/the-cmos-real-budget-crisis",
+      "source": "Siegel+Gale",
+      "axis": "branding-tendencias",
+      "tier": "solida",
+      "synthesis_ptbr": "O argumento é que a crise de orçamento do marketing é, na verdade, uma crise de foco: o orçamento ficou estável em 7,7% da receita em 2024 e 2025 (Gartner CMO Spend Survey), enquanto a mensagem se pulveriza — média de 19 ferramentas de ponto por time (Airtable 2024) e narrativas concorrentes por canal. A evidência de retorno da consistência vem do estudo System1/IPA de 2024, que associa aos 20% de marcas mais consistentes ganhos 28% maiores em vendas, lucro e participação de mercado. O dado que descreve o momento é o de erosão política: 69% dos CMOs dizem ter apoio de CEO e CFO para investimento de marca de longo prazo, contra 80% antes (NIQ). A recomendação — auditoria de mensagens e corte deliberado — é sensata, mas a ponte entre dado de terceiros e prescrição é opinativa."
+    },
+    {
+      "title_original": "Charts of the Week: Moar Machines",
+      "url": "https://www.a16z.news/p/charts-of-the-week-moar-machines",
+      "source": "a16z — Andreessen Horowitz",
+      "axis": "macro-capital",
+      "tier": "solida",
+      "synthesis_ptbr": "Compilação de gráficos com fontes explícitas que sustenta dois fatos incômodos ao mesmo tempo. No custo de computação, o contrato de 12 meses de H100 está pouco abaixo de US$ 2,50 por GPU-hora, cerca de 40% acima de novembro, com mercados de previsão apontando para US$ 2,78 — ou seja, o preço do token cai enquanto o preço da capacidade dedicada sobe. No mercado de trabalho, vagas de entrada em tecnologia seguem em cerca de 5% do total de anúncios desde 2019, com a contratação de nível pleno sendo espremida e a sênior ganhando participação, num setor em que mais de 45% dos trabalhadores estão em relação de trabalho a distância. Para planejamento de time e de custo de inferência em 2027, os dois gráficos são premissas melhores do que a narrativa corrente."
+    },
+    {
+      "title_original": "These Are Sectors Where Seed Rounds Of $5M To $10M Are Clustering This Year",
+      "url": "https://news.crunchbase.com/seed/startup-funding-trends-2026-proptech-robotics-cancer-space-tech",
+      "source": "Crunchbase News",
+      "axis": "macro-capital",
+      "tier": "solida",
+      "synthesis_ptbr": "A Crunchbase filtrou cerca de 800 rodadas seed globais de 2026 pela faixa de US$ 5 a 10 milhões — deliberadamente fora das megarrodadas — para observar onde ainda se faz a aposta clássica em fundador e tecnologia não provados, e encontrou cinco concentrações: cibersegurança, proptech, terapias e diagnóstico de câncer, tecnologia espacial e robótica. O sinal útil é a ausência: a faixa de risco clássico está se acumulando longe da IA de aplicação, justamente onde o capital de estágio avançado se concentra. A ressalva é de método — o texto apresenta listas amostrais de empresas por setor, não agregados em dólares, então trate como mapa de direção e não como medição de volume."
+    }
+  ],
+  "convergences_ptbr": "O modelo mental que atravessa a semana é a separação entre velocidade e resultado. O SVPG dá o número que resume o corpus — 89% dos executivos dizem que a IA acelerou o trabalho e apenas 6% conseguem apontar ROI organizacional — e três pesquisas independentes mostram o mesmo padrão em camadas diferentes do sistema: o benchmark OmegaUse-OfficeVal registra agentes substancialmente mais baratos e rápidos que o trabalhador humano e ainda abaixo da qualidade do entregável; o ProofAgent Index formaliza que ganho de capacidade não determina prontidão para produção; e o estudo do Reasoning Backroom mostra que nem a leitura do raciocínio declarado pelo agente serve para saber se a instrução fornecida mudou a decisão. A Level Access fecha o ciclo do lado da consequência: onde o fluxo acelerou por IA sem regra explícita de revisão humana, o que se acumula é dívida de acessibilidade na mesma proporção do ganho de produtividade.\n\nO segundo eixo de convergência é econômico e liga capital, ferramenta e prática numa cadeia visível. No topo, o capex: a AWS elevou o plano de 2026 para US$ 220 bilhões e levou o fluxo de caixa livre de doze meses a menos US$ 7,6 bilhões, enquanto os gráficos da a16z mostram o contrato de H100 cerca de 40% mais caro que em novembro. Na base, a prática do time descobre o oposto: o benchmark do Product Compass registra a execução de US$ 1,80 corrigindo mais bugs que a de US$ 104,49, e Jorge Arango sustenta a mesma tese com o caso do Cursor citado pelo Wall Street Journal, em que estratificar modelos derrubou o custo de mais de US$ 10.000 para US$ 1.339. O nódulo entre as duas pontas é o dado da Crunchbase: a faixa clássica de seed, de US$ 5 a 10 milhões, está se concentrando em proptech, oncologia, espaço e robótica — longe de onde o capital tardio se acumula.\n\nO terceiro modelo mental compartilhado é o de contexto curado como artefato de infraestrutura, e ele conecta três eixos que normalmente não conversam. O NN/g nomeia a prática do lado do design, com o entregável de pesquisa virando contexto legível por máquina no formato do DESIGN.md do Google Labs; a MKT1 descreve a mesma estrutura no marketing, com repositório compartilhado e a distinção entre skills que fazem trabalho e skills que constroem skills; a Deque mostra que a árvore de acessibilidade é literalmente o modelo de dados que o agente usa para ler a interface, o que faz de semântica correta e contexto de design a mesma camada de infraestrutura. A Microsoft Research fecha o argumento pelo lado do treino: ambientes sintéticos de alta fidelidade levaram um modelo de 9 bilhões de parâmetros de 36,5% para 67,1%, enquanto ambientes rasos chegaram a degradar o desempenho — profundidade de contexto vence volume de exposição.\n\nPor fim, os itens de liderança convergem para uma consequência de carreira. Quando a execução barateia, a competência escassa passa a ser o julgamento sobre o que fazer: o NN/g define product sense como reconhecimento de padrão formado em ciclos completos de decisão com retorno medido, o SVPG separa construir para aprender de construir para entregar, e a pesquisa com 604 profissionais mostra que a energia gasta em renomear a disciplina rende menos que a gasta em demonstrar sua contribuição. Ana Couto e a Siegel+Gale trazem o espelho do marketing com dados distintos e diagnóstico igual — marketing lidera formalmente o crescimento de receita em 32% das empresas, e o apoio declarado de CEO e CFO ao investimento de marca de longo prazo caiu de 80% para 69%. O contraponto positivo da semana são os dois destaques operacionais: o sistema de alocação de medicamentos em Serra Leoa (US$ 30 mensais, alta de 32% no acesso em áreas remotas) e a fila de raio-X da Kellogg (redução de mais de 30% no custo de espera) mostram que o retorno aparece quando o modelo é treinado contra o objetivo operacional real e a decisão final permanece com a pessoa.",
+  "tensions": [
+    {
+      "title_ptbr": "Modelo de fronteira ou roteamento barato: onde está o custo real da IA",
+      "side_a": "A prática no nível do time diz que o modelo caro é desnecessário na maioria das tarefas. O benchmark do Product Compass, com 105 bugs em dois repositórios reais, registrou a execução de US$ 1,80 corrigindo 33 bugs contra 29 da execução de US$ 104,49, e mostrou que o nível de esforço configurado pesa mais que a troca de modelo. Jorge Arango generaliza para arquitetura: estratificar direção, fluxos complexos e tarefas discretas levou o mesmo trabalho de mais de US$ 10.000 para US$ 1.339 no caso do Cursor, com o ganho adicional de reduzir dependência de fornecedor.",
+      "side_b": "O mercado de capacidade aposta no sentido oposto. Os gráficos da a16z mostram o contrato de 12 meses de H100 pouco abaixo de US$ 2,50 por GPU-hora, cerca de 40% acima de novembro, com mercados de previsão apontando US$ 2,78 — o preço do token cai, mas o da capacidade dedicada sobe. A AWS elevou o capex de 2026 para US$ 220 bilhões, acumulou US$ 496 bilhões de compromissos futuros e aceitou fluxo de caixa livre negativo de US$ 7,6 bilhões, o que só se justifica se a demanda por inferência de fronteira crescer muito além do que a otimização por roteamento sugere.",
+      "refs": [
+        "https://www.productcompass.pm/p/ai-coding-bill-20-a-month",
+        "https://jarango.com/2026/07/31/bootstrapping-your-intelligence-stack",
+        "https://www.a16z.news/p/charts-of-the-week-moar-machines",
+        "https://www.tomtunguz.com/aws-answers-the-cloud-race"
+      ]
+    },
+    {
+      "title_ptbr": "Agentes já estão prontos para produção, ou apenas para demonstração",
+      "side_a": "A curva de capacidade é rápida e mensurável. A Microsoft Research levou um modelo de 9 bilhões de parâmetros de 36,5% para 67,1% treinando em ambientes sintéticos funcionais, com aprendizado por reforço elevando o desempenho fora da distribuição de 58% para 69% e transferência comprovada para interfaces nunca vistas. O OmegaUse-OfficeVal confirma o lado econômico: em 100 tarefas de escritório que exigem em média 2,32 horas de trabalho humano, todos os modelos de fronteira avaliados foram substancialmente mais baratos e mais rápidos que a pessoa.",
+      "side_b": "Capacidade não é prontidão, e a medição corrente não distingue as duas. O ProofAgent Index mostra que engenharia de contexto altera fortemente a confiabilidade e que evidência de governança se perde quando é agregada em média; o estudo do Reasoning Backroom encontra falha generalizada de proveniência, com detectores usuais incapazes de identificar decisões que de fato dependeram da skill e agentes multiagente citando skills que nunca receberam. O próprio OmegaUse-OfficeVal registra que nenhum modelo alcança a qualidade humana do entregável, e o SVPG mostra o efeito organizacional disso: 89% relatam mais velocidade, 6% conseguem apontar ROI.",
+      "refs": [
+        "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents",
+        "https://arxiv.org/abs/2607.27155v1",
+        "https://arxiv.org/abs/2607.27677v1",
+        "https://arxiv.org/abs/2607.27484v1",
+        "https://www.svpg.com/the-ai-productivity-paradox"
+      ]
+    }
+  ],
+  "feedback_processed": [],
+  "fetch_report": {
+    "failed_sources": [
+      {
+        "id": "import-ai-jack-clark",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "the-beautiful-mess-john-cutler",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "latitud-newsletter",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "jakob-nielsen-ux-tigers",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "the-convivial-society",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "clouded-judgement",
+        "error": "HTTP 403"
+      }
+    ]
+  }
+}

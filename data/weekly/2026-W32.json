@@ -1,0 +1,203 @@
+{
+  "week": "2026-W32",
+  "generated_at": "2026-08-03T16:36:06.560Z",
+  "items": [
+    {
+      "title_original": "Beyond Component Testing: Validating Agentic AI Systems",
+      "url": "https://arxiv.org/abs/2607.29405v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "referencia",
+      "synthesis_ptbr": "A partir da síntese de 257 artigos, os autores mostram que validar sistemas agênticos exige sair do teste de componente e do par entrada-saída: o comportamento aceitável passa a depender de como as decisões se desdobram ao longo do tempo e sob ambiente mutável. A taxonomia de cinco dimensões (comportamental, segurança, temporal, regulatória e multiagente) revela que só a avaliação comportamental está madura — validade temporal, manutenção de evidência em runtime, legibilidade regulatória e garantia de sistemas multiagentes abertos seguem subdesenvolvidas, com três estudos de caso em saúde, operação industrial e mobilidade. Para quem vai colocar agentes em produção, isso significa que o plano de evidência de auditoria precisa ser desenhado antes do piloto, não depois do incidente."
+    },
+    {
+      "title_original": "AI and the global economy: implications for central banks",
+      "url": "https://www.bis.org/publ/bisbull130.htm",
+      "source": "BIS — Bank for International Settlements",
+      "axis": "macro-capital",
+      "tier": "referencia",
+      "synthesis_ptbr": "Aldasoro, Gambacorta, Kharroubi e Rottner documentam que o boom de IA é um surto de investimento crescentemente financiado por dívida, com efeitos de termos de troca e de riqueza distribuídos de forma desigual entre países. O retorno de produtividade, embora potencialmente grande, permanece incerto e irregular entre setores e países — enquanto o gasto atinge demanda e oferta agregadas ao mesmo tempo, produzindo o que o boletim chama de embaçamento do sinal cíclico. A consequência prática é que a leitura de folga econômica e pressão inflacionária fica menos confiável justamente no período em que decisões de capex de IA estão sendo tomadas com base em custo de capital projetado."
+    },
+    {
+      "title_original": "Quando a IA reescreve a sua identidade: por que a reputação virou questão de governança",
+      "url": "https://mitsloanreview.com.br/quando-a-ia-reescreve-a-sua-identidade-por-que-a-reputacao-virou-questao-de-governanca",
+      "source": "MIT Sloan Management Review Brasil",
+      "axis": "branding-tendencias",
+      "tier": "citada",
+      "synthesis_ptbr": "O texto argumenta que a reputação deixou de ser assunto de comunicação e virou governança, porque modelos generativos afirmam coisas sobre a empresa em conversas privadas que nenhum monitoramento tradicional captura. A evidência é primária: mais de 900 alucinações em 33 dias sobre quatro instituições brasileiras — 240 erros em uma universidade, 211 em um instituto de saúde, um modelo recomendando o concorrente 54 vezes no lugar da própria instituição, e um número fiscal truncado de 14 para 2 dígitos. A resposta proposta é um ciclo auditável de detectar, corrigir e contestar, com indicadores de frequência de reconhecimento, consistência entre modelos e gravidade do erro — o que transforma presença em IA generativa em uma métrica de marca gerenciável, e não em um risco difuso.",
+      "latam_note": "Os dados vêm de quatro instituições brasileiras, o que dá base local para exigir do jurídico e da comunicação um processo formal de contestação junto a fornecedores de modelo."
+    },
+    {
+      "title_original": "Aftermarket Harnesses",
+      "url": "https://www.tomtunguz.com/aftermarket-harnesses",
+      "source": "Tomasz Tunguz",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "A tese é que o harness — o ambiente de execução em volta do modelo — move o benchmark mais do que o modelo. Os dados do Agent Security League da Endor Labs mostram GPT-5.5 com 61,5% de correção funcional no Codex contra 87,2% no Cursor, e Claude Opus 4.7 com 87,2% no Claude Code contra 91,1% no Cursor; como tokens de entrada representam de 86% a 98% do volume no OpenRouter, é a disciplina de cache que controla a maior parte da conta. Trabalho citado sobre 500 sessões longas registra redução de custo de 41% a 80% e tempo até o primeiro token de 13% a 31% menor, com o Claude Code atingindo 96% de acerto de cache. Para decisão de compra, o critério deixa de ser qual modelo contratar e passa a ser em qual harness ele será executado."
+    },
+    {
+      "title_original": "Orchard: An open framework for scalable agentic AI",
+      "url": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai",
+      "source": "Microsoft Research Blog",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "A Microsoft Research abre o Orchard, uma infraestrutura única de treino e avaliação de agentes que substitui ambientes específicos por um serviço em Kubernetes reutilizável entre domínios. Os resultados sustentam a tese de que infraestrutura vale mais que tamanho: 69,7% no SWE-bench Verified (73,0% com rerranqueamento por modelo de valor) com cerca de 3 bilhões de parâmetros ativos, 74,1% no WebVoyager com um modelo de 4 bilhões treinado sobre apenas 400 demonstrações destiladas, e salto de 18,6% para 51,5% no assistente pessoal sob o harness Codex. Para quem avalia custo de adoção, o dado relevante é que modelos pequenos com ambiente bem construído se aproximam de sistemas dez vezes maiores."
+    },
+    {
+      "title_original": "Drug Discovery Has No Magic Wands",
+      "url": "https://www.a16z.news/p/drug-discovery-has-no-magic-wands",
+      "source": "a16z — Andreessen Horowitz",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "Daphne Koller argumenta que o gargalo da descoberta de fármacos não é projetar moléculas, e sim entender a doença: estamos fabricando chaves competentes para fechaduras erradas. Os números sustentam o diagnóstico — mais de 90% dos medicamentos que entram em ensaio clínico falham, com taxa quase inalterada por décadas; alvos inéditos avançados por ano caíram de cerca de 100 em 2015 para cerca de 30 em 2024; e apenas cerca de 25% das doenças têm terapia aprovada. O argumento generaliza para qualquer aplicação de IA em que a verdade de campo é cara e a métrica de sucesso é barata: acelerar o ciclo só acelera a otimização do objetivo errado."
+    },
+    {
+      "title_original": "A IA não ia resolver? Não.",
+      "url": "https://mitsloanreview.com.br/a-ia-nao-ia-resolver-nao",
+      "source": "MIT Sloan Management Review Brasil",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "A tese é que projetos de IA não fracassam por limite técnico, e sim pela ausência de gestão de mudança estruturada entre a intenção estratégica e a operação. A pesquisa Ekantika de 2024, com 57 organizações, mostra a distância: 95% dos executivos dizem que gestão de mudança é essencial, mas apenas 39% conseguem conduzi-la na prática, 69% não avaliam impacto sobre pessoas e processos e 35% mantêm processo formal para sustentar o benefício depois da entrega. O texto converte isso em cinco padrões de falha recorrentes e em recomendações mensuráveis — medir adoção nos primeiros 90 dias e nomear um responsável com KPI real —, com um caso de instituição financeira que acelerou a adoção em 47% ao trocar contratação por realocação de gente de dentro.",
+      "latam_note": "A base empírica é de 57 organizações brasileiras, o que torna os percentuais utilizáveis como benchmark direto em comitês de transformação no país."
+    },
+    {
+      "title_original": "Human-LLM Collaborative Inductive Coding for Conceptualizing K-12 Educator AI Use",
+      "url": "https://arxiv.org/abs/2607.28889v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "produto-descoberta",
+      "tier": "citada",
+      "synthesis_ptbr": "O artigo entrega um procedimento auditável para usar LLM em codificação qualitativa indutiva sobre 45 mil mensagens, mantendo a autoridade interpretativa com o pesquisador: o modelo gera rótulos candidatos e anotações estruturadas em escala, enquanto humanos decidem definição de categoria, fusão e enquadramento. A calibração foi feita por três especialistas treinados codificando 2.560 mensagens de forma independente, e o codebook final tem 72 itens em 19 categorias e seis domínios. O achado que importa para quem faz discovery é que cinco códigos só apareceram na validação humana — evidência concreta de que a escala do modelo não substitui a expertise de domínio, apenas amplia a superfície de corpus que uma equipe consegue analisar."
+    },
+    {
+      "title_original": "The Marketing Capability Paradox: Seven Forces Eroding Your Marketing Team’s Effectiveness",
+      "url": "https://sloanreview.mit.edu/article/the-marketing-capability-paradox-seven-forces-eroding-your-marketing-teams-effectiveness",
+      "source": "MIT Sloan Management Review",
+      "axis": "branding-tendencias",
+      "tier": "citada",
+      "synthesis_ptbr": "O paradoxo descrito é a distância entre declarar capacidade de marketing como crítica e financiar sua construção, num momento em que a IA reescreve criação de conteúdo e segmentação mais rápido do que os times aprendem. A base é a 35ª edição do CMO Survey, conduzida em janeiro de 2026 com 308 respostas de líderes de marketing de empresas americanas com fins lucrativos: 60% ainda dependem primordialmente de treinamento e contratação internos para desenvolver capacidade, proporção inalterada desde 2020. A implicação é que a estratégia de capacitação precisa incluir parceria externa e aquisição de competência, porque o mecanismo interno que não mudou em seis anos é o mesmo que precisa absorver IA agora."
+    },
+    {
+      "title_original": "Microsoft Resells the Frontier",
+      "url": "https://www.tomtunguz.com/microsoft-resells-the-frontier",
+      "source": "Tomasz Tunguz",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "A análise contrasta duas posições estruturais: o Google possui modelos e chips e captura a margem dessa integração, enquanto a Microsoft revende as duas camadas e aluga o roteiro da Nvidia. Os números dos resultados trimestrais sustentam a leitura — Azure cresce 43% ao ano contra 82% do Google Cloud, cuja margem operacional foi de 20,7% a 35,6%, com capex de US$ 44,9 bilhões no trimestre; a Microsoft reporta US$ 35,8 bilhões de capex em caixa, dois terços em ativos de vida curta, e um backlog contratado de US$ 678 bilhões em que cerca de US$ 220 bilhões dos US$ 310 bilhões adicionados no ano vêm de um único cliente. A troca é explícita: flexibilidade de capacidade em vez de expansão de margem, com risco de crédito correlacionado entre Nvidia, Microsoft e Oracle."
+    },
+    {
+      "title_original": "Por que o Brasil não deve temer a IA, e sim aproveitá-la para crescer",
+      "url": "https://mitsloanreview.com.br/por-que-o-brasil-nao-deve-temer-a-ia-e-sim-aproveita-la-para-crescer",
+      "source": "MIT Sloan Management Review Brasil",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "O argumento inverte a narrativa de desemprego em massa: o problema brasileiro é estagnação de produtividade — crescimento nulo entre 1982 e 2018 e variação de 0,1% em 2024, contra alta de 85% nos EUA entre 1970 e 2011 — agravada por envelhecer antes de enriquecer. Três estudos convergentes são acionados contra a tese do choque de emprego: o NBER Working Paper 34984 (2026) não encontra mudança significativa no emprego total por adoção de IA, o Fed de Atlanta reporta 80% das empresas sem impacto em emprego nos últimos três anos, e o Yale Budget Lab não acha relação entre métricas de automação e desemprego. A parte prescritiva é mais aspiracional que demonstrada, mas o diagnóstico de baixa densidade robótica — menos de 50 unidades por 10 mil trabalhadores contra média global de 141 — mostra onde está a folga de adoção.",
+      "latam_note": "Os indicadores de produtividade, densidade robótica e matriz elétrica 88% renovável dão base quantitativa para posicionar investimento em automação no Brasil como recuperação de atraso, não como corte de pessoal."
+    },
+    {
+      "title_original": "Autonomous Repair for Multi-Agent Systems via Monte-Carlo Tree Search",
+      "url": "https://arxiv.org/abs/2607.29055v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "solida",
+      "synthesis_ptbr": "O trabalho formula reparo de sistemas multiagentes como busca em árvore Monte Carlo, com expansão guiada por diagnóstico e avaliação aumentada por taxonomia, usando rollouts parciais para conter custo. A avaliação usa o StateMAS, com 1.310 trajetórias de falha reproduzíveis em quatro arquiteturas de agente e quatro modelos base, e registra ganho de 3,0% a 12,1% sobre os métodos existentes com consumo de tokens comparável. O ponto operacional é que atribuição de falha e correção deixam de exigir inspeção manual de trajetória — a etapa que hoje consome o tempo de quem opera agentes em produção."
+    },
+    {
+      "title_original": "DREvo: Distilling Recalibrated Historical Experience for Harness Self-Evolution",
+      "url": "https://arxiv.org/abs/2607.26722v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "solida",
+      "synthesis_ptbr": "O artigo identifica por que a autoevolução de harness é instável: os métodos atuais não reavaliam se a experiência histórica continua válida para o harness atual nem traduzem essa experiência em direção de busca acionável. O DREvo responde com ancoragem de evidência em nível de função, recalibração dependente de estado e destilação de intenção de busca condicionada a papel, obtendo a maior acurácia nos cinco benchmarks testados, com ganho médio de 16,2% em raciocínio de domínio e 14,2% em tarefas agênticas sob orçamento limitado de evolução. Confirma, do lado da pesquisa, que o harness é uma superfície de otimização própria — e não um detalhe de implementação do modelo."
+    },
+    {
+      "title_original": "AI as Friction for Reflection Support in Ideation",
+      "url": "https://arxiv.org/abs/2607.26827v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "design-lideranca",
+      "tier": "solida",
+      "synthesis_ptbr": "O texto ataca a premissa dominante de que ferramentas generativas para trabalho criativo devem remover atrito, mostrando que essa moldura descarta a reflexão na ação. O argumento é que aceitar, rejeitar e retrabalhar ideias candidatas não é só caminho para o resultado: é o processo pelo qual o designer constrói a justificativa que lhe permite pensar com as próprias ideias e defendê-las diante do time. A proposta é inverter o objetivo de projeto — introduzir resistência produtiva em vez de aceleração — o que dá a líderes de design um critério concreto para avaliar ferramentas de IA além de velocidade de output."
+    },
+    {
+      "title_original": "Affective Tools for Thought: Towards Shared Attention and Affective Reorienting in AI-Supported Thinking",
+      "url": "https://arxiv.org/abs/2607.26731v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "design-lideranca",
+      "tier": "solida",
+      "synthesis_ptbr": "Partindo da ciência cognitiva enativa, o artigo sustenta que o afeto é constitutivo da cognição — muda a trajetória do pensamento, não apenas sua velocidade —, e não ruído a ser removido nem sinal a ser otimizado. Identifica duas barreiras nas ferramentas atuais, a ausência de atenção compartilhada e de reorientação afetiva, e propõe três estratégias de design (Chain of Emotion × Chain of Thought, Affective Mirror e Prompted Reorienting), ancoradas em observação de um agente conversacional sensível ao toque para aprendizado de ofício corporal. É paper de workshop do CHI 2026, portanto pensamento preliminar: vale como vocabulário de projeto para interfaces de raciocínio, não como resultado consolidado."
+    },
+    {
+      "title_original": "Os dados não mudaram minhas interfaces. Mudaram meu lugar nas decisões",
+      "url": "https://brasil.uxdesign.cc/quando-dados-deixam-de-validar-interfaces-e-passam-a-influenciar-decisoes-b4b2637e7caa",
+      "source": "UX Collective 🇧🇷",
+      "axis": "design-lideranca",
+      "tier": "solida",
+      "synthesis_ptbr": "Ayrton Renan relata que a aproximação com dados não alterou suas interfaces, e sim sua posição na mesa de decisão: dado funciona como evidência que reduz incerteza, não como resposta definitiva. A experiência direta sustenta o argumento — um CEO priorizou uma funcionalidade que o designer questionava e a análise pós-lançamento confirmou aderência muito baixa; em paralelo, o mapeamento completo de eventos feito com engenharia em FigJam criou linguagem compartilhada entre produto, engenharia, design e liderança. A prática transferível é perguntar se o comportamento medido é o certo antes de construir dashboard, e combinar analytics com pesquisa qualitativa em vez de opor os dois."
+    },
+    {
+      "title_original": "Lighthouse or Landgrab? How to Pick Your AI Sales Strategy",
+      "url": "https://www.a16z.news/p/lighthouse-or-landgrab-how-to-pick",
+      "source": "a16z — Andreessen Horowitz",
+      "axis": "branding-tendencias",
+      "tier": "solida",
+      "synthesis_ptbr": "A tese é que o comprador não compra futuro: compra prova ou conta de chegada — e escolher errado entre as duas queima o go-to-market. O framework separa os casos por duas perguntas: quanto o comprador está exposto a risco de carreira ou compliance, e se a prova social viaja entre pares; alta exposição com prova que viaja pede estratégia farol, com venda liderada por fundador e ciclo de 3 a 6 meses, como Harvey ancorada em Allen & Overy e Paul Weiss. Baixa exposição com prova que não viaja pede ocupação de território via implantação rápida e produto padronizado, como Stuut implantando em menos de uma semana contra 6 a 18 meses do incumbente, ou Decagon saindo de zero a ARR de oito dígitos em 18 meses. O erro recorrente é presumir que todo produto de IA exige prova quando o mercado só quer a matemática do retorno."
+    }
+  ],
+  "convergences_ptbr": "O modelo mental que mais se repete nesta semana é o deslocamento do valor do modelo para o encanamento em volta dele. O Orchard mostra modelos de 3 a 4 bilhões de parâmetros chegando perto de sistemas dez vezes maiores quando o ambiente de treino e avaliação é reutilizável; o DREvo trata o harness como superfície de otimização própria, com ganho médio de 16,2% ao recalibrar experiência histórica; e a análise de aftermarket harnesses fecha o ciclo pelo lado do custo, mostrando o mesmo modelo variando mais de 25 pontos de correção funcional conforme o ambiente de execução e a conta sendo decidida por disciplina de cache. É a mesma tese vista de três posições — laboratório, pesquisa acadêmica e economia de deployment.\n\nA segunda convergência é sobre confiança como infraestrutura, não como discurso. A survey de validação de sistemas agênticos mapeia exatamente onde a garantia falha — validade temporal, evidência mantida em runtime, legibilidade regulatória e sistemas multiagentes abertos — e o trabalho de reparo autônomo via busca em árvore ataca uma dessas lacunas ao automatizar a atribuição de falha que hoje é feita manualmente sobre trajetórias. Do lado de fora do sistema técnico, o levantamento brasileiro de mais de 900 alucinações em 33 dias sobre quatro instituições mostra que a mesma ausência de evidência auditável já produz dano reputacional mensurável, e responde com um ciclo de detectar, corrigir e contestar. Governança de agente e governança de marca estão convergindo para o mesmo requisito: registro verificável do que o sistema afirmou e fez.\n\nO ciclo capital → ferramenta → prática → métrica aparece inteiro e com atrito em cada junção. O boletim do BIS mostra o capital entrando como investimento crescentemente financiado por dívida com retorno de produtividade incerto; a leitura das margens de nuvem mostra o mesmo capital se estratificando entre quem possui modelo e chip e quem revende as duas camadas, com concentração de backlog em um único cliente. Descendo à prática, a evidência brasileira de adoção indica que o gargalo não é ferramenta: 95% dos executivos dizem que gestão de mudança é essencial e apenas 39% a executam. E na métrica, o argumento sobre descoberta de fármacos formula o risco de forma geral — quando a verdade de campo é cara e a métrica de sucesso é barata, acelerar o ciclo só acelera a otimização do objetivo errado.\n\nO nódulo entre eixos está no atrito. Os dois textos de design desta semana defendem que remover atrito remove justamente a reflexão na ação e o afeto que constituem o pensamento; a codificação qualitativa colaborativa entrega o dado que sustenta essa posição em terreno de pesquisa, ao registrar cinco códigos que só apareceram na validação humana sobre um corpus de 45 mil mensagens. Registro necessário sobre o corpus: o eixo de acessibilidade ficou vazio nesta rodada — nenhuma das fontes de acessibilidade coletadas trouxe material que sustentasse tier, e o feed normativo do W3C WAI falhou na coleta com HTTP 403, conforme o relatório de coleta.",
+  "tensions": [
+    {
+      "title_ptbr": "Atrito no trabalho com IA: defeito a eliminar ou método a preservar",
+      "side_a": "A linha de engenharia trata atrito como custo: o Orchard reduz a complexidade de infraestrutura para escalar treino de agentes, o DREvo automatiza a evolução do harness e o reparo via busca em árvore elimina a inspeção manual de trajetórias de falha, cada um medindo sucesso por menos esforço humano no laço.",
+      "side_b": "A linha de pesquisa em design sustenta que parte desse esforço é o próprio trabalho: aceitar, rejeitar e retrabalhar ideias é como o designer constrói a justificativa que lhe permite defender uma decisão, e o afeto reorienta a trajetória do pensamento em vez de apenas atrasá-la — remover o atrito remove a reflexão, não só o tempo.",
+      "refs": [
+        "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai",
+        "https://arxiv.org/abs/2607.26722v1",
+        "https://arxiv.org/abs/2607.29055v1",
+        "https://arxiv.org/abs/2607.26827v1",
+        "https://arxiv.org/abs/2607.26731v1"
+      ]
+    },
+    {
+      "title_ptbr": "Onde está o gargalo do retorno de IA: no encanamento técnico ou fora dele",
+      "side_a": "A evidência de deployment aponta para o encanamento: o mesmo modelo varia de 61,5% a 87,2% de correção funcional conforme o harness, tokens de entrada respondem por 86% a 98% do volume e disciplina de cache corta de 41% a 80% do custo — trocar de ambiente de execução muda o resultado mais do que trocar de modelo.",
+      "side_b": "A evidência de adoção aponta para fora da técnica: entre 57 organizações brasileiras, 95% dizem que gestão de mudança é essencial e apenas 39% conseguem executá-la, com 69% sem avaliar impacto sobre pessoas e processos; e no caso da descoberta de fármacos o limite é epistemológico — mais de 90% dos ensaios clínicos falham porque não se sabe qual alvo perseguir, não porque falte capacidade de otimização.",
+      "refs": [
+        "https://www.tomtunguz.com/aftermarket-harnesses",
+        "https://mitsloanreview.com.br/a-ia-nao-ia-resolver-nao",
+        "https://www.a16z.news/p/drug-discovery-has-no-magic-wands"
+      ]
+    }
+  ],
+  "feedback_processed": [],
+  "fetch_report": {
+    "failed_sources": [
+      {
+        "id": "import-ai-jack-clark",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "the-beautiful-mess-john-cutler",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "latitud-newsletter",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "jakob-nielsen-ux-tigers",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "the-convivial-society",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "w3c-wai-news",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "clouded-judgement",
+        "error": "HTTP 403"
+      }
+    ]
+  }
+}

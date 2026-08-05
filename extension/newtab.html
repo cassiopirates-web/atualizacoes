@@ -4,12 +4,15 @@
   <meta charset="utf-8" />
   <title>Atualizações</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <script src="newtab.js"></script>
+  <style>
+    :root { color-scheme: light dark; }
+    html, body { height: 100%; margin: 0; }
+    iframe { width: 100%; height: 100%; border: 0; display: block; }
+  </style>
 </head>
 <body>
-  <p>
-    Redirecionando para
-    <a href="https://cassiopirates-web.github.io/atualizacoes/">Atualizações</a>…
-  </p>
+  <!-- iframe em vez de redirect: se a aba navegar para fora da página da
+       extensão, o Chrome tira o foco da barra de endereço. -->
+  <iframe src="https://cassiopirates-web.github.io/atualizacoes/" title="Atualizações"></iframe>
 </body>
 </html>

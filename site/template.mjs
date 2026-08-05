@@ -66,6 +66,12 @@ function formatDateTimePtBR(isoString) {
   }
 }
 
+// Links que saem do site abrem em nova aba: a home é usada como página de
+// nova aba do Chrome dentro de um iframe (extension/), e muitos destinos
+// (github.com, veículos com X-Frame-Options) recusam carregar em iframe.
+// Links internos (arquivo, semanas) continuam navegando no próprio frame.
+const EXTERNAL_LINK_ATTRS = ' target="_blank" rel="noopener"';
+
 function hostnameOf(url) {
   try {
     return new URL(url).hostname.replace(/^www\./, '');
@@ -162,7 +168,7 @@ function renderHeader({ site, week, generatedAt, prefix, isHome, archiveCurrent 
     <nav aria-label="Principal" class="site-nav">
       <ul role="list">
         <li><a href="${escapeHtml(arquivoHref)}"${archiveAttr}>Arquivo</a></li>
-        <li><a href="${escapeHtml(actionsHref)}">Atualizar agora <span class="visually-hidden">(executa a curadoria no GitHub Actions)</span></a></li>
+        <li><a href="${escapeHtml(actionsHref)}"${EXTERNAL_LINK_ATTRS}>Atualizar agora <span class="visually-hidden">(executa a curadoria no GitHub Actions)</span></a></li>
         <li id="theme-toggle-item" hidden>
           <button type="button" id="theme-toggle" class="theme-toggle" aria-pressed="false">
             <span aria-hidden="true" class="theme-toggle__icon">◐</span>
@@ -177,7 +183,7 @@ function renderHeader({ site, week, generatedAt, prefix, isHome, archiveCurrent 
 function renderFooter({ site, prefix }) {
   const arquivoHref = `${prefix}arquivo/`;
   return `<footer class="site-footer">
-    <p>Curadoria automatizada semanal · <a href="${escapeHtml(site.repo_url)}">Repositório no GitHub</a></p>
+    <p>Curadoria automatizada semanal · <a href="${escapeHtml(site.repo_url)}"${EXTERNAL_LINK_ATTRS}>Repositório no GitHub</a></p>
     <p><a href="${escapeHtml(arquivoHref)}">Arquivo de semanas</a></p>
   </footer>`;
 }
@@ -214,7 +220,7 @@ function renderTensionsSection(tensions) {
           ${refs
             .map(
               (r) =>
-                `<li><a href="${escapeHtml(r)}">${escapeHtml(hostnameOf(r))}</a></li>`
+                `<li><a href="${escapeHtml(r)}"${EXTERNAL_LINK_ATTRS}>${escapeHtml(hostnameOf(r))}</a></li>`
             )
             .join('\n          ')}
         </ul>`
@@ -265,7 +271,7 @@ function renderItemArticle(item, idSeed, repoUrl) {
     ? `<span class="item-source"><span class="visually-hidden">Fonte: </span>${escapeHtml(source)}</span>`
     : '';
   return `<article class="item" aria-labelledby="${headingId}">
-          <h3 id="${headingId}"><a href="${escapeHtml(url)}" lang="en">${escapeHtml(title)}</a></h3>
+          <h3 id="${headingId}"><a href="${escapeHtml(url)}" lang="en"${EXTERNAL_LINK_ATTRS}>${escapeHtml(title)}</a></h3>
           <p class="item-meta">
             ${sourceSpan}
             <span class="tier-badge ${tierInfo.className}"><span class="visually-hidden">Relevância: </span>${escapeHtml(tierInfo.label)}</span>
@@ -273,9 +279,9 @@ function renderItemArticle(item, idSeed, repoUrl) {
           <p class="item-synthesis">${escapeHtml(item.synthesis_ptbr || '')}</p>
           ${latamBlock}
           <p class="item-feedback">
-            <a href="${escapeHtml(ruidoUrl)}" aria-label="${escapeHtml(`Marcar "${title}" como ruído (abre uma issue no GitHub)`)}">ruído</a>
+            <a href="${escapeHtml(ruidoUrl)}"${EXTERNAL_LINK_ATTRS} aria-label="${escapeHtml(`Marcar "${title}" como ruído (abre uma issue no GitHub)`)}">ruído</a>
             <span class="feedback-sep" aria-hidden="true">·</span>
-            <a href="${escapeHtml(ouroUrl)}" aria-label="${escapeHtml(`Marcar "${title}" como ouro (abre uma issue no GitHub)`)}">ouro</a>
+            <a href="${escapeHtml(ouroUrl)}"${EXTERNAL_LINK_ATTRS} aria-label="${escapeHtml(`Marcar "${title}" como ouro (abre uma issue no GitHub)`)}">ouro</a>
           </p>
         </article>`;
 }

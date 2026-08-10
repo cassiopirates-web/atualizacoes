@@ -2,3 +2,7 @@ node_modules/
 dist/
 data/candidates/*.json
 !data/candidates/seen-index.json
+
+# Pacote da extensão: artefato de build, regenerável com `npm run package:extension`.
+# O logo da listagem (store/logo-300.png) fica versionado.
+store/*.zip

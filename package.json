@@ -6,7 +6,9 @@
   "engines": { "node": ">=20" },
   "scripts": {
     "collect": "node scripts/collect.mjs",
-    "build": "node scripts/build-site.mjs"
+    "build": "node scripts/build-site.mjs",
+    "icons": "node scripts/build-icons.mjs",
+    "package:extension": "node scripts/build-icons.mjs && node scripts/package-extension.mjs"
   },
   "dependencies": {
     "rss-parser": "^3.13.0",

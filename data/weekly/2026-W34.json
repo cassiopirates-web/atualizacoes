@@ -1,0 +1,222 @@
+{
+  "week": "2026-W34",
+  "generated_at": "2026-08-17T14:38:59.587Z",
+  "items": [
+    {
+      "title_original": "AI Could Help Researchers Get Funding—but at What Cost?",
+      "url": "https://insight.kellogg.northwestern.edu/article/ai-could-help-researchers-get-funding-but-at-what-cost",
+      "source": "Kellogg Insight",
+      "axis": "ia-aplicada",
+      "tier": "referencia",
+      "synthesis_ptbr": "Qian, Wen, Furnas, Bai, Shao e Wang analisaram propostas de pesquisa confidenciais submetidas por duas grandes universidades à NSF e ao NIH entre 2021 e 2025, quantificando por análise textual o uso de IA em cada proposta e comparando sua similaridade semântica com projetos já financiados. Propostas com uso intenso de IA tiveram aprovação 4 pontos percentuais maior no NIH e geraram 5% mais publicações, mas foram semanticamente menos originais e menos propensas a produzir artigos altamente citados — padrão que não se repetiu nas submissões à NSF. O ganho é individual e a perda é coletiva: quem escreve com IA convence melhor o avaliador e converge para o que já existe, o que transforma todo processo de seleção mediado por texto — funding, RFP, pitch, promoção — em máquina silenciosa de homogeneização."
+    },
+    {
+      "title_original": "The AI Competence/Judgement Gap",
+      "url": "https://itamargilad.com/artificial-competence",
+      "source": "Itamar Gilad",
+      "axis": "produto-descoberta",
+      "tier": "citada",
+      "synthesis_ptbr": "Gilad nomeia a inversão que a IA produz na organização: historicamente julgávamos melhor do que executávamos, e agora executamos melhor do que julgamos — o PM gera código que não sabe avaliar, o dev define prioridade que não sabe validar. A evidência que ele traz é da Anthropic: desenvolvedores aprovaram 93% das sugestões do Claude Code, enquanto classificadores automáticos detectaram 89% das mudanças prejudiciais contra apenas 13% detectadas por humanos. A consequência é dupla e já operacional: o especialista revisor vira gargalo asfixiado por output de IA, e a autoridade técnica se dilui porque qualquer um passa a criticar qualquer disciplina; Gilad admite que não existe solução consolidada, o que faz do mapeamento honesto da própria zona de perigo o único movimento disponível hoje."
+    },
+    {
+      "title_original": "Engineering Signals of Human-AI Collaboration in the Agentic Coding Era: A Longitudinal Analysis of 33,228 Pull Requests from vLLM and SGLang with Implications for Biomedical AI Agents and Bioinformatics Pipeline Developmen",
+      "url": "https://arxiv.org/abs/2608.13884v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "Análise longitudinal de 33.228 pull requests — 18.290 do vLLM (fev/2023 a jun/2026) e 14.938 do SGLang (jan/2024 a jun/2026) — rastreia sete métricas de engenharia ao longo de quatro períodos alinhados às mudanças de ferramental de IA. O throughput cresceu 21x e 17,9x, a densidade de comentários 4,2x e 3,8x, o número de autores únicos por mês subiu de forma consistente e o tamanho médio dos PRs permaneceu estável, com bots respondendo por menos de 0,2% dos PRs e por 15–20% do aumento de comentários. O dado desmonta a leitura fácil de substituição: a aceleração é humana e assistida, e o efeito observável é mais participação e mais deliberação por mudança, não menos."
+    },
+    {
+      "title_original": "Honestly, Who Buys SOTA?",
+      "url": "https://www.tomtunguz.com/model-release-exhaustion",
+      "source": "Tomasz Tunguz",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "Tunguz cruza uso de tokens do OpenRouter, o Intelligence Index do Artificial Analysis e dados do Ramp Economics Lab para mostrar que 84% dos tokens consumidos não são de modelos de ponta: seis modelos dominantes entregam cerca de 77% da performance de fronteira a US$ 0,50 por milhão de tokens contra US$ 20 do Claude Fable 5, e o Fable 5 capturou apenas 6% dos tokens da Anthropic um mês após o lançamento. O próprio autor registra o viés das fontes, que não capturam nuvens proprietárias, mas a elasticidade de preço aparece consistente entre elas. Para quem desenha produto com IA, a régua deixa de ser qual é o melhor modelo e passa a ser qual é o modelo mais barato que sustenta a tarefa — fronteira reservada a arquitetura de software e segurança, onde ela ainda ganha."
+    },
+    {
+      "title_original": "One AI Output Is an Example, Not an Evaluation",
+      "url": "https://www.nngroup.com/articles/eval-ai-output",
+      "source": "Nielsen Norman Group",
+      "axis": "design-lideranca",
+      "tier": "citada",
+      "synthesis_ptbr": "A NN/g formaliza o erro mais frequente na avaliação de IA: um output bom prova que o sistema pode executar a tarefa, não com que frequência nem com que confiabilidade ele o fará. O método proposto transplanta a pesquisa quantitativa de UX para modelos — múltiplas entradas representativas, execuções repetidas da mesma entrada, média reportada com intervalo de confiança — e é ilustrado com um caso de 10 perguntas por 5 execuções que separa variabilidade entre entradas de variabilidade entre execuções, além de dois sistemas com os mesmos 80% de sucesso cujas distribuições de falha exigem decisões opostas. Não há estudo empírico próprio, e as quantidades são explicitamente ilustrativas; o valor está em dar ao líder de design o argumento metodológico para recusar demo como evidência em decisão de adoção."
+    },
+    {
+      "title_original": "Act2Intention: A Benchmark For Developing Active Mobile Agents Through Inferring User Intention from GUI Actions",
+      "url": "https://arxiv.org/abs/2608.14132v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "O benchmark cobre 72.511 intenções e mais de 700 mil ações em 52 aplicativos móveis e é o primeiro a registrar trajetórias contínuas de intenção-ação em vez de tarefas isoladas, formalizando o ciclo compreender–prever–executar que agentes reativos não fecham. Com fine-tuning supervisionado, a compreensão de intenção subiu 32,0 pontos de Acc-S, a predição 10,25 pontos e a execução 6,9 pontos de SSR — a desproporção no primeiro estágio indica que o gargalo dos agentes atuais é inferir o que o usuário quer, não executar o que foi mandado. Para design de interface, a consequência é que agente proativo depende de substrato de intenção observada, e esse substrato é dado comportamental, não modelo maior."
+    },
+    {
+      "title_original": "From Passive Delegates to Strategic Negotiators: Reinforcing Social Reasoning in Small Language Models with SocialRL",
+      "url": "https://arxiv.org/abs/2608.13787v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "O trabalho ataca um conflito de projeto pouco discutido: as disposições que tornam um assistente agradável — transparência, concessão fácil — o tornam péssimo delegado quando ele negocia contra a contraparte de outro principal, seja outro agente, um vendedor ou um recrutador. Treinando raciocínio social por reforço em um modelo de 4B parâmetros em seis domínios (Deal-or-No-Deal, CaSiNo, Craigslist, entrevista de emprego, calendário e marketplace), os autores fecham 73–122% da distância entre baseline e fronteira, e o modelo unificado atinge utilidade média de 0,627 contra 0,625 do GPT-4.1 e 0,619 do GPT-5.1; a transferência só ocorre entre jogos estruturalmente similares. Se um modelo pequeno negocia no nível da fronteira, a assimetria de mercado deixa de ser quem tem o maior modelo e passa a ser quem treinou o agente para defender o seu lado."
+    },
+    {
+      "title_original": "Reconcile Once, Write Anytime: A Trust-Tiered Librarian and a Multi-Agent Writer for Drift-Free, Point-in-Time Research",
+      "url": "https://arxiv.org/abs/2608.12984v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "O sistema separa um bibliotecário determinístico — que ingere fontes com timestamp em ontologia hierárquica, produzindo evidence cards, um ledger autoritativo de métricas e um grafo de claims — de um escritor multiagente que só consulta evidência anterior ao cutoff temporal solicitado, substituindo RAG convencional por repositório versionado. Sobre 6.130 fontes (SEC EDGAR, estatísticas de trabalho dos EUA e Wikipédia) e 555.926 evidence cards, a arquitetura eliminou 6.845 contradições, acertou a seleção por tier de confiança em 22 de 22 casos gold contra 9 de 22 do baseline e manteve 100% de conformidade temporal em sete cutoffs, sem violação de look-ahead. A lição transferível é de governança, não de modelo: proveniência e hierarquia de confiança precisam viver fora do LLM, em camada determinística e auditável."
+    },
+    {
+      "title_original": "Some Simple Economics of Open versus Closed AI",
+      "url": "https://www.a16z.news/p/some-simple-economics-of-open-versus",
+      "source": "a16z — Andreessen Horowitz",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "Catalini sustenta que pesos abertos não reduzem o nível de investimento em IA, apenas redirecionam onde ele acontece e quem captura valor, e ancora a tese em história econômica da inovação: as cerca de 15 mil invenções da Exposição de 1851 analisadas por Petra Moser, em que patentes deslocaram a atenção dos inventores sem mexer no volume de invenção; a alta de 17% na atividade inventiva nos cinco anos seguintes ao licenciamento compulsório das patentes da AT&T em 1956; os 20–30% menos pesquisa derivada nos genes restritos da Celera medidos por Heidi Williams; e o aumento de 57–135% de cumulatividade quando Furman e Stern removeram fricções em biomateriais. A conclusão prática é que o fosso está nos ativos complementares — distribuição, infraestrutura, dado — e não no segredo algorítmico, e que o cálculo de risco muda por domínio: cyber favorece abertura pela defesa distribuída, biologia favorece controle pelos gargalos físicos. É síntese de literatura, sem dado primário novo, mas dá base histórica a uma decisão que costuma ser tomada por ideologia."
+    },
+    {
+      "title_original": "Leveling Up the Helpfulness of Online Reviews",
+      "url": "https://insight.kellogg.northwestern.edu/article/helpfulness-of-online-reviews",
+      "source": "Kellogg Insight",
+      "axis": "branding-tendencias",
+      "tier": "citada",
+      "synthesis_ptbr": "Shani, Bassamboo e Ibanez analisaram 26,8 milhões de avaliações de 27.170 jogos escritas por 10,6 milhões de usuários da Steam entre outubro de 2010 e outubro de 2019, usando o tempo de jogo registrado pela plataforma como medida objetiva de experiência — algo raro em pesquisa sobre reviews. A relação entre experiência do avaliador e utilidade percebida inverte conforme o veredito: em avaliações positivas, as mais úteis vêm de usuários de pouquíssima ou de muitíssima experiência (curva em U); em negativas, de usuários de experiência moderada (curva invertida). Para marca e plataforma a implicação é operacional: ordenar prova social por experiência do avaliador com regra única degrada metade do corpus, e a solicitação de avaliação deveria ser segmentada por perfil de uso."
+    },
+    {
+      "title_original": "InterSAGE: The Secure and Verifiable Interoperability Protocol for An Internet of Agents",
+      "url": "https://arxiv.org/abs/2608.13030v2",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "solida",
+      "synthesis_ptbr": "O paper mapeia o vazio dos protocolos de agentes: MCP, A2A, ANP e AG-UI definem como agentes trocam mensagens, mas nenhum define como um agente prova identidade, autorização, capacidade anunciada e responsabilidade depois de delegar tarefa através de fronteira organizacional. A proposta são quatro camadas — Agent Identity Cards amarrando desenvolvedor, pacote de código, operador e contexto de implantação; manifesto de credencial verificável ligado a DID; negociação de confiança com atenuação monotônica de capacidade e controle de acesso em dois níveis; e trilha de auditoria criptográfica mediada por kernel, sem ledger de consenso. É positioning paper de 35 páginas com comparação apenas qualitativa contra mais de 50 esforços e nenhuma avaliação empírica — vale como checklist do que exigir de qualquer fornecedor que prometa interoperabilidade entre agentes."
+    },
+    {
+      "title_original": "OKRs, Financial Bonuses, and How to Scale to Large Teams",
+      "url": "https://jocatorres.medium.com/okrs-financial-bonuses-and-how-to-scale-to-large-teams-b4cb30098260",
+      "source": "Joca Torres",
+      "axis": "produto-descoberta",
+      "tier": "solida",
+      "synthesis_ptbr": "Torres defende desacoplar bônus financeiro de OKR, porque atrelar remuneração a resultado-chave empurra o time a propor metas conservadoras: o bônus fica ligado a metas claras pré-estabelecidas e o OKR permanece instrumento para alcançá-las. A evidência é operacional e datada: na Lopes Labs, o quarto trimestre de 2020 começou com 45 objetivos e 130 KRs e foi reduzido a 12 objetivos e 53 KRs após alinhamento estratégico, com reuniões de liderança três vezes por semana para tratar dependências e sinergias. Para escalar, ele prescreve um coordenador encarregado de ligar OKRs de squad à estratégia, validação de alinhamento pelo líder de tribo e abertura gradual das apresentações — da liderança para todos os times — conforme a maturidade cresce.",
+      "latam_note": "O caso é de operação brasileira (Lopes Labs) e discute bônus dentro da estrutura de tribos e squads dominante nas empresas de produto no Brasil."
+    },
+    {
+      "title_original": "Psychological Ownership: Own the Right Things",
+      "url": "https://www.nngroup.com/articles/psychological-ownership",
+      "source": "Nielsen Norman Group",
+      "axis": "design-lideranca",
+      "tier": "solida",
+      "synthesis_ptbr": "O artigo aplica ao trabalho de design a pesquisa de Van Dyne e Pierce sobre apropriação psicológica, que nasce de três fontes — controlar algo, conhecê-lo profundamente e investir tempo e esforço nele — e produz motivação, iniciativa e satisfação quando incide sobre o que a pessoa controla, mas defesa territorial, resistência a feedback e má colaboração quando incide sobre o que ela não controla. A recomendação prática é deslocar o alvo: possuir o dado e o insight de usuário em vez do artefato de design, e trocar posse exclusiva por processo colaborativo. Para quem lidera, o alerta é sobre repetir slogan corporativo de ownership sem nuance com equipe júnior — o artigo liga apropriação mal direcionada a burnout e a perda de retenção."
+    },
+    {
+      "title_original": "Unfinishe Conversations: What Your Machines Should Do",
+      "url": "https://jarango.com/2026/08/14/unfinishe-conversations-what-your-machines-should-do",
+      "source": "Jorge Arango",
+      "axis": "design-lideranca",
+      "tier": "solida",
+      "synthesis_ptbr": "Na conversa com Stefanie Hutka sobre o livro \"What Your Machines Should Do\", a distinção operacional é a Autonomy Decision Matrix, que cruza \"poderíamos automatizar?\" (capacidade técnica) com \"deveríamos automatizar?\" (valor sistêmico) e posiciona cada caso entre assistir e automatizar, servindo de linguagem comum entre liderança e execução. O complemento é o modelo do iceberg — eventos, padrões, estruturas, modelos mentais — usado para sustentar que IA é acelerador: amplifica tanto a estratégia boa quanto a disfunção instalada, e o padrão de reação observado é sonho de futuro automatizado movido por FOMO em vez de decisão intencional. Os exemplos são concretos — a AI Discovery Week da Canva para construir intuição coletiva, a IBM redesenhando descrições de cargo júnior em torno de supervisão e relacionamento — e a tese central separa bom offloading cognitivo, de tarefa tediosa, da delegação do núcleo da própria expertise."
+    },
+    {
+      "title_original": "Article 50 of the EU AI Act, and what it means for you",
+      "url": "https://www.craigabbott.co.uk/blog/2026/article-50-of-the-eu-ai-act-and-what-it-means-for-you",
+      "source": "Craig Abbott",
+      "axis": "design-lideranca",
+      "tier": "solida",
+      "synthesis_ptbr": "Abbott destrincha o Artigo 50 do EU AI Act: provedores devem tornar conteúdo gerado por IA detectável por marcação invisível, seja por fingerprinting estatístico nas escolhas de palavra, seja por etiquetagem de arquivo no padrão C2PA, com modelos novos já marcando desde 2 de agosto de 2026 e prazo de 2 de dezembro de 2026 para o retrofit dos antigos, após o período de transição acordado no AI Omnibus de maio de 2026. Para quem publica, o Artigo 50(4) exige divulgar o uso de IA em conteúdo que informa sobre assunto de interesse público, com exceção quando há revisão humana, controle editorial e responsabilidade editorial declarada pela publicação. A consequência prática é que a marca d'água é responsabilidade do provedor e chega ao texto sem qualquer ação do autor, o que torna a transparência declarada mais defensável do que qualquer tentativa de evasão.",
+      "latam_note": "Anthropic, ChatGPT e Perplexity aplicarão a marcação globalmente, então times brasileiros herdam a detectabilidade do texto mesmo sem regulação equivalente no Brasil."
+    },
+    {
+      "title_original": "The Different Philosophies Driving AI Regulation Today",
+      "url": "https://knowledge.wharton.upenn.edu/article/the-different-philosophies-driving-ai-regulation-today",
+      "source": "Knowledge at Wharton",
+      "axis": "design-lideranca",
+      "tier": "solida",
+      "synthesis_ptbr": "Cornelia Walther contrasta três filosofias regulatórias em curso: a via constitucional lenta da Grécia, cuja proposta de revisão de maio de 2026 inscreve a IA a serviço da liberdade individual e da prosperidade social; a via executiva rápida da Califórnia, que usa a compra pública como alavanca e exige de fornecedores demonstração de salvaguardas em privacidade, segurança e viés; e a via da União Europeia, cujo AI Act de agosto de 2024 classifica sistemas por risco e impõe obrigação proporcional, com escrutínio maior sobre recrutamento e acesso à moradia. A implicação para liderança é de sequenciamento de custo — conformidade proativa sai mais barata que retrofit — e de capacidade interna, com a exigência de dupla alfabetização, humana e algorítmica, no time. A cobertura se restringe a Grécia, Califórnia e União Europeia, o que já indica onde as regras estão sendo escritas para todo mundo."
+    },
+    {
+      "title_original": "Should a Dialog Close When Clicked Outside?",
+      "url": "https://adrianroselli.com/2026/08/should-a-dialog-close-when-clicked-outside.html",
+      "source": "Adrian Roselli",
+      "axis": "acessibilidade",
+      "tier": "solida",
+      "synthesis_ptbr": "Roselli recusa a resposta universal para a pergunta e organiza a decisão em três categorias, aplicando o mesmo raciocínio ao Esc: ação obrigatória (login, termo legal, aviso crítico), que não deve fechar por clique externo; ação não obrigatória (newsletter, oferta, confirmação), que deve permitir o fechamento; e padrões híbridos — drawers, sheets, lightboxes —, avaliados caso a caso por oclusão da página, risco de perda de dado e consistência com o resto do site. Os critérios que ele propõe são intenção da tarefa, custo de restaurar o que se perde, correspondência entre a aparência e o comportamento programático esperado e teste de casos de estresse com usuários com limitações. O texto opera no nível do julgamento de design e não detalha implementação em ARIA ou APG — é exatamente o argumento que falta quando \"fecha ao clicar fora\" entra como padrão global de um design system."
+    },
+    {
+      "title_original": "The VC Firm That Helped Build Latin America’s Startup Scene Is Crossing Into Silicon Valley",
+      "url": "https://news.crunchbase.com/venture/latam-startup-vc-silicon-valley-expansion-qa-quinzanos-monashees",
+      "source": "Crunchbase News",
+      "axis": "macro-capital",
+      "tier": "solida",
+      "synthesis_ptbr": "A Monashees, fundada em 2005 e uma das VCs mais antigas da América Latina, abriu escritório em São Francisco em setembro de 2025; a sócia Fabiola Quinzaños, que se mudou para lá, sustenta que a velocidade de evolução da IA transformou presença física em condição para acompanhar o ritmo e acessar talento concentrado no Vale. A firma investe em 8 a 10 empresas por ano e está concluindo a alocação de um fundo de US$ 370 milhões em cerca de 35 companhias. O modelo que ela descreve é de arbitragem híbrida — liderança sênior nos Estados Unidos, time técnico ampliado na região, custo operacional em moeda local — exemplificado por Tractian e Music.AI, e é a resposta explícita à pergunta de onde um fundador latino-americano deve estar fisicamente nesta janela.",
+      "latam_note": "O argumento de captação citado é a escala de adoção local: o Brasil é o maior mercado da Uber em volume e o terceiro do ChatGPT, e o Pix, criado pelo Banco Central em 2020, é usado por mais de 90% dos adultos."
+    },
+    {
+      "title_original": "Semiconductor Giants Are Busy Backing Startups This Year",
+      "url": "https://news.crunchbase.com/venture/semiconductor-giants-nvda-intc-backing-ai-robotics-starups-2026",
+      "source": "Crunchbase News",
+      "axis": "macro-capital",
+      "tier": "solida",
+      "synthesis_ptbr": "Fabricantes de semicondutores converteram o lucro do ciclo de IA em capital de risco: em 2026 participaram de rodadas que somam mais de US$ 250 bilhões, entre elas mais de 60 rodadas de US$ 100 milhões ou mais e 16 de US$ 1 bilhão ou mais, com a Nvidia presente em 59 rodadas (contra 53 em 2025, liderando ou colideando 11), a AMD em 19 — quatro delas bilionárias — e a Samsung em 17. A concentração é extrema: os US$ 122 bilhões da OpenAI em março de 2026 representam mais de 95% do valor de tudo que o setor liderou, e a Safe Superintelligence responde por outros US$ 5 bilhões em julho. O texto entrega volume sem examinar retorno ou motivação estratégica, mas o número basta para ler o risco de circularidade: quem vende a infraestrutura está financiando quem a compra."
+    },
+    {
+      "title_original": "40 Companies Joined The Unicorn Board In July, The Highest Count In 4 Years",
+      "url": "https://news.crunchbase.com/venture/unicorn-board-grows-40-companies-fintech-robotics-ai-july-2026",
+      "source": "Crunchbase News",
+      "axis": "macro-capital",
+      "tier": "solida",
+      "synthesis_ptbr": "Julho de 2026 somou 40 novos unicórnios, o maior volume mensal em mais de quatro anos, elevando a 195 as empresas que cruzaram US$ 1 bilhão no primeiro semestre — total que já supera todo o ano de 2025. Três entraram direto em faixa de decacórnio, somando US$ 49 bilhões no mês (Crypto.com a US$ 20 bi, Kling AI a US$ 18 bi e Ant International a US$ 11,2 bi); os Estados Unidos responderam por 19 das 40 e a China por 8, com serviços financeiros, robótica, orquestração de IA, IA multimodal, energia e semicondutores liderando por contagem. O detalhe de maturidade importa mais que o número absoluto: 15 das 40 têm menos de três anos e 7 têm mais de dez, o que aponta reprecificação simultânea de coortes novas e antigas, e não uma safra única inflada."
+    },
+    {
+      "title_original": "A Winner in Every Category",
+      "url": "https://www.tomtunguz.com/a-winner-in-every-category",
+      "source": "Tomasz Tunguz",
+      "axis": "macro-capital",
+      "tier": "solida",
+      "synthesis_ptbr": "Com o teto de múltiplos do software listado caindo de 100x em 2021 para 34x em agosto de 2026 e apenas onze nomes acima de 10x, Tunguz mostra que cada categoria preserva um líder com prêmio alto sobre a mediana dos pares: CrowdStrike a 34,4x (3,9x a mediana de segurança), Cloudflare a 32,6x (3,4x infraestrutura), Shopify a 11,3x (8,1x comércio), Samsara a 10,8x, ServiceNow a 7,4x, Figma a 6,7x, Twilio a 5,6x e Salesforce a 4,0x. O prêmio acompanha posição de categoria e narrativa de IA, não taxa de crescimento, e a maioria desses nomes não divulga receita de IA separada; o autor não detalha metodologia de amostragem nem o cálculo das medianas. Para quem justifica investimento em produto, a leitura é que o mercado está pagando por liderança defensável de categoria e comprimindo todo o resto."
+    },
+    {
+      "title_original": "Por que empresas que crescem continuam perdendo valor de marca?",
+      "url": "https://anacouto.com.br/artigos/2026/08/12/por-que-empresas-que-crescem-perdem-valor-de-marca",
+      "source": "Ana Couto",
+      "axis": "branding-tendencias",
+      "tier": "solida",
+      "synthesis_ptbr": "A tese separa dois vetores tratados como um só — crescer é ficar maior, gerar valor é ficar mais difícil de substituir — e atribui a erosão da marca durante o crescimento a três causas: expansão ancorada no produto sem construir significado próprio, estratégia de negócio e de marca correndo em trilhos separados, e ausência de medição, que faz a marca ser gerida como centro de custo. O dado que sustenta o argumento é do Kantar BrandZ entre 2006 e 2025: marcas globais fortes valorizaram 435% em preço de ação contra 353% do S&P 500 no período. As recomendações repousam em método proprietário da consultoria, não em pesquisa independente, o que limita o alcance da peça — mas o diagnóstico das três causas é aplicável a qualquer companhia que esteja escalando distribuição mais rápido do que significado.",
+      "latam_note": "O caso central é o do Herbíssimo, quarto maior desodorante do Brasil, que só conseguiu estender portfólio após rebranding com propósito explícito."
+    }
+  ],
+  "convergences_ptbr": "O modelo mental que atravessa a semana é o da inversão do gargalo: capacidade ficou barata e julgamento ficou escasso. Tunguz mostra que 84% dos tokens consumidos não são de fronteira, porque seis modelos entregam 77% da performance a 2,5% do preço — a capacidade deixou de ser diferencial e virou commodity precificada. A análise de 33.228 pull requests do vLLM e do SGLang mostra o outro lado do mesmo movimento: throughput 21 vezes maior, mais autores por mês, mais comentários por mudança, com bots respondendo por menos de 0,2% dos PRs; a aceleração é humana e assistida. E é exatamente aí que Itamar Gilad localiza a fratura — executamos agora melhor do que julgamos, com desenvolvedores aprovando 93% das sugestões de um agente de código enquanto detectam 13% das mudanças prejudiciais contra 89% dos classificadores automáticos. A NN/g fecha o quadrilátero ao formalizar o que essa escassez de julgamento exige na prática: um output bom é exemplo, não avaliação, e decisão de adoção pede múltiplas entradas, execuções repetidas e intervalo de confiança.\n\nO ciclo de retroalimentação da semana é visível de ponta a ponta e se fecha contra si mesmo. O capital entra pela infraestrutura: os fabricantes de semicondutores participaram em 2026 de rodadas somando mais de US$ 250 bilhões, com mais de 95% desse valor concentrado nos US$ 122 bilhões da OpenAI, ou seja, o vendedor de infraestrutura financiando o comprador. Esse capex barateia a inferência, e o barateamento leva o mercado a comprar modelo suficiente em vez de modelo de ponta, como o dado do OpenRouter registra. Com a capacidade comoditizada, o prêmio migra para outro lugar: Tunguz mostra o teto de múltiplos do software listado caindo de 100x em 2021 para 34x, com um único líder premiado por categoria; Catalini, revisando um século de história econômica da inovação — de Moser na Exposição de 1851 ao licenciamento da AT&T em 1956 e aos genes restritos da Celera —, argumenta que o fosso está nos ativos complementares, distribuição, infraestrutura e dado, não no segredo algorítmico. O contador de unicórnios de julho, com 40 entradas e 15 delas de empresas com menos de três anos, mostra o capital ainda entrando no ciclo enquanto a métrica pública já se comprimiu.\n\nO nódulo que liga IA aplicada, liderança e acessibilidade é a delegação — e a semana o expõe descompassado. Do lado da capacidade, SocialRL treina um modelo de 4B para negociar como delegado e fecha 73–122% da distância até a fronteira, superando GPT-4.1 em utilidade média; o Act2Intention constrói um benchmark de 72.511 intenções em 52 aplicativos e ganha 32 pontos de compreensão de intenção, movendo o agente de reativo para proativo. Do lado da responsabilidade, o InterSAGE registra que nenhum protocolo em circulação — MCP, A2A, ANP, AG-UI — define como um agente prova identidade, autorização e responsabilidade depois de delegar, e o Reconcile Once demonstra que a única forma de eliminar 6.845 contradições em um corpus de 6.130 fontes foi tirar a verdade de dentro do LLM e colocá-la em ledger determinístico e versionado. Jorge Arango dá a esse descompasso uma ferramenta de decisão ao separar \"poderíamos automatizar\" de \"deveríamos automatizar\", e Adrian Roselli mostra a mesma pergunta na escala do componente: quem decide quando um diálogo fecha é uma decisão sobre controle e intenção, não sobre estética. A regulação chega por cima na forma de proveniência obrigatória — o Artigo 50 do EU AI Act já marca conteúdo gerado desde 2 de agosto de 2026, com retrofit até 2 de dezembro — enquanto as filosofias comparadas por Walther mostram três velocidades incompatíveis definindo as regras a partir de Grécia, Califórnia e União Europeia.\n\nA lente latino-americana aparece na semana como arbitragem, não como mercado emergente: a Monashees abriu escritório em São Francisco e opera um modelo de liderança sênior nos Estados Unidos com time técnico na região, usando como argumento a escala de adoção local — Brasil como maior mercado da Uber e terceiro do ChatGPT, Pix em mais de 90% dos adultos. Joca Torres e Ana Couto completam o mesmo eixo pelo lado da operação e da marca, com casos brasileiros datados e mensurados. Duas contenções honestas sobre este corpus: o eixo de acessibilidade fica com um único item porque sete fontes falharam na coleta — inclusive o W3C WAI — e porque as demais peças disponíveis eram material comercial sem dado próprio; e o achado mais importante da semana, o estudo de Kellogg mostrando que propostas de pesquisa escritas com IA ganham 4 pontos percentuais de aprovação no NIH e 5% mais publicações enquanto perdem originalidade semântica e produzem menos artigos altamente citados, é o alerta que atravessa todos os eixos: o mesmo ganho individual que a IA entrega hoje cobra, no agregado, uma conta de convergência.",
+  "tensions": [
+    {
+      "title_ptbr": "Velocidade com IA compra resultado ou compra convergência?",
+      "side_a": "A evidência de campo diz que assistência de IA acelera sem degradar: em 33.228 pull requests do vLLM e do SGLang, o throughput cresceu 21x e 17,9x, a densidade de comentários 4,2x e 3,8x, o número de autores únicos por mês subiu de forma consistente e o tamanho dos PRs permaneceu estável — com bots em menos de 0,2% dos PRs. Mais gente contribuindo, mais deliberação por mudança e nenhuma diluição visível de qualidade técnica.",
+      "side_b": "A evidência de resultado diz que o ganho é individual e a perda é agregada: propostas de pesquisa com uso intenso de IA tiveram aprovação 4 pontos percentuais maior no NIH e 5% mais publicações, mas foram semanticamente menos originais e menos propensas a gerar artigos altamente citados. No nível da revisão, desenvolvedores aprovaram 93% das sugestões de um agente de código enquanto detectaram 13% das mudanças prejudiciais, contra 89% dos classificadores automáticos — o filtro humano que garantiria a qualidade é justamente o que a velocidade dissolve.",
+      "refs": [
+        "https://arxiv.org/abs/2608.13884v1",
+        "https://insight.kellogg.northwestern.edu/article/ai-could-help-researchers-get-funding-but-at-what-cost",
+        "https://itamargilad.com/artificial-competence"
+      ]
+    },
+    {
+      "title_ptbr": "Delegar a agentes: a capacidade chegou antes da responsabilidade",
+      "side_a": "A capacidade de delegação já está resolvida em nível técnico e barato: um modelo de 4B parâmetros treinado com SocialRL fecha 73–122% da distância até a fronteira em seis domínios de negociação e supera GPT-4.1 em utilidade média, e o Act2Intention mostra ganho de 32 pontos em compreensão de intenção a partir de 72.511 intenções observadas em 52 aplicativos — agentes deixam de reagir a comando e passam a inferir objetivo.",
+      "side_b": "A infraestrutura de responsabilidade não existe: nenhum dos protocolos em circulação — MCP, A2A, ANP, AG-UI — define como um agente prova identidade, autorização, capacidade anunciada e responsabilidade após delegar através de fronteira organizacional. E quando se mede a confiabilidade do output, a correção não vem do modelo: eliminar 6.845 contradições em um corpus de 6.130 fontes exigiu mover a verdade para um ledger determinístico externo, com seleção por tier de confiança acertando 22 de 22 casos contra 9 de 22 do baseline.",
+      "refs": [
+        "https://arxiv.org/abs/2608.13787v1",
+        "https://arxiv.org/abs/2608.14132v1",
+        "https://arxiv.org/abs/2608.13030v2",
+        "https://arxiv.org/abs/2608.12984v1"
+      ]
+    }
+  ],
+  "feedback_processed": [],
+  "fetch_report": {
+    "failed_sources": [
+      { "id": "import-ai-jack-clark", "error": "HTTP 403" },
+      { "id": "the-beautiful-mess-john-cutler", "error": "HTTP 403" },
+      { "id": "latitud-newsletter", "error": "HTTP 403" },
+      { "id": "jakob-nielsen-ux-tigers", "error": "HTTP 403" },
+      { "id": "the-convivial-society", "error": "HTTP 403" },
+      { "id": "w3c-wai-news", "error": "HTTP 403" },
+      { "id": "clouded-judgement", "error": "HTTP 403" }
+    ]
+  }
+}

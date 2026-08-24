@@ -1,0 +1,204 @@
+{
+  "week": "2026-W35",
+  "generated_at": "2026-08-24T14:55:39.129Z",
+  "items": [
+    {
+      "title_original": "Algorithms Trap Us in the Familiar. Can They Also Spark Breakthroughs?",
+      "url": "https://sloanreview.mit.edu/article/algorithms-trap-us-in-the-familiar-can-they-also-spark-breakthroughs",
+      "source": "MIT Sloan Management Review",
+      "axis": "ia-aplicada",
+      "tier": "referencia",
+      "synthesis_ptbr": "Algoritmos de recuperação otimizados para popularidade criam \"bolhas de ideação\" que levam pessoas diferentes a convergir independentemente para as mesmas soluções, e o custo maior recai sobre quem tem expertise de domínio. A evidência é dupla: em laboratório com 104 participantes, ideias geradas com um algoritmo exploratório foram 14% mais criativas que com a busca padrão; em campo, com 245 participantes num desafio de redução de desperdício alimentar, especialistas ganharam 11% — e, com a busca padrão, especialistas não tiveram vantagem estatisticamente significativa sobre iniciantes, enquanto com o algoritmo exploratório distribuíram ideias em cinco clusters semânticos distintos contra um ou dois dos demais grupos. A consequência estratégica é que a camada de recuperação, não o modelo, é onde a organização decide se sua expertise acumulada vale algo: ferramentas de IA que priorizam o familiar neutralizam silenciosamente o ativo mais caro da empresa."
+    },
+    {
+      "title_original": "From Agent Behaviour to Agent-Friendly Documentation: An Empirical Study of How Coding Agents Discover, Read, and Write Technical Documentation",
+      "url": "https://arxiv.org/abs/2608.20195v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "referencia",
+      "synthesis_ptbr": "Agentes de codificação não consomem documentação técnica como desenvolvedores humanos: arquivos de instrução e notas de trabalho respondem por 60,5% de todas as interações documentais, contra 10,6% da documentação técnica clássica. O estudo mede comportamento real em 557 sessões de codificação (3.033 interações documentais) e 33.097 pull requests (690.260 registros de mudança), e encontra 70,2% das consultas autodirigidas contra apenas 7,5% disparadas por falhas, com o código sendo tocado primeiro 4,7x mais frequentemente em PRs de múltiplos commits. O achado mais desconfortável é que consultar documentação está associado a *menos* teste imediato (lift 0,23), o que quebra a intuição de que mais contexto produz mais verificação. Para quem governa plataformas internas, isso redefine a prioridade: investir em arquivos de instrução explícitos e artefatos de contexto operacional rende mais que ampliar referência de API."
+    },
+    {
+      "title_original": "Delegating or Doing? Understanding User Behavior in Hybrid Human-Agent Interfaces",
+      "url": "https://arxiv.org/abs/2608.19551v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "Estudo entre grupos com 73 participantes, três modos de interação (só tradicional, AI-first e híbrido) e 16 cenários CRUD mostra que o assistente reduziu cliques, navegações e scroll — mas a duração das tarefas não diferiu significativamente entre as condições. A variância no uso do assistente é explicada em cerca de metade (ICC = 0,50) por diferenças individuais, e não houve relação significativa entre o tipo de operação CRUD e a decisão de delegar. Duas consequências diretas para design de produto: prometer ganho de tempo a partir de redução de esforço interativo é uma aposta sem sustentação empírica, e a personalização por perfil de delegação importa mais que desenhar salvaguardas presumindo que o usuário evitará delegar operações de risco."
+    },
+    {
+      "title_original": "AI-Generated Images Can Perform as Well as Stock Photography",
+      "url": "https://www.nngroup.com/articles/ai-generated-images",
+      "source": "Nielsen Norman Group",
+      "axis": "design-lideranca",
+      "tier": "citada",
+      "synthesis_ptbr": "Com 77 adultos americanos, seis versões de página (três com imagens de IA, três com fotografia stock), exposição de 10 segundos e escalas de 7 pontos analisadas por testes t pareados com correção de Bonferroni, as imagens geradas por IA não sofreram penalidade de percepção quando a origem era desconhecida. As pontuações da IA foram ligeiramente superiores em todas as medidas, com diferença significativa apenas em autenticidade (+0,4) e ganhos não significativos em confiabilidade e profissionalismo (+0,2 cada). O ponto de decisão não é qualidade percebida, mas divulgação: revelar a origem pode inverter o efeito, e o EU AI Act já move a obrigação de divulgar para o terreno regulatório — o que transforma escolha de imagem em decisão de compliance, não de estética."
+    },
+    {
+      "title_original": "O que vem por ai com WCAG 3",
+      "url": "https://reinaldoferraz.com.br/o-que-vem-por-ai-com-wcag-3",
+      "source": "Reinaldo Ferraz",
+      "axis": "acessibilidade",
+      "tier": "citada",
+      "synthesis_ptbr": "O Working Draft de março de 2026 do WCAG 3 abandona os níveis A/AA/AAA em favor de Bronze, Prata e Ouro e reorganiza as diretrizes em torno de necessidades funcionais dos usuários, não de categorias técnicas isoladas. São 12 grupos e 45 diretrizes, cada uma com requisitos essenciais (detectabilidade, múltiplos sentidos e formas de entrada, segurança física, suporte necessário) e suplementares, incluindo uma seção inédita de \"Política e proteção\". Ainda sem data de recomendação, mas o autor detalha requisitos e procedimentos de teste já implementáveis — o que permite antecipar a transição em vez de esperar a norma fechar.",
+      "latam_note": "A reorganização por necessidades funcionais já foi introduzida na ABNT NBR 17225, então equipes brasileiras que se estruturaram pela norma nacional partem à frente na migração para o WCAG 3."
+    },
+    {
+      "title_original": "The AI Bullwhip",
+      "url": "https://www.tomtunguz.com/the-ai-cost-stack",
+      "source": "Tomasz Tunguz",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "A tese é que os gargalos da infraestrutura de IA não são simultâneos, mas cascateiam em ondas sequenciais de vários anos — GPUs em 2023, memória em 2024-2025, CPUs em 2025, armazenamento em 2026 e, por fim, a carcaça física do data center — pelo clássico efeito chicote. Os números sustentam cada onda: aluguel de H100 acima de US$ 9/hora e queda de 22% em embarques de servidores em 2023; perda de US$ 20 bi da indústria de memória no excesso pós-pandemia com cortes de wafer de 40%; SSD +80% em um único trimestre e DRAM na casa dos 60%; ASP de Xeon +27% ano a ano, com a razão GPU:CPU saindo de 1:8 para 1:1 em fluxos agênticos; custo de construção chegando a US$ 20 bi por gigawatt, US$ 1.033 por pé quadrado e transformadores GSU com lead time de três anos. Para quem planeja produto sobre inferência, o custo unitário não cai de forma monotônica: ele é reprecificado a cada nova onda, e o lead time físico define o piso."
+    },
+    {
+      "title_original": "Has Broader Stock Market Participation Changed How Interest Rates Affect the Economy?",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/has-broader-stock-market-participation-changed-how-interest-rates-affect-the-economy",
+      "source": "Liberty Street Economics — Federal Reserve Bank of New York",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "A participação acionária das famílias americanas saiu de menos de 30% em meados dos anos 1980 para mais da metade no início dos anos 2000, e o autor modela o efeito disso sobre a transmissão da política monetária com dois tipos de agentes — participantes alavancados em ações e títulos versus não participantes restritos a títulos. Comparando uma economia com 25% e outra com 55% de participação, a resposta do produto a uma alta inesperada de juros é 20% menor; o diferencial de consumo entre participantes e não participantes estreitou consideravelmente entre meados dos anos 1990 e meados dos 2000. A implicação para leitura de ciclo de capital é direta: quando o risco se dispersa por mais famílias, movimentos de preço de ações e o ajuste de investimento das empresas ficam amortecidos, e um mesmo aperto de juros pressiona menos o setor do que os modelos herdados sugerem."
+    },
+    {
+      "title_original": "Birds Don't Fly Like Planes. Neither Does AI.",
+      "url": "https://www.tomtunguz.com/birds-dont-fly-like-planes-neither-does-ai",
+      "source": "Tomasz Tunguz",
+      "axis": "ia-aplicada",
+      "tier": "solida",
+      "synthesis_ptbr": "Em 25 tarefas reais de venture capital (pesquisa de startups, resumo de artigos, transcrição de podcasts), três modelos foram avaliados às cegas por um modelo juiz em completude, precisão e concisão, com ruído de reavaliação de 0,16 ponto. A qualidade empatou — DeepSeek V4 Flash 8,0, Qwen 3.8-27B 8,0, Qwen 3.6-35B-A3B 7,9 — mas a latência não: 1,1s com 159 tokens médios contra 7,2s/369 tokens e 10,0s/1.143 tokens, com um caso extremo de triagem produzindo 6 palavras a partir de 993 tokens. A consequência operacional é trocar a métrica: velocidade de tokens por segundo engana, porque um modelo mais rápido por token pode terminar depois se raciocinar mais tempo — a métrica de decisão é tempo até a resposta completa."
+    },
+    {
+      "title_original": "From Search Agents to Dissemination Interfaces: Understanding Human Trust in Health Information from Conversational Search",
+      "url": "https://arxiv.org/abs/2608.21177v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "solida",
+      "synthesis_ptbr": "Dois estudos de método misto — 21 participantes comparando ChatGPT e Google em três tarefas de saúde, e 20 participantes usando a mesma LLM através de três interfaces (texto, fala e corporificada) — mostram confiança significativamente maior na informação de saúde vinda do ChatGPT e variação significativa de confiança apenas em função da interface de disseminação. Os fatores identificados são credibilidade da fonte, autonomia do usuário na busca, conhecimento prévio e estilo/modalidade de interação. Para quem desenha produtos em domínio sensível, isso separa duas alavancas normalmente confundidas: a confiança depositada não é propriedade do modelo, e sim do par agente de busca × interface — trocar a modalidade de entrega altera a confiança sem alterar uma linha do conteúdo."
+    },
+    {
+      "title_original": "Towards Traffic Modelling of Multi-Agent Systems: The Role of Coordination Topology",
+      "url": "https://arxiv.org/abs/2608.20494v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "solida",
+      "synthesis_ptbr": "Sistemas multiagente geram requisições internamente — uma tarefa de usuário induz uma sequência estruturada de chamadas ao modelo — e este trabalho mede o efeito da topologia com 500 execuções repetidas por arquitetura, comparando coordenação sequencial, estrela e malha completa. A coordenação fan-out introduz bimodalidade estrutural ausente na execução sequencial, a fase de raciocínio é melhor descrita por distribuição log-normal e o modelo nulo exponencial de Poisson foi decisivamente rejeitado em todas as topologias. Consequência prática para provisionamento: dimensionar capacidade de inferência para carga agêntica com premissas poissonianas herdadas de tráfego humano subestima sistematicamente a cauda, e a escolha de topologia é uma decisão de infraestrutura, não apenas de arquitetura de software."
+    },
+    {
+      "title_original": "Product Operating Model: The Crucial Enabler for AI Success",
+      "url": "https://www.romanpichler.com/blog/product-operating-model-the-crucial-enabler-for-ai-success",
+      "source": "Roman Pichler",
+      "axis": "produto-descoberta",
+      "tier": "solida",
+      "synthesis_ptbr": "O argumento é que adicionar ferramentas de IA a processos existentes entrega ganho marginal: sem redesenho do modelo operacional, a IA apenas acelera práticas que já eram ruins — automatizar user stories detalhadas sem as conversas colaborativas perpetua o problema, e uma estratégia congelada por 12 meses é incompatível com o ritmo atual. Os dados citados sustentam a dependência: apenas 20% das organizações são plenamente product-led (Product-Led Alliance/ProductPlan, 2026), o State of AI in Product 2026 indica que a IA compõe sobre a maturidade preexistente do modelo operacional, e metade dos high performers em IA redesenha workflows (McKinsey Global Survey, 2025). O framework tem quatro pilares — organização, pessoas, processos e ferramentas — com sequência explícita: mexer em organização e pessoas antes de otimizar processos e tooling."
+    },
+    {
+      "title_original": "AI Prototyping in 2026: Lovable vs. Google AI Studio vs. Claude Design vs. Claude Code",
+      "url": "https://www.productcompass.pm/p/ai-prototyping-lovable-ai-studio-claude",
+      "source": "The Product Compass — Paweł Huryn",
+      "axis": "produto-descoberta",
+      "tier": "solida",
+      "synthesis_ptbr": "O autor construiu o mesmo CRM quatro vezes em pouco mais de uma hora, ao vivo com PMs, e o achado mais relevante não é comparativo de velocidade: no Lovable, as políticas de RLS padrão (\"USING true\") deixavam qualquer usuário autenticado ver todos os dados, falha detectada só porque ele testou isolamento de usuários em janela anônima. As fronteiras de cada ferramenta ficam explícitas — Claude Design tem teto claro (sem banco, sem tracking, sem fluxo ponta a ponta) e o AI Studio entrega design inferior mas suficiente para protótipo. A consequência para quem lidera produto é de governança, não de tooling: protótipo compartilhável com dado real é superfície de exposição, e a verificação de políticas de acesso precisa virar passo obrigatório antes de qualquer link ser distribuído."
+    },
+    {
+      "title_original": "Develop Your Team’s Social Capital, Not Just Their Skills",
+      "url": "https://sloanreview.mit.edu/article/develop-your-teams-social-capital-not-just-their-skills",
+      "source": "MIT Sloan Management Review",
+      "axis": "design-lideranca",
+      "tier": "solida",
+      "synthesis_ptbr": "A partir de 21 entrevistas com profissionais de diferentes níveis e funções — de poucos anos a mais de quatro décadas de carreira — o autor sustenta que desenvolvimento de liderança focado em habilidade técnica trava a mobilidade dos melhores executores, porque o que decide avanço é capital social: confiança, credibilidade e rede de influência. A definição que um participante oferece é operacional o suficiente para ser usada como teste: capital social é a quantidade de fé cega que alguém deposita em você a partir de como se sente sobre você. As três alavancas para gestores são atribuições que ampliam rede em vez de só habilidade, garantir que o desempenho atravesse fronteiras de equipe até quem decide, e advocacy ativo — reconhecendo que esse sistema opera de forma invisível nas promoções."
+    },
+    {
+      "title_original": "Designing for people with no or limited mobility",
+      "url": "https://tetralogical.com/blog/2026/08/19/designing-for-no-or-limited-mobility",
+      "source": "TetraLogical",
+      "axis": "acessibilidade",
+      "tier": "solida",
+      "synthesis_ptbr": "A tese é que conformidade técnica com o WCAG não basta para quem usa reconhecimento de voz, eye tracking, Switch Control, teclados adaptativos ou recursos como Sticky Keys e Filter Keys — a experiência plena exige decisões de design adicionais. O texto ancora essas decisões em critérios verificáveis: 1.4.11 (contraste não textual de 3:1 para indicadores de foco), 1.3.4 (suporte a retrato e paisagem) e 2.5.8 (alvo mínimo de 24x24 pixels CSS), somados a ordem de foco lógica, skip links, rótulos visíveis e únicos, consistência visual de componentes interativos e alternativas a gestos complexos, como botões de + e - além do arrastar. Os exemplos são de produtos em operação (NHS, GitHub, Dropbox, Google Maps), o que torna o material utilizável como checklist de revisão de design, não apenas de auditoria."
+    },
+    {
+      "title_original": "Canada’s next phase of ACA enforcement: Are you ready?",
+      "url": "https://www.deque.com/blog/canadas-next-phase-of-aca-enforcement-are-you-ready",
+      "source": "Deque Systems",
+      "axis": "acessibilidade",
+      "tier": "solida",
+      "synthesis_ptbr": "A próxima fase do Accessible Canada Act tem datas fechadas: 5 de dezembro de 2027 para o setor público federal e 5 de dezembro de 2028 para empresas com 100+ funcionários (web) e 500+ (aplicativos), com conformidade medida pela CAN/ASC-EN 301 549 — equivalente ao WCAG 2.1 nível AA. O que dimensiona o esforço é a obrigação documental, não o critério técnico: avaliação com análise de lacunas, registro de testes, treinamento e aquisições, com retenção de 4 anos para avaliações e registros de treinamento e 7 anos para planos e relatórios. O texto tem viés comercial evidente ao encaminhar para consultoria paga, mas os prazos e requisitos de retenção são o dado acionável: quem opera produto multinacional precisa tratar acessibilidade como obrigação de trilha de evidência, com horizonte de anos."
+    },
+    {
+      "title_original": "Your Favorite Creator Isn’t Real—Does it Matter?",
+      "url": "https://www.a16z.news/p/your-favorite-creator-isnt-realdoes",
+      "source": "a16z — Andreessen Horowitz",
+      "axis": "branding-tendencias",
+      "tier": "solida",
+      "synthesis_ptbr": "A autora relata a operação de uma criadora gerada por IA e os números que ela produziu: cerca de 100 mil visualizações no primeiro vídeo, 1.300 seguidores em uma semana, 8 de 20 vídeos rotulados automaticamente pela plataforma como contendo mídia gerada por IA, e cerca de 90 mil pessoas assistindo à revelação, no ano anterior, de que uma criadora anterior era sintética — a ponto de o Daily Mail tratá-la como celebridade regional real. O argumento é que a distinção entre real e gerado perde força e o que passa a governar a relação é a divulgação e a intenção criativa por trás. A parte empírica é sólida e a conclusão é assumidamente argumentativa: a divulgação resolver a questão ética permanece hipótese, mas o dado de rotulagem automática mostra que a plataforma, não a marca, já está decidindo o que é revelado."
+    },
+    {
+      "title_original": "Charts of the Week: Winds of Thematic Change",
+      "url": "https://www.a16z.news/p/charts-of-the-week-winds-of-thematic",
+      "source": "a16z — Andreessen Horowitz",
+      "axis": "macro-capital",
+      "tier": "solida",
+      "synthesis_ptbr": "A coletânea reúne três séries com fonte declarada (Citadel, Wells Fargo, Indeed, Dallas Fed, ADP, BofA, OpenAI, OpenRouter, Gridwise, Similarweb) e valor desigual. A mais consequente é a de carga agêntica: agentes consomem quase 5x mais tokens que humanos, o uso agêntico cresceu cerca de 14x desde fevereiro de 2026 e 85% da queima de tokens por agentes vem de prompts em cache. A segunda mostra o data center como fato trabalhista local — cerca de 60% de toda a construção privada não residencial em estados como Novo México e Wyoming, com prêmio salarial de 10% (engenheiros) a 64% (gerentes de instalação) e trabalhadores de concreto ganhando ~50% mais (US$ 45/h contra US$ 28-32/h). Para modelagem de custo unitário, a dominância de prompts cacheados é o número a internalizar: escala agêntica não se traduz linearmente em custo de inferência."
+    },
+    {
+      "title_original": "Which Investors Have Backed The Most 2026 Unicorns?",
+      "url": "https://news.crunchbase.com/venture/unicorn-investors-ai-robotics-2026-sequoia-khosla",
+      "source": "Crunchbase News",
+      "axis": "macro-capital",
+      "tier": "solida",
+      "synthesis_ptbr": "Até 15 de agosto de 2026, 250 empresas atingiram status de unicórnio, contra 193 em todo o ano de 2025, com 139 (56%) sediadas nos EUA e 47 (19%) na China; os setores líderes são robótica, laboratórios de IA, saúde e biotecnologia, serviços financeiros, infraestrutura de IA e implantação de IA. A lista de investidores por contagem é dominada por Sequoia e Khosla, seguidas de Y Combinator, Lightspeed, Founders Fund, a16z, Bessemer, Lux, General Catalyst e BoxGroup. O dado a usar não é o total, e sim a concentração dupla — geográfica (três quartos entre EUA e China) e de sindicato — que define quem precifica a categoria e, por consequência, o que conta como benchmark de tração para todo mundo fora desse eixo."
+    },
+    {
+      "title_original": "Startups Are Still Acquiring Startups, Led By Ultra-High-Valuation Unicorns",
+      "url": "https://news.crunchbase.com/ma/startup-unicorns-acquisitions-ai-fintech-biotech",
+      "source": "Crunchbase News",
+      "axis": "macro-capital",
+      "tier": "solida",
+      "synthesis_ptbr": "Mais de 500 empresas privadas com aporte de seed ou venture foram adquiridas globalmente entre janeiro e agosto de 2026, e a compra por outras startups — não por incumbentes — é o padrão dominante, sustentada por unicórnios com capital abundante que acham mais rápido comprar do que construir. Os compradores mais ativos dão a dimensão: OpenAI com 8 aquisições em 2026 (19 no histórico), Anthropic com 5 no ano incluindo a Coefficient Bio por US$ 400 milhões, e MoonPay com 5 entre abril e julho. Para fundador de B2B SaaS, isso desloca o desenho de saída: o comprador provável passa a ser um par mais capitalizado buscando capacidade técnica ou time, o que privilegia posicionamento como peça de arquitetura de outro produto em vez de plataforma independente."
+    },
+    {
+      "title_original": "Carro autônomo no Brasil? No Uber vai demorar",
+      "url": "https://braziljournal.com/carro-autonomo-no-brasil-no-uber-vai-demorar",
+      "source": "Brazil Journal",
+      "axis": "macro-capital",
+      "tier": "solida",
+      "synthesis_ptbr": "Andrew Macdonald, COO do Uber e executivo mais antigo da casa, afirmou ao podcast 20VC que veículos autônomos vão demorar em Brasil e Índia por aritmética de custo, não por regulação ou tecnologia: a tarifa média fica em US$ 3,50 a US$ 4 no Brasil e US$ 2,50 a US$ 3 na Índia, patamar que a tecnologia atual não consegue bater contra motoristas humanos. A escala contextualiza: o Uber roda cerca de 300 milhões de viagens por semana no mundo, contra apenas alguns milhões mensais em veículos autônomos. O caso é um contraexemplo útil à narrativa de difusão uniforme de automação — quando o custo do trabalho humano é baixo, a fronteira tecnológica chega depois, e mercados de tarifa baixa saem do roadmap mesmo sendo os de maior volume.",
+      "latam_note": "O Brasil responde por parte substancial das viagens globais do Uber e, exatamente por isso, sai da fila de adoção de veículos autônomos: tarifa de US$ 3,50 a US$ 4 torna a substituição economicamente inviável no horizonte visível."
+    }
+  ],
+  "convergences_ptbr": "O modelo mental que mais converge nesta semana é o da métrica errada. O estudo de agentes de codificação mostra que consultar documentação está associado a menos teste imediato (lift 0,23), não mais; o experimento de interfaces híbridas mostra que reduzir cliques e navegações não reduziu a duração da tarefa; a medição de 25 tarefas de venture capital mostra que velocidade de tokens por segundo prevê o oposto do tempo até a resposta completa; e o estudo de imagens geradas por IA mostra que a penalidade de percepção que o campo presumia não aparece quando a origem é desconhecida. Em quatro corpos de evidência independentes, a variável que o campo instrumentou não é a variável que decide o resultado — e em todos os quatro casos a métrica adotada favorecia a conclusão otimista.\n\nO segundo modelo é a topologia como determinante econômico, e ele conecta o eixo de IA aplicada ao de capital. A medição de tráfego em sistemas multiagente rejeita decisivamente o nulo poissoniano e encontra bimodalidade estrutural em coordenação fan-out; a coletânea de gráficos registra uso agêntico ~14x maior desde fevereiro de 2026, com agentes consumindo quase 5x mais tokens que humanos e 85% da queima vinda de prompts em cache; a análise do efeito chicote precifica o outro extremo da mesma cadeia, com data center a US$ 20 bi por gigawatt e transformadores GSU com lead time de três anos. O ciclo é legível de ponta a ponta: capital concentrado (250 unicórnios até agosto, três quartos entre EUA e China) financia infraestrutura cuja física tem lead time de anos, essa infraestrutura habilita cargas agênticas cuja distribuição de chegada não é a que os modelos de capacidade assumem, e o custo resultante volta como restrição de arquitetura de produto — onde a resposta emergente, medida em qualidade empatada entre modelo de laptop e modelo de fronteira, é empurrar inferência para a borda.\n\nO terceiro nódulo é a divulgação como primitiva de governança, atravessando acessibilidade, design e marca. O WCAG 3 reorganiza 45 diretrizes em 12 grupos em torno de necessidades funcionais e cria uma seção explícita de \"Política e proteção\"; o Accessible Canada Act converte conformidade em obrigação documental com retenção de 4 a 7 anos e prazos em dezembro de 2027 e 2028; o estudo de imagens de IA aponta o EU AI Act como o fator que desloca a escolha de imagem de estética para compliance; e o relato da criadora sintética mostra a plataforma rotulando automaticamente 8 de 20 vídeos — ou seja, decidindo a divulgação antes da marca. A convergência é que a evidência de conformidade, e não a conformidade em si, está se tornando o artefato regulado.\n\nO quarto fio é o mais desconfortável e liga liderança a ferramenta. A pesquisa do MIT SMR mostra que, com busca padrão, especialistas não tiveram vantagem estatisticamente significativa sobre iniciantes — a camada de recuperação neutralizou a expertise — e que trocar o algoritmo devolveu 11% a 14% de criatividade e cinco clusters semânticos distintos. Do lado organizacional, o modelo operacional de produto argumenta que a IA compõe sobre maturidade preexistente, com apenas 20% das organizações plenamente product-led, e a pesquisa sobre capital social mostra que o que move carreiras sênior é rede e credibilidade, não habilidade demonstrada. A leitura combinada é que a IA não distribui vantagem uniformemente: ela amplifica quem já tinha estrutura e desenho de ferramenta corretos, e apaga a diferença de quem não tinha. Registro de escassez: o eixo de marca ficou com um único item porque três fontes do eixo retornaram HTTP 403 na verificação de conteúdo, e as fontes brasileiras de produto e design (Medium, LAVCA) também ficaram inacessíveis nesta rodada.",
+  "tensions": [
+    {
+      "title_ptbr": "A inteligência migra para a borda ou o buildout centralizado segue mandando?",
+      "side_a": "Paridade de qualidade já existe fora do datacenter: em 25 tarefas de venture capital avaliadas às cegas, um modelo local empatou com um de fronteira (8,0 contra 8,0, e 7,9 no terceiro), com ruído de reavaliação de apenas 0,16 ponto. Se qualidade empata e o que varia é latência, a decisão de arquitetura passa a ser roteamento local por padrão, e a demanda incremental por inferência centralizada é menor do que o capex projetado assume.",
+      "side_b": "A cadeia física não acompanha e a carga agêntica cresce mais rápido que a eficiência: o uso agêntico subiu cerca de 14x desde fevereiro de 2026, com agentes consumindo quase 5x mais tokens que humanos, enquanto o efeito chicote mostra gargalos migrando de GPUs para memória, CPUs e armazenamento, com SSD +80% em um trimestre, ASP de Xeon +27% ano a ano, US$ 20 bi por gigawatt e transformadores com lead time de três anos. A restrição é de infraestrutura física de prazo longo, e ela é definida no centro, não na borda.",
+      "refs": [
+        "https://www.tomtunguz.com/birds-dont-fly-like-planes-neither-does-ai",
+        "https://www.a16z.news/p/charts-of-the-week-winds-of-thematic",
+        "https://www.tomtunguz.com/the-ai-cost-stack"
+      ]
+    },
+    {
+      "title_ptbr": "Reduzir fricção melhora o trabalho especializado ou apenas desloca o comportamento?",
+      "side_a": "Melhora, e é mensurável — desde que se mude o que a ferramenta expõe. Com um algoritmo exploratório em vez da busca padrão, ideias foram 14% mais criativas em laboratório (104 participantes) e 11% em campo (245 participantes), com especialistas distribuindo ideias em cinco clusters semânticos distintos contra um ou dois dos demais grupos. O ganho é atribuível ao desenho da camada de recuperação, não ao esforço do usuário.",
+      "side_b": "Desloca sem entregar o ganho prometido, e pode remover a verificação. Com 73 participantes, a assistência reduziu cliques, navegações e scroll, mas a duração da tarefa não diferiu significativamente entre condições, e metade da variância no uso do assistente (ICC = 0,50) vem de traço individual, não da tarefa. No caso de agentes de codificação, 70,2% das consultas à documentação são autodirigidas e apenas 7,5% disparadas por falha — e consultar está associado a menos teste imediato (lift 0,23), com o código sendo tocado primeiro 4,7x mais vezes em PRs de múltiplos commits.",
+      "refs": [
+        "https://sloanreview.mit.edu/article/algorithms-trap-us-in-the-familiar-can-they-also-spark-breakthroughs",
+        "https://arxiv.org/abs/2608.19551v1",
+        "https://arxiv.org/abs/2608.20195v1"
+      ]
+    }
+  ],
+  "feedback_processed": [],
+  "fetch_report": {
+    "failed_sources": [
+      { "id": "mit-sloan-review-brasil", "error": "HTTP 404" },
+      { "id": "import-ai-jack-clark", "error": "HTTP 403" },
+      { "id": "the-beautiful-mess-john-cutler", "error": "HTTP 403" },
+      { "id": "latitud-newsletter", "error": "HTTP 403" },
+      { "id": "jakob-nielsen-ux-tigers", "error": "HTTP 403" },
+      { "id": "the-convivial-society", "error": "HTTP 403" },
+      { "id": "w3c-wai-news", "error": "HTTP 403" },
+      { "id": "clouded-judgement", "error": "HTTP 403" }
+    ]
+  }
+}

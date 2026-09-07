@@ -1,0 +1,262 @@
+{
+  "week": "2026-W37",
+  "generated_at": "2026-09-07T18:51:16.655Z",
+  "items": [
+    {
+      "title_original": "How Leadership Anxiety Derails Transformation",
+      "url": "https://sloanreview.mit.edu/article/how-leadership-anxiety-derails-transformation",
+      "source": "MIT Sloan Management Review",
+      "axis": "design-lideranca",
+      "tier": "referencia",
+      "synthesis_ptbr": "Etnografia de quatro anos em uma firma de serviços profissionais — mais de 760 horas de observação em reuniões e mais de 300 entrevistas — mostra que a transformação descarrila pela ansiedade não gerenciada da liderança, que dispara um \"organizing defensivo\" em quatro fases: visão reconfortante, inimigo interno conveniente, ritual vazio e acerto de contas com bode expiatório (no caso estudado, o próprio CEO). O mecanismo é organizacional, não motivacional: a energia migra da mudança real para a atribuição de culpa entre áreas. Para quem lidera design dentro de programas de transformação, o antídoto proposto é operacional — buscar deliberadamente \"truth tellers\" que confrontem a visão confortável e tornar visível o cuidado com as pessoas antes que o ritual substitua a decisão."
+    },
+    {
+      "title_original": "Businesses Are Using AI to Transform Work, Not Cut Jobs",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/09/businesses-are-using-ai-to-transform-work-not-cut-jobs",
+      "source": "Liberty Street Economics — Federal Reserve Bank of New York",
+      "axis": "ia-aplicada",
+      "tier": "referencia",
+      "synthesis_ptbr": "As pesquisas regionais do Fed de Nova York entre 2024 e 2026 mostram a adoção de IA saltando de 25% para 61% nas empresas de serviços e de 16% para 51% na indústria, sem o desemprego prometido: apenas 4% das firmas de serviços demitiram por causa de IA e nenhuma indústria registrou demissões. O padrão dominante é retreinar — mais de um terço das empresas de serviços que usam IA treinou seus funcionários —, enquanto 13% ampliaram a força de trabalho para aproveitar a tecnologia e 75% classificam o gasto com IA como mínimo a modesto. É o dado primário que sustenta a leitura de IA como extensão da agência humana e desloca o debate: o gargalo não é substituição, é redesenho de processo feito com investimento pequeno."
+    },
+    {
+      "title_original": "From Language Models to World-Acting Systems: Progress and Limits of Agentic AI across Digital, Social, Virtual, and Physical Environments",
+      "url": "https://arxiv.org/abs/2609.04894v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "referencia",
+      "synthesis_ptbr": "O artigo separa o que a narrativa de autonomia costuma fundir — competência do modelo, integração de sistema, persistência de estado e autoridade sobre o ambiente — e propõe a \"delegação justificada\" como critério: proveniência da resposta, autoridade delimitada, detecção de falha, recuperação segura e controle humano calibrado. A revisão constata que a expansão da capacidade de agir sobre interfaces está muito mais documentada do que a conclusão confiável, a verificação independente e a recuperação em ambientes abertos; a interoperabilidade avançou (Model Context Protocol, Agent2Agent), a confiabilidade não. Para quem avalia agentes, o vocabulário modelo/harness/ambiente é a ferramenta prática: permissões deveriam derivar de capacidade demonstrada, não de promessa de modelo."
+    },
+    {
+      "title_original": "Can AI Productivity Grow Fast Enough to Justify Big Tech’s Spending?",
+      "url": "https://knowledge.wharton.upenn.edu/article/can-ai-productivity-grow-fast-enough-to-justify-big-techs-spending",
+      "source": "Knowledge at Wharton",
+      "axis": "macro-capital",
+      "tier": "referencia",
+      "synthesis_ptbr": "Nova pesquisa de Wharton calibra um modelo de booms raros de produtividade ao investimento em IA — de US$ 155 bilhões em 2022 para US$ 755 bilhões previstos em 2026 e cerca de US$ 1 trilhão em 2027 — e conclui que a aposta exige multiplicar a produtividade por 2,7. O número é maior que o de qualquer boom histórico comparável (1,5x na internet entre 1995 e 2005; 1,7 a 2,8x na revolução industrial), o que coloca o cenário-base fora da faixa já observada. Se o ganho não vier, o estudo classifica a construção atual como a maior alocação equivocada de capital da história — parâmetro direto para quem precisa defender, dimensionar ou adiar orçamento de IA."
+    },
+    {
+      "title_original": "AI, tools and transformation",
+      "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+      "source": "Benedict Evans — Essays",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "Evans argumenta que distribuir ChatGPT, Claude ou Copilot para todo mundo não transforma empresa alguma: a maioria das pessoas não identifica quais tarefas automatizar, e quem identifica esbarra em processos que cruzam departamentos, sistemas e regulação. A evidência é o padrão de uso observado nos deploys corporativos — um grupo pequeno usa muito, um grupo maior usa poucas vezes por semana, o resto não usa — somado ao paralelo histórico do PC e do navegador, que só mudaram processos quando houve redesenho deliberado. A consequência para estratégia de produto é direta: o valor está em casos de uso institucionalizados dentro de fluxos que já existem, e não em mais um \"Claude for X\"."
+    },
+    {
+      "title_original": "Testing Interchangeability in LLM Agent Teams",
+      "url": "https://arxiv.org/abs/2609.05279v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "O estudo testa a suposição que sustenta sistemas multi-agente em produção — a de que um agente pode ser trocado por qualquer outro capaz de exercer o papel — formando oito times por configuração a partir do mesmo modelo base, com caderno privado por agente ao longo de dez episódios, e depois trocando entre times os agentes de papéis equivalentes, com placebo de controle. O custo em desempenho na tarefa é mínimo, mas a comunicação por unidade de progresso sobe entre 16% e 63%, e times com histórico de formação mais longo sofrem mais: as convenções aprendidas viram interferência. Quem opera frotas de agentes precisa medir custo de coordenação, não só acurácia — a rotatividade degrada o protocolo colaborativo antes de degradar o resultado."
+    },
+    {
+      "title_original": "Get My Eval Test Harness and Run Your First Experiment",
+      "url": "https://www.producttalk.org/ai-evals-test-harness",
+      "source": "Product Talk — Teresa Torres",
+      "axis": "produto-descoberta",
+      "tier": "citada",
+      "synthesis_ptbr": "Torres publica o harness que usa para rodar evals de IA e o método em três etapas: inspeção qualitativa dos outputs contra os inputs, quantificação de erro (assertions de código, LLM como juiz, golden dataset) e experimentação comparando baseline e variante para verificar se ganhar em uma métrica não piora outra. O exemplo trabalhado — 15 transcrições sintéticas de entrevista em um app fictício de cuidado de plantas — expõe o tipo de erro que aparece na prática: citações fabricadas caem de 12,5% no baseline para 1,7% na variante. É disciplina de discovery aplicada a prompts, com a ressalva de que a peça também funciona como porta de entrada para a assinatura paga da autora."
+    },
+    {
+      "title_original": "Dethroning Loyalty",
+      "url": "https://sloanreview.mit.edu/article/dethroning-loyalty",
+      "source": "MIT Sloan Management Review",
+      "axis": "design-lideranca",
+      "tier": "citada",
+      "synthesis_ptbr": "Os autores argumentam que exigir lealdade destrói o compromisso genuíno e tipificam as trocas sociais que se disfarçam dela — coercitiva, bajulatória, devoção idealizada e compromisso principiado compartilhado —, sendo apenas a última associada, na survey dos autores, a desempenho superior em quantidade, qualidade e inovação. O argumento se apoia em dado externo (menos de um quarto dos trabalhadores americanos relata confiança forte na liderança, segundo a Gallup) e em casos recentes, incluindo o memorando de 2025 do CEO da AT&T abandonando explicitamente o acordo baseado em lealdade. As prescrições são acionáveis para quem lidera times: acolher dissenso, remover bajuladores e limitar o poder pessoal do líder."
+    },
+    {
+      "title_original": "The Costly Gap Between Two Career Ladders",
+      "url": "https://insight.kellogg.northwestern.edu/article/the-costly-gap-between-two-career-ladders",
+      "source": "Kellogg Insight",
+      "axis": "design-lideranca",
+      "tier": "citada",
+      "synthesis_ptbr": "A análise de registros de pessoal de 43 empresas médias e grandes em manufatura, tecnologia, finanças e saúde mostra que gestor e contribuidor individual são duas trilhas estruturalmente separadas, não etapas de uma mesma progressão. A penalidade salarial do contribuidor individual vai de 32% na base a 63% no topo, com crescimento de remuneração 17% mais lento, enquanto a transição para gestão ocorre em apenas 0,5% dos casos por mês e vem com salto de 28%. Para quem desenha carreira em design, o dado desmonta a promessa de \"trilha técnica equivalente\": sem revisão explícita da estrutura das duas escadas, a senioridade individual é cobrada em dinheiro."
+    },
+    {
+      "title_original": "Education and Entertainment—Not a Zero-Sum Game",
+      "url": "https://insight.kellogg.northwestern.edu/article/education-and-entertainment-not-a-zero-sum-game",
+      "source": "Kellogg Insight",
+      "axis": "design-lideranca",
+      "tier": "citada",
+      "synthesis_ptbr": "Pesquisadores de Kellogg analisaram mais de oito anos cumulativos de gameplay de mais de 25 mil jogadores do PowerZ, jogo mobile educativo para crianças de 6 a 12 anos, e rodaram dois experimentos controlados variando a obrigatoriedade do conteúdo matemático. Recompensar o conteúdo educativo só aumentou engajamento de quem já era inclinado a ele; torná-lo obrigatório para avançar na narrativa não provocou abandono e ainda elevou a exploração de outros módulos educativos. O achado ataca um trade-off que designers tratam como dado: quando o conteúdo difícil sinaliza o que importa dentro do sistema, restrição funciona como orientação em vez de atrito."
+    },
+    {
+      "title_original": "Evaluating a Success Criterion",
+      "url": "https://adrianroselli.com/2026/09/evaluating-a-success-criterion.html",
+      "source": "Adrian Roselli",
+      "axis": "acessibilidade",
+      "tier": "citada",
+      "synthesis_ptbr": "Roselli formaliza a cadeia que separa auditoria fundamentada de interpretação ad hoc do WCAG: texto normativo da especificação, documento Understanding, Techniques, issues fechadas no GitHub do WCAG, pull requests não mescladas (onde ficam as discussões que não viraram norma), discussions e, só então, blogs de especialistas confiáveis. O ponto não é hierarquia por burocracia: é conseguir justificar tecnicamente quando a resposta oficial do W3C produz experiência pior ao ser remediada, como no caso de contraste que ele cita. Para times que precisam sustentar decisões de acessibilidade diante de fornecedor ou jurídico, é o roteiro de evidência que permite divergir sem cair em conformidade adversarial."
+    },
+    {
+      "title_original": "If you have to ask, is it accessible?",
+      "url": "https://webaim.org/blog/if-you-have-to-ask-is-it-accessible",
+      "source": "WebAIM",
+      "axis": "acessibilidade",
+      "tier": "citada",
+      "synthesis_ptbr": "Ao levantar 231 produtos de EdTech K-12 de 186 fornecedores, o autor encontrou que apenas 19% mencionam VPAT e que, entre esses, mais de 22% só entregam o documento mediante solicitação; dos 27 que publicam, 6 têm VPATs que falham em acessibilidade. O argumento central é que exigir pedido não protege informação proprietária — a conformidade real do produto já está exposta a qualquer pessoa que use a interface — e só encarece a decisão de compra. Para quem compra software, a disponibilidade pública do documento (e de formatos comparáveis como OpenACR) é sinal de maturidade tão informativo quanto o conteúdo dele."
+    },
+    {
+      "title_original": "What Kind of Chief Purpose Officer Does Your Company Need?",
+      "url": "https://sloanreview.mit.edu/article/what-kind-of-chief-purpose-officer-does-your-company-need",
+      "source": "MIT Sloan Management Review",
+      "axis": "branding-tendencias",
+      "tier": "citada",
+      "synthesis_ptbr": "A partir de 56 entrevistas semiestruturadas conduzidas entre 2022 e 2025 com líderes de propósito de setores, portes e regiões variados, os autores tipificam quatro perfis: visionary (39%), architect (25%), activist (20%) e PR strategist (16%), cada um com desafios e necessidades de apoio distintos. A tese é que o perfil precisa ser escolhido pelo problema — renovar cultura, realinhar estratégia ou reconstruir confiança —, sob pena de o propósito virar narrativa sem sistema, o purpose-washing. Serve de diagnóstico direto para marcas que tratam propósito como território de comunicação em vez de arquitetura de decisão."
+    },
+    {
+      "title_original": "5 Ways Marketers Should Recalibrate in the Age of AI",
+      "url": "https://insight.kellogg.northwestern.edu/article/5-ways-marketers-should-recalibrate-in-the-age-of-ai",
+      "source": "Kellogg Insight",
+      "axis": "branding-tendencias",
+      "tier": "citada",
+      "synthesis_ptbr": "Jim Lecinski sustenta que retorno de IA em marketing é problema de gestão de mudança, não de compra de tecnologia: pesquisa dele com a McKinsey aponta 86% dos líderes de marketing acreditando na promessa e 60% já usando IA regularmente, enquanto levantamento da Deloitte mostra 93% do investimento indo para tecnologia e apenas 7% para pessoas. O gargalo aparece no dado de que somente 28% das organizações repensam fluxos de trabalho e apenas 10% capturam valor relevante. A recomendação separa execução, orquestração e decisão como camadas distintas de adoção, com alerta explícito sobre a reação interna quando a IA é lida como eliminadora de postos."
+    },
+    {
+      "title_original": "Inside the multiplayer AI setups at Mintlify, LangChain, and Buffer",
+      "url": "https://newsletter.mkt1.co/p/multiplayer-ai-mintlify-langchain-buffer",
+      "source": "MKT1 Newsletter",
+      "axis": "branding-tendencias",
+      "tier": "citada",
+      "synthesis_ptbr": "O texto documenta como Buffer, LangChain e Mintlify operam IA em marketing e GTM com camada de contexto explícita, skills versionadas e agentes em produção — não pilotos. Os números relatados dão a dimensão: a LangChain reporta conversão de lead qualificado 250% maior, pipeline 3x e 40 horas por mês liberadas nos SDRs; a Buffer, 87% menos links internos quebrados; a Mintlify, 419 contribuições em 66 dias na migração da base de conhecimento e 66% do tráfego vindo de agentes, contra 15% em janeiro. O padrão comum é o mais transferível: alguém é dono da manutenção do contexto (na Mintlify, um \"knowledge engineer\") e as skills são testadas antes de entrar em uso."
+    },
+    {
+      "title_original": "Concrete, Silicon, & Leverage",
+      "url": "https://tomtunguz.com/the-4-trillion-dollar-ai-data-center-debt-wave",
+      "source": "Tomasz Tunguz",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "Tunguz reenquadra a construção de data centers de IA como evento de crédito macroeconômico: cerca de US$ 4 trilhões em dívida a ser emitida por hyperscalers e operadores nos próximos cinco anos, equivalentes a 286% do mercado americano de commercial paper, 143% do crédito privado global e 91% do mercado de títulos municipais dos EUA. A conta que sustenta o risco é a distância entre US$ 100–200 bilhões de receita anualizada hoje e a meta de US$ 1,2–1,5 trilhão até 2030 (55% de CAGR), com alavancagem típica de 70% e até 90% em SPVs. Os dados são de terceiros (JP Morgan Asset Management, PIMCO, Western Asset, Gartner) e das divulgações dos próprios hyperscalers; o valor está no enquadramento — o ciclo de IA passa a depender de mercado de crédito, não de lucro corporativo."
+    },
+    {
+      "title_original": "Bioinfoysis Technical Report",
+      "url": "https://arxiv.org/abs/2609.03871v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "solida",
+      "synthesis_ptbr": "O Bioinfoysis trata cada solicitação de bioinformática como execução persistente ancorada em artefatos: planejamento global com replanejamento guiado por evidência, checklist executável e handoffs que vinculam cada resultado intermediário ao agente, à etapa e à geração de plano que o produziram, o que impede reuso silencioso de dado obsoleto. Os resultados reportados são 82,4% no BixBench e saltos de 27,81% para 64,13% de acurácia média no SeqQA2 e de 3,13% para 31,25% no DbQA2. A conclusão vale além do domínio: automação confiável de horizonte longo depende do harness que governa planejamento, memória e fluxo de evidência, não apenas da capacidade do modelo."
+    },
+    {
+      "title_original": "Beyond Prompt-to-App: Accountable Translation in Teacher-Facing Agentic Authoring",
+      "url": "https://arxiv.org/abs/2609.04679v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "solida",
+      "synthesis_ptbr": "Estudo de rastreamento de um sistema de autoria por agentes voltado a professores — seis tentativas de construção em três contas, mais um corpus de 37 unidades de workshop de 23 usuários — mostra onde a intenção profissional se perde no pipeline: especificações compiladas acrescentaram requisitos de governança, representações posteriores normalizaram relações de aprendizagem específicas do caso, quatro tentativas geraram conteúdo inutilizável e dois rascunhos passaram nas verificações de segurança apesar das ressalvas dos analisadores. Os autores propõem a \"tradução responsabilizável\": toda mudança significativa precisa ser atribuível, inspecionável, delimitada na validação e contestável. A amostra é pequena, mas é evidência empírica direta contra a promessa de que descrever em linguagem natural basta para gerar software de domínio."
+    },
+    {
+      "title_original": "Product Engineering for PMs, Part 2: Build a SaaS App Without Coding",
+      "url": "https://www.productcompass.pm/p/product-engineering-for-pms-part-2",
+      "source": "The Product Compass — Paweł Huryn",
+      "axis": "produto-descoberta",
+      "tier": "solida",
+      "synthesis_ptbr": "Huryn documenta o trajeto completo de um app SaaS multi-tenant até produção sem escrever código — GitHub, Supabase com migrations, Netlify, Clerk para autenticação e billing, domínio próprio, analytics —, incluindo as armadilhas que só aparecem na operação: não é possível desabilitar user billing com assinaturas ativas, o DNS leva até uma hora para propagar, a verificação de branding no Google exige Domain Verification via Search Console. O valor não está no tutorial, e sim no inventário de decisões que um PM passa a possuir ao assumir a entrega: ambiente único versus múltiplos, branch separada de produção, sincronização entre repositório e banco. Serve de contraponto concreto ao debate sobre até onde vai o \"PM que constrói\", com o registro de que parte do material fica atrás de assinatura."
+    },
+    {
+      "title_original": "Why TalkBack keeps switching accents",
+      "url": "https://www.craigabbott.co.uk/blog/2026/why-talkback-keeps-switching-accents",
+      "source": "Craig Abbott",
+      "axis": "acessibilidade",
+      "tier": "solida",
+      "synthesis_ptbr": "Abbott explica por que o TalkBack alterna sotaques em páginas marcadas com lang=\"en\": o Chrome roda a própria detecção de idioma para acessibilidade e mistura o resultado com o atributo declarado, e strings curtas — rótulos, botões — não têm pistas ortográficas suficientes para desambiguar. A correção é usar subtags regionais (en-GB, en-US), que ancoram todos os nós da página em uma única voz, e aplicar o mesmo cuidado nas mudanças de idioma exigidas pelo critério 3.1.2 do WCAG. O texto não traz teste documentado — o autor sugere que o leitor verifique em um aparelho Android —, mas o mecanismo é verificável e o custo da correção é próximo de zero.",
+      "latam_note": "Pelo mesmo mecanismo descrito, produtos brasileiros que declaram apenas lang=\"pt\" ficam sujeitos à alternância entre voz brasileira e europeia em rótulos curtos; declarar pt-BR resolve."
+    },
+    {
+      "title_original": "O erro de investir mais em marketing sem gerar valor",
+      "url": "https://anacouto.com.br/artigos/2026/09/03/erro-investir-mais-marketing-sem-gerar-valor",
+      "source": "Ana Couto",
+      "axis": "branding-tendencias",
+      "tier": "solida",
+      "synthesis_ptbr": "A tese é que orçamento maior de marketing não gera valor quando a alocação está errada — o problema é onde, não quanto —, e a evidência citada é toda de terceiros: WARC (46% dos profissionais planejam aumentar performance contra 31% em construção de marca), Kantar sobre a erosão das vendas de base quando performance domina consistentemente, a regra 60/40 de Binet & Field e o estudo da Saïd Business School com a Kantar sobre 1.105 campanhas, apontando eficácia até 2,6 vezes maior com realocação de verba. A consequência prática é medir valor acumulado de marca em vez de atividade em dashboard. Vale o desconto de leitura: o texto encerra ancorando a medição no método proprietário da própria agência.",
+      "latam_note": "É uma agência brasileira nomeando o reflexo local de migrar verba para performance quando o crescimento desacelera, mas toda a evidência citada é internacional — não há dado de campanhas brasileiras no texto."
+    },
+    {
+      "title_original": "The Ads Model for Prompts Vertically Integrates AI",
+      "url": "https://tomtunguz.com/the-ads-model-for-prompts-vertically-integrates-ai",
+      "source": "Tomasz Tunguz",
+      "axis": "macro-capital",
+      "tier": "solida",
+      "synthesis_ptbr": "A Meta precifica inferência em dois níveis no Muse Spark 1.3: US$ 1,25 por milhão de tokens de entrada e US$ 4,25 de saída com privacidade total, contra US$ 0,10 e US$ 0,20 para quem cede direitos de treinamento — spread superior a 90%. Tunguz lê o diferencial como preço de equilíbrio do dado de prompt, US$ 1,24 por milhão de tokens: uma empresa que processa 1 bilhão de tokens por dia paga cerca de US$ 454 mil por ano pela privacidade, exatamente o valor que a Meta atribui ao dado que deixa de coletar. A leitura estratégica é que o modelo integra verticalmente a cadeia de dados de IA, contornando fornecedores especializados e capturando traços de raciocínio por uma fração do custo."
+    },
+    {
+      "title_original": "OPINIÃO. Hugging Face é um hedge para o futuro da Nvidia",
+      "url": "https://braziljournal.com/opiniao-hugging-face-e-um-hedge-para-o-futuro-da-nvidia",
+      "source": "Brazil Journal",
+      "axis": "macro-capital",
+      "tier": "solida",
+      "synthesis_ptbr": "Guy Perelmuter analisa a compra da Hugging Face pela Nvidia por US$ 12,9 bilhões — cerca de 90x uma receita anualizada de US$ 150 milhões — como movimento defensivo, não aquisição de operação lucrativa. O argumento estrutural: com Google, Amazon e Microsoft desenvolvendo chips próprios, a Nvidia compra o ponto da cadeia onde 18 milhões de desenvolvedores e 3 milhões de modelos compartilhados definem qual modelo roda em qual infraestrutura. Vale o desconto de quem lê: o autor é fundador de um fundo de deep tech e declara ter a Hugging Face entre as maiores posições do seu segundo fundo."
+    },
+    {
+      "title_original": "Sector Snapshot: Proptech Funding Holds Up, But Investors Are Placing Different Bets",
+      "url": "https://news.crunchbase.com/venture/proptech-funding-holds-exits-ipo-ai-green-steel-2026",
+      "source": "Crunchbase News",
+      "axis": "macro-capital",
+      "tier": "solida",
+      "synthesis_ptbr": "Com base na própria base de dados, a Crunchbase mostra proptech em US$ 8,7 bilhões e 794 rodadas até setembro de 2026, contra US$ 12,3 bilhões em 1.446 rodadas em 2025 e US$ 24 bilhões em mais de 2.400 rodadas em 2019 — retração simultânea de volume e de número de apostas. A tese não é abandono do setor, e sim seletividade: o capital se concentra em IA aplicada a construção e operação com ROI demonstrável, enquanto software imobiliário genérico e estágios avançados sem crescimento excepcional travam. O deslocamento geográfico é o sinal mais acionável para quem levanta capital fora dos EUA: quatro das cinco maiores rodadas do ano aconteceram fora do país."
+    }
+  ],
+  "convergences_ptbr": "Três das leituras mais técnicas da semana convergem para o mesmo deslocamento: o gargalo dos agentes saiu do modelo e foi para o encanamento. O levantamento sobre sistemas que agem no mundo separa competência do modelo, integração de sistema, persistência e autoridade sobre o ambiente, e mostra que a expansão da capacidade de agir sobre interfaces está muito mais documentada do que a conclusão confiável e a recuperação de falha; o relatório do Bioinfoysis chega ao mesmo ponto por outro caminho, atribuindo o desempenho ao harness que amarra cada resultado intermediário ao agente e à etapa que o produziram; e o experimento de intercambialidade mostra que o custo escondido de trocar agentes não está na tarefa, e sim no protocolo de coordenação, com aumento de 16% a 63% na comunicação por unidade de progresso. O ciclo que se desenha é capacidade → integração → governança de evidência → medição, e é no terceiro elo que os três textos localizam o trabalho ainda não feito.\n\nNo eixo do capital, a semana entrega os dois lados da mesma equação em números. Wharton calibra a aposta de quase US$ 1 trilhão e conclui que ela exige multiplicar a produtividade por 2,7 — acima de qualquer boom histórico comparável —, enquanto Tunguz mostra que o financiamento dessa construção virou um evento de crédito de US$ 4 trilhões, com alavancagem de 70% a 90%. Do lado da firma, o Fed de Nova York mede adoção subindo para 61% nos serviços com gasto classificado como mínimo a modesto por 75% das empresas, e retreinamento em vez de demissão. A curva do capital e a curva da adoção estão em escalas diferentes, e o retrato da proptech pela Crunchbase — capital caindo, mas concentrado em IA com ROI demonstrável — é esse mesmo comportamento visto do lado de quem investe.\n\nO nódulo mais interessante liga acessibilidade e IA agêntica por baixo: os dois eixos discutem procedência de evidência. Roselli formaliza a cadeia documental que permite justificar uma decisão de WCAG quando a resposta oficial produz experiência pior, e o WebAIM mostra que a conformidade declarada é inauditável quando apenas 19% dos fornecedores sequer mencionam VPAT e parte deles só entrega o documento sob pedido — o mesmo problema de afirmação sem rastro que a \"tradução responsabilizável\" tenta resolver no pipeline que transforma intenção de professor em software. Na camada organizacional, a etnografia sobre ansiedade de liderança e o ensaio sobre lealdade descrevem o custo de sistemas em que ninguém pode contestar a narrativa dominante: bode expiatório de um lado, bajulação do outro. Autoridade sem contestabilidade falha do mesmo jeito, seja num pipeline de agentes, num VPAT ou numa sala de diretoria.\n\nDuas observações sobre o corpus desta semana. A lente LATAM ficou fina porque quase todas as fontes da região caíram na verificação de conteúdo — MIT Sloan Review Brasil, UX Collective Brasil e Joca Torres retornaram HTTP 403 —, de modo que o único ângulo local relevante na seleção veio do eixo de marca. E o eixo de produto e descoberta entrou magro por escassez real de material publicado na janela, não por corte editorial: eram três candidatos, dois sobreviveram à leitura.",
+  "tensions": [
+    {
+      "title_ptbr": "Software feito por quem não programa: atalho real ou intenção que se perde na tradução?",
+      "side_a": "Benedict Evans sustenta que distribuir ferramentas de IA não transforma empresa alguma — a maioria não identifica o que automatizar e o que importa cruza departamentos, sistemas e regulação, com o padrão de uso observado nos deploys mostrando um grupo pequeno usando muito e a maioria não usando. O estudo de autoria agêntica para professores dá a evidência empírica do mesmo lado: em seis tentativas de construção, quatro geraram conteúdo inutilizável e as especificações compiladas alteraram a intenção profissional original.",
+      "side_b": "Paweł Huryn documenta um app SaaS multi-tenant levado à produção sem código, com autenticação, billing, migrations e domínio próprio, listando as armadilhas operacionais reais do percurso. A MKT1 mostra Buffer, LangChain e Mintlify já operando agentes em produção com resultados medidos: conversão de lead qualificado 250% maior, 87% menos links internos quebrados e 66% do tráfego vindo de agentes contra 15% em janeiro.",
+      "refs": [
+        "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+        "https://arxiv.org/abs/2609.04679v1",
+        "https://www.productcompass.pm/p/product-engineering-for-pms-part-2",
+        "https://newsletter.mkt1.co/p/multiplayer-ai-mintlify-langchain-buffer"
+      ]
+    },
+    {
+      "title_ptbr": "A conta da IA fecha? Capital em escala de ciclo de crédito contra adoção em escala modesta",
+      "side_a": "Wharton estima que o investimento — US$ 755 bilhões em 2026 e cerca de US$ 1 trilhão em 2027 — exige 2,7x de ganho de produtividade, acima de qualquer boom histórico, sob pena de configurar a maior alocação equivocada de capital da história. Tunguz quantifica o financiamento por trás disso: US$ 4 trilhões em dívida, com receita anualizada atual de US$ 100–200 bilhões contra meta de US$ 1,2–1,5 trilhão até 2030.",
+      "side_b": "Os dados do Fed de Nova York mostram adoção real e crescente (61% nas empresas de serviços, 51% na indústria) com gasto classificado como mínimo a modesto por 75% das empresas e retreinamento em vez de demissão — ganho que aparece pela via lenta do redesenho de processo, exatamente a rota que Evans descreve como a única que historicamente transformou empresas, e que não depende da escala de capex hoje contratada.",
+      "refs": [
+        "https://knowledge.wharton.upenn.edu/article/can-ai-productivity-grow-fast-enough-to-justify-big-techs-spending",
+        "https://tomtunguz.com/the-4-trillion-dollar-ai-data-center-debt-wave",
+        "https://libertystreeteconomics.newyorkfed.org/2026/09/businesses-are-using-ai-to-transform-work-not-cut-jobs",
+        "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation"
+      ]
+    }
+  ],
+  "feedback_processed": [],
+  "fetch_report": {
+    "failed_sources": [
+      {
+        "id": "bair-berkeley-blog",
+        "error": "fetch failed"
+      },
+      {
+        "id": "import-ai-jack-clark",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "the-beautiful-mess-john-cutler",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "latitud-newsletter",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "jakob-nielsen-ux-tigers",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "the-convivial-society",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "w3c-wai-news",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "clouded-judgement",
+        "error": "HTTP 403"
+      }
+    ]
+  }
+}

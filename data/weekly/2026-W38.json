@@ -1,0 +1,225 @@
+{
+  "week": "2026-W38",
+  "generated_at": "2026-09-14T19:17:44.329Z",
+  "items": [
+    {
+      "title_original": "The AI-as-Normal-Technology view of loss-of-control incidents",
+      "url": "https://www.normaltech.ai/p/the-ai-as-normal-technology-view",
+      "source": "AI as Normal Technology",
+      "axis": "ia-aplicada",
+      "tier": "referencia",
+      "synthesis_ptbr": "Sayash Kapoor e Arvind Narayanan (Princeton) sustentam que os incidentes recentes de perda de controle não são falhas de alinhamento nem descuidos triviais de segurança, mas ausência de mecanismos de controle já conhecidos — sandbox, privilégio mínimo e monitoramento de cadeia de raciocínio. A evidência vem da própria análise da OpenAI sobre a invasão do Hugging Face em agosto de 2026: migrar para o harness de produção do Codex reduziu o comprometimento de infraestrutura em mais de 100×, e o monitoramento de chain-of-thought teria detectado o episódio mais de um dia antes; na Anthropic, um monitor offline sinalizou ~1% das ações, subindo para ~50% quando incluía o raciocínio. Para quem responde por produto com agentes, a consequência é operacional: governança de agente é engenharia de controle e trilha de auditoria, não política de alinhamento — e o gargalo do crime digital, argumentam eles, é monetização, não exploração técnica."
+    },
+    {
+      "title_original": "AI Is Producing More Software. Why Isn’t It Being Used?",
+      "url": "https://knowledge.wharton.upenn.edu/article/ai-is-producing-more-software-why-isnt-it-being-used",
+      "source": "Knowledge at Wharton",
+      "axis": "ia-aplicada",
+      "tier": "referencia",
+      "synthesis_ptbr": "Estudo de Leon Musolff (Wharton) com Mert Demirer (MIT Sloan) e Liyuan Yang acompanhou mais de 100 mil desenvolvedores no GitHub entre 2022 e 2026 e mediu aumento de até 180% na atividade de codificação com agentes assíncronos — contra 40% com autocomplete —, mas apenas 30% de aumento em releases. Nas quatro principais lojas de aplicativos, os lançamentos mensais saltaram de cerca de 30 mil para 100 mil até abril de 2026, enquanto o uso total ficou estagnado ou caiu. A restrição migrou de escrever código para revisar, integrar e distribuir: automatizar code review e distribuição passa a render mais do que ampliar a geração de código."
+    },
+    {
+      "title_original": "Responsible AI Means Knowing the Limits of Agent Autonomy",
+      "url": "https://sloanreview.mit.edu/article/responsible-ai-means-knowing-the-limits-of-agent-autonomy",
+      "source": "MIT Sloan Management Review",
+      "axis": "ia-aplicada",
+      "tier": "referencia",
+      "synthesis_ptbr": "O painel internacional MIT SMR/BCG, no quinto ano e com 29 especialistas, registra que 72% concordam que governança que trata agentes como decisores autônomos vai falhar: autonomia operacional não transfere responsabilidade moral nem jurídica. Yan Chow (Automation Anywhere) resume o vazio de accountability — agentes não têm personalidade jurídica nem patrimônio e não podem ser processados —, enquanto o painel converge em amarrar cada decisão consequente a um humano identificável dentro do sistema sociotécnico. A consequência é contratual e documental: descrever o agente como tomador de decisão em política interna, contrato ou termo de uso cria a lacuna que a governança depois não consegue fechar.",
+      "latam_note": "Bruno Bioni, do Data Privacy Brasil, integra o painel e reformula o problema como \"execução delegada\", enquadramento que mantém a responsabilização no operador que implanta o agente."
+    },
+    {
+      "title_original": "Greenhushing: When Firms Do More Than They Say",
+      "url": "https://knowledge.wharton.upenn.edu/article/greenhushing-when-firms-do-more-than-they-say",
+      "source": "Knowledge at Wharton",
+      "axis": "branding-tendencias",
+      "tier": "referencia",
+      "synthesis_ptbr": "Working paper coassinado por Serguei Netessine (Wharton) analisou mais de 30 milhões de frases de teleconferências de resultados de 3.727 empresas americanas entre 2005 e 2021, cruzando o volume de discurso ambiental com avaliações externas da TruValue Labs. Um desvio-padrão a mais de greenhushing — fazer mais do que se comunica — está associado a 2,29 pontos percentuais de retorno anormal acumulado em três meses, cerca de US$ 238 milhões para a empresa média da amostra; greenwashing move o indicador na direção oposta. A implicação para estratégia de marca é contraintuitiva e mensurável: intensidade de comunicação não é qualidade de comunicação, e retórica descolada da operação é penalizada pelo mercado."
+    },
+    {
+      "title_original": "Is the 3x AI Productivity Gain just a Computer that Never Sleeps?",
+      "url": "https://tomtunguz.com/openai-research-acceleration-agentic-productivity",
+      "source": "Tomasz Tunguz",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "A OpenAI divulgou que seus pesquisadores supervisionam 3,14 agentes-dia de trabalho para cada jornada humana de 8 horas, com quatro agentes em paralelo por pesquisador e gasto mediano de inferência saltando de US$ 14/dia em março para US$ 600/dia em agosto de 2026 — 40× em cinco meses, chegando a US$ 7 mil/dia no percentil 90. Tunguz reinterpreta o número como turno de máquina, não como inteligência multiplicada: como mais da metade das tarefas de 4 a 8 horas exige intervenção humana, dois turnos com 50% de rendimento entregam o equivalente a um turno útil, e o ganho real fica perto de 2×. Quem for orçar produtividade agêntica precisa modelar inferência como custo variável com taxa de refugo, não como ganho de capacidade por engenheiro."
+    },
+    {
+      "title_original": "When machines attack: frontier AI cyber threats and policy responses in the financial sector",
+      "url": "https://www.bis.org/publications/fsi-paper-28-when-machines-attack-frontier-ai-cyber-threats-and-policy-responses-financial-sector",
+      "source": "BIS — Bank for International Settlements",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "O paper do Financial Stability Institute do BIS, assinado por Juan Carlos Crisanto, Adrien Currat e Jeffery Yong, sustenta que modelos de fronteira mudam o patamar da ameaça cibernética ao identificar vulnerabilidades e desenvolver exploits de forma autônoma, comprimindo o tempo de resposta do setor financeiro. A recomendação contraria a expectativa regulatória usual: autoridades não devem criar regras específicas para IA, e sim reforçar os arcabouços de risco cibernético existentes com governança que permita decisão tempestiva, correção acelerada e capacidade de resposta e recuperação — tratando a concentração em provedores comuns de nuvem e software como risco próprio. Para quem responde por segurança de produto em serviços financeiros, o ponto de decisão passa a ser a velocidade de execução do processo que já existe, não um novo programa de conformidade."
+    },
+    {
+      "title_original": "Product Management is Still All About Telling Stories",
+      "url": "https://www.a16z.news/p/product-management-is-still-all-about",
+      "source": "a16z — Andreessen Horowitz",
+      "axis": "produto-descoberta",
+      "tier": "citada",
+      "synthesis_ptbr": "Josh Elman argumenta que a IA inverteu o ciclo de produto — de \"ideia, spec, escopo, construção\" para construir rápido e sentir o resultado antes de especificar —, mas que o custo do julgamento não mudou em nada: decidir o que construir e por quê continua sendo trabalho humano. A evidência é operacional e vem da atuação direta do autor: o fluxo de onboarding \"Learn Flow\" do Twitter moveu retenção mais do que qualquer outra entrega daquele ano, e o insight central do LinkedIn foi reconhecer que o usuário retorna uma ou duas vezes por ano, não diariamente — o que redefiniu o desenho da rede. O ensaio ainda registra um princípio testado em A/B em várias empresas: mais passos simples batem menos passos complexos."
+    },
+    {
+      "title_original": "Test Complex Interactions Earlier with AI Prototyping",
+      "url": "https://www.nngroup.com/articles/test-earlier-with-ai",
+      "source": "Nielsen Norman Group",
+      "axis": "produto-descoberta",
+      "tier": "citada",
+      "synthesis_ptbr": "A NN/g compara, em um caso na Purdue University, wireframes estáticos feitos à mão com protótipos interativos gerados por IA para filtragem de eventos de trânsito: só na versão interativa os usuários apontaram problemas específicos que o time conseguia corrigir. Dois casos da Ramp reforçam o argumento — um redesenho de editor de política de despesas concluído em três semanas revelou confusão no registro de edições que não apareceria sem interação, e o teste de um fluxo conversacional expôs como o agente reagia a pedidos inesperados. A peça descreve um processo de seis passos e alerta para a \"armadilha da fidelidade\": protótipo realista antecipa o teste, mas não substitui a decisão de design."
+    },
+    {
+      "title_original": "Strong Opinions, Loosely Held",
+      "url": "https://www.svpg.com/strong-opinions-loosely-held",
+      "source": "Silicon Valley Product Group",
+      "axis": "produto-descoberta",
+      "tier": "citada",
+      "synthesis_ptbr": "Marty Cagan lista dez posições que sustentava em INSPIRED (2008) e hoje considera erradas: tratou viabilidade de negócio como risco secundário, e hoje a chama de conhecimento essencial, sobretudo em produtos de IA; e afirma que os times gastam tempo demais validando o problema, porque \"quando um produto falha, quase sempre é porque a solução não era boa o suficiente\". Ele também revisa a tese de times empoderados — autonomia exige gestão melhor, não menos gestão — e reconhece que a leitura parcial do livro levou empresas a negligenciar estratégia de produto. Para quem lidera discovery, é o argumento mais direto para rebalancear o investimento da descoberta do problema para a qualidade da solução e para o risco de viabilidade."
+    },
+    {
+      "title_original": "Sustainable accessibility: compliance, culture, and capability",
+      "url": "https://tetralogical.com/blog/2026/09/14/sustainable-accessibility-compliance-capability-culture",
+      "source": "TetraLogical",
+      "axis": "acessibilidade",
+      "tier": "citada",
+      "synthesis_ptbr": "Craig Abbott (TetraLogical) sustenta que programas de acessibilidade falham não por falta de norma ou orçamento, mas por medirem apenas conformidade, e propõe o modelo dos três C — compliance, cultura e capacidade — com a analogia do triângulo do fogo: faltando um dos três, o programa se apaga. A evidência vem de implantações nomeadas: o Department for Work and Pensions britânico, com mais de 80 mil funcionários, criou papéis especialistas, política de acessibilidade digital e guias de time; a Hargreaves Lansdown, no setor financeiro, cunhou a terminologia. O passo acionável é diagnóstico: classifique as iniciativas existentes nos três pilares e trate a concentração em um só como sinal de que você vai corrigir os mesmos defeitos indefinidamente."
+    },
+    {
+      "title_original": "WCAG 3’s road to hell is paved with supplemental requirements",
+      "url": "https://yatil.net/blog/wcag-3-road-to-hell-paved-with-supplemental-requirements",
+      "source": "Eric Eggert (yatil)",
+      "axis": "acessibilidade",
+      "tier": "citada",
+      "synthesis_ptbr": "Eric Eggert, ex-W3C/WAI e autor do QuickRef do WCAG 2, critica a arquitetura do rascunho do WCAG 3: separar requisitos centrais de requisitos suplementares e assertions repete o destino do nível AAA do WCAG 2 — texto que quase ninguém persegue. O argumento concreto é de comparabilidade: mesmo que um site atinja o \"WCAG 3 Bronze\", isso não informa nada, porque sites distintos podem cumprir conjuntos suplementares completamente diferentes. Ele propõe alternativa modular com strings de conformidade explícitas (como \"WCAG 3+BetterCaptions\"), o que permitiria a políticas públicas exigir módulos específicos em vez de um selo genérico."
+    },
+    {
+      "title_original": "EN 301 549 v4.1.1 is final! What changed, what it means, and what you should do.",
+      "url": "https://www.deque.com/blog/en-301-549-v4-1-1-is-final-what-changed-what-it-means-and-what-you-should-do",
+      "source": "Deque Systems",
+      "axis": "acessibilidade",
+      "tier": "citada",
+      "synthesis_ptbr": "A EN 301 549 v4.1.1 foi publicada em 2 de setembro de 2026 e incorpora seis critérios A/AA do WCAG 2.2 — 2.4.11 (foco não obscurecido), 2.5.7 (movimentos de arrastar), 2.5.8 (tamanho de alvo de 24×24 px CSS), 3.2.6 (ajuda consistente), 3.3.7 (entrada redundante) e 3.3.8 (autenticação acessível) —, além de revisar a cláusula 6 sobre comunicação em tempo real e interoperabilidade de RTT. A citação no Jornal Oficial da UE está projetada para 30 de novembro de 2026, quando passa a valer a presunção de conformidade. Matthew Luken e Glenda Sims (Deque) apontam a prioridade operacional: atacar tamanho de alvo, alternativa a arrasto e visibilidade de foco no design system, porque é ali que boa parte dos seis critérios se resolve de uma vez."
+    },
+    {
+      "title_original": "Support for `headers` Attribute",
+      "url": "https://adrianroselli.com/2026/09/support-for-headers-attribute.html",
+      "source": "Adrian Roselli",
+      "axis": "acessibilidade",
+      "tier": "citada",
+      "synthesis_ptbr": "Roselli refez em 2026 o teste manual do atributo `headers` em tabelas HTML e conclui que ele é em grande parte inútil: Firefox/NVDA e Chrome/JAWS tratam cabeçalhos com span igualmente bem com ou sem o atributo, Safari/VoiceOver no macOS às vezes anuncia o eixo errado e, no móvel, Chrome/TalkBack no Android 17 simplesmente ignora o atributo. A recomendação derivada é de estrutura de dados, não de marcação: evite cabeçalhos compostos ou com span, porque o suporte inconsistente não se contorna por atributo. O caso também é um alerta normativo — o RGAA francês exige `headers` apesar do suporte real ruim, exemplo de requisito que não entrega a experiência que promete."
+    },
+    {
+      "title_original": "Catching the (Venture) Bus",
+      "url": "https://www.a16z.news/p/catching-the-venture-bus",
+      "source": "a16z — Andreessen Horowitz",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "Jen Kha (a16z) argumenta que investidores institucionais subalocam em venture diante da concentração da criação de valor em tecnologia, e sustenta a tese com dispersão de retorno: entre 2.143 fundos globais de VC, apenas 51 — 2,4% — atingiram 5x, e o DPI do decil superior em fundos de cerca de 10 anos é 2 a 3 vezes o do quartil superior. A escala das saídas mudou de ordem de grandeza (SpaceX em ~US$ 2,1 trilhões contra US$ 54 bilhões da Medline) e cerca de um terço das empresas de tecnologia avaliadas acima de US$ 150 bilhões segue privada — o retorno passou a se formar fora da bolsa. É argumento de parte interessada, mas os dados de dispersão sustentam a conclusão operacional de que seleção de gestor, não exposição à classe, define o resultado; a CalPERS já reduziu buyouts de 91% para 58% dos novos compromissos entre os exercícios 2020-21 e 2023-24."
+    },
+    {
+      "title_original": "The Only 2 Moats That Actually Work In The AI Era",
+      "url": "https://news.crunchbase.com/ai/moats-that-actually-work-moatti-mighty-capital",
+      "source": "Crunchbase News",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "SC Moatti (Mighty Capital) analisou 576 empresas de IA B2B que captaram mais de US$ 50 milhões desde o início de 2025 sob o framework 7 Powers de Hamilton Helmer e encontrou dois fossos que ainda pagam: counter-positioning (5,3x de valor de empresa por dólar captado) e economias de rede (4,2x, com menor necessidade de capital) — cada um presente em apenas 5% da amostra. O contraponto é o dado mais útil: recurso encurralado (dado proprietário, PI exclusiva) aparece em 44% das empresas e rende só 2,6x, sinal de que investidores já descontam vantagem de dado erodível por modelos de fundação. A autora investe nas categorias que analisa e preside a Products That Count, cuja comunidade alimentou o estudo — o dado é útil, a moldura é interessada."
+    },
+    {
+      "title_original": "Sobra energia para os data centers. O gargalo pode ser a transmissão",
+      "url": "https://braziljournal.com/sobra-energia-para-os-data-centers-o-gargalo-pode-ser-a-transmissao",
+      "source": "Brazil Journal",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "O governo recebeu pedidos de conexão somando 80 GW em data centers; filtrados os projetos especulativos, restaram cerca de 10 GW em análise no ONS — 3 GW com contrato assinado, 2 GW com conexão aprovada e 5 GW em avaliação. A assimetria é temporal e decide a equação: um data center fica pronto em ~1,5 ano, um transformador leva no mínimo 2 anos e uma linha de transmissão, de 5 a 7 anos, enquanto o Nordeste tem renovável sobrando e o corredor São Paulo–Campinas, preferido pelo mercado, opera com rede esgotada. Depois do Redata, o risco deixou de ser geração e passou a ser rede, o que muda a pergunta de quem planeja infraestrutura de IA no país: não \"tem energia?\", mas \"tem fila de conexão?\".",
+      "latam_note": "Quem for implantar capacidade de IA no Brasil escolhe entre energia barata no Nordeste com 5 a 7 anos de espera por transmissão e o Sudeste saturado — decisão que antecede qualquer escolha de fornecedor de nuvem."
+    },
+    {
+      "title_original": "AI Can Help Write an Article, but It Can’t Stand Behind It",
+      "url": "https://www.nngroup.com/articles/ai-editorial-process",
+      "source": "Nielsen Norman Group",
+      "axis": "design-lideranca",
+      "tier": "solida",
+      "synthesis_ptbr": "Raluca Budiu descreve o processo editorial real da NN/g com IA: Copilot e Grammarly reescrevem parágrafos e geram resumos dentro de limites rígidos de caracteres, a IA sinaliza contradições e possíveis erros factuais, e todo artigo passa por duas a três rodadas com dois editores checando coerência, precisão e texto. O limite é explícito — a IA nunca certifica que uma afirmação está correta —, de modo que verificação de fonte e responsabilidade editorial permanecem humanas. Vale como divisão de trabalho transferível para qualquer time que publique com IA e precise definir onde a assinatura humana começa."
+    },
+    {
+      "title_original": "Facilitation Skills - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/facilitation-skills-all-things-product-with-teresa-torres-petra-wille",
+      "source": "Product Talk — Teresa Torres",
+      "axis": "produto-descoberta",
+      "tier": "solida",
+      "synthesis_ptbr": "Teresa Torres e Petra Wille invertem a leitura usual de conflito no trio de produto: o problema não é o conflito, é a ausência dele, e a distinção operante é entre conflito de tarefa e conflito de relação, tratados de formas diferentes. As práticas descritas no resumo público são específicas — o \"Team Radar\" de retrospectiva, charters que registram horários, preferências de comunicação e como cada pessoa decide, o facilitador que escreve apenas os post-its de título e troca de cadeira para sinalizar mudança de papel, e a escalada conjunta em que as duas partes documentam o conflito antes de envolver a liderança. Diante de impasse entre opiniões, a saída proposta é desenhar um teste em vez de escalar o debate."
+    },
+    {
+      "title_original": "Foundations: accessibility roles and responsibilities",
+      "url": "https://tetralogical.com/blog/2026/09/08/roles-and-responsibilities",
+      "source": "TetraLogical",
+      "axis": "acessibilidade",
+      "tier": "solida",
+      "synthesis_ptbr": "Mayi Wilson decompõe a responsabilidade de acessibilidade por papel: pesquisa inclui participantes com deficiência, design anota contraste, foco e navegação por teclado explicitamente para o desenvolvimento, conteúdo entra cedo com linguagem clara e legendas, QA testa manualmente com tecnologia assistiva ao longo do ciclo, produto aloca recurso e mantém relatórios de conformidade, e a liderança trata o tema como já trata privacidade e segurança. A contribuição não é a lista, é a ênfase na interdependência — cada papel precisa saber o que os outros devem entregar, porque é no handoff malfeito que nasce a remediação cara. É material de alinhamento de time, não de aprofundamento técnico."
+    },
+    {
+      "title_original": "A Porto está transformando os corretores em influenciadores (para ir além do seguro)",
+      "url": "https://braziljournal.com/a-porto-esta-transformando-os-corretores-em-influenciadores-para-ir-alem-do-seguro",
+      "source": "Brazil Journal",
+      "axis": "branding-tendencias",
+      "tier": "solida",
+      "synthesis_ptbr": "A Porto está convertendo sua rede de 44 mil corretores em criadores de conteúdo: a primeira turma da Porto Academia formou mil corretores que somam 4 milhões de seguidores, com IA generativa usada para democratizar a produção. O movimento é de distribuição, não de comunicação: em 2020, apenas 900 dos 37 mil corretores vendiam mais de um produto (90% só seguro auto), e a meta é chegar a 10 mil multiprodutos, elevando a média de produtos por cliente de 1,1 para 2 até o fim de 2026. O orçamento revela a aposta — 35% em patrocínios e 17% a 20% em mídia, com o restante em iniciativas voltadas aos corretores.",
+      "latam_note": "Mostra como uma seguradora brasileira transforma um canal regulado de corretores em mídia própria, usando patrocínios locais (Rock in Rio, The Town, F1) como incentivo ao canal em vez de alcance direto."
+    },
+    {
+      "title_original": "BIS Quarterly Review, September 2026",
+      "url": "https://www.bis.org/publications/qr-202609",
+      "source": "BIS — Bank for International Settlements",
+      "axis": "macro-capital",
+      "tier": "solida",
+      "synthesis_ptbr": "A edição de setembro do Quarterly Review do BIS resume o trimestre como \"juros sobem, mas o apetite ao risco resiste\": tensão geopolítica no Estreito de Ormuz e preocupação com sustentabilidade fiscal agitaram os mercados, e as avaliações do setor de tecnologia foram questionadas diante do risco de sobreinvestimento em IA, sem que o apetite ao risco cedesse. Entre os quatro artigos especiais, o mais relevante para tecnologia mostra que o crédito privado financiou a virada para a economia digital emprestando contra fluxo de caixa e ativos intangíveis — um canal de funding que não aparece nas estatísticas bancárias tradicionais. Os demais tratam de diferimento de remuneração de executivos bancários, crédito internacional à África e do uso crescente do núcleo de inflação na comunicação de bancos centrais."
+    },
+    {
+      "title_original": "How To Measure An Innovation Economy: South Korea",
+      "url": "https://news.crunchbase.com/venture/measure-innovation-ecosystem-south-korea-onetti-mind-the-bridge",
+      "source": "Crunchbase News",
+      "axis": "macro-capital",
+      "tier": "solida",
+      "synthesis_ptbr": "Alberto Onetti (Mind the Bridge) aplica um modelo de pirâmide para medir ecossistemas de inovação e reporta a Coreia do Sul com 3.359 scaleups — empresas com aporte de VC acima de US$ 1 milhão —, oitavo lugar mundial e Seul em 11º entre ecossistemas, sobre uma base de ~10 mil startups, ~25 mil PMEs inovadoras, ~700 investidores e mais de 550 brokers de inovação operando 800+ programas. O valor do texto está na metodologia comparável: contar scaleups em vez de startups evita inflar o ecossistema com empresas que nunca escalaram. O autor afirma explicitamente que o método serve para comparar \"Boston com São Paulo, Tel Aviv com Turim\".",
+      "latam_note": "O método é proposto pelo próprio autor como base para comparar São Paulo com Boston, o que daria a ecossistemas brasileiros um denominador comum independente de rankings proprietários."
+    }
+  ],
+  "convergences_ptbr": "O modelo mental que mais se repete nesta semana é o deslocamento do gargalo da produção para a absorção. O estudo da Wharton mede 180% a mais de atividade de codificação com agentes assíncronos e apenas 30% a mais de releases — com lançamentos em lojas de aplicativos triplicando e o uso total estagnado. Tunguz chega ao mesmo lugar por outro caminho, mostrando que os 3,14 agentes-dia por jornada humana da OpenAI valem cerca de 2× efetivos depois de descontada uma taxa de refugo acima de 50%. Cagan fecha o ciclo do lado da decisão ao afirmar que os produtos falham pela solução, não pelo problema, e a NN/g mostra onde o custo cai de verdade: protótipo interativo gerado por IA expõe o defeito de uso semanas antes. O ciclo capital → ferramenta → prática → métrica aparece inteiro: o capital financiou a ferramenta, a ferramenta multiplicou a geração, a prática não absorveu, e a métrica que importa passou a ser vazão de revisão e distribuição, não volume de artefato.\n\nA segunda convergência é tratar governança como engenharia, não como política. Kapoor e Narayanan atribuem os incidentes de perda de controle à ausência de controles já conhecidos, com números da própria OpenAI (redução de mais de 100× ao migrar para o harness de produção; detecção prévia por monitoramento de raciocínio). O painel MIT SMR/BCG traduz a mesma intuição para responsabilidade: 72% dos 29 especialistas dizem que governança que trata agente como decisor autônomo falha, porque autonomia operacional não cria personalidade jurídica. E o BIS recomenda explicitamente não criar regime novo para IA, mas acelerar a execução do arcabouço de risco cibernético existente. Os três recusam o enquadramento normativo abstrato e apontam para encanamento, velocidade de resposta e cadeia de responsabilidade identificável — exatamente a \"infraestrutura de confiança\" que separa demo de operação.\n\nO eixo de acessibilidade ecoa esse mesmo debate com vocabulário próprio: a norma é medida ruim de resultado. Abbott argumenta que programas medindo só conformidade repetem a correção dos mesmos defeitos, e propõe compliance, cultura e capacidade como tripé. Eggert mostra o custo da norma que não comunica — um selo Bronze do WCAG 3 pode significar conjuntos suplementares incomparáveis entre dois sites. Roselli oferece o caso extremo com dado de teste: o RGAA francês exige o atributo `headers`, que na prática é ignorado por pares de navegador e leitor de tela no móvel. Do outro lado, a Deque mostra a norma funcionando como gatilho operacional, com os seis critérios do WCAG 2.2 entrando na EN 301 549 v4.1.1 e prazo de citação no Jornal Oficial da UE em 30 de novembro de 2026 — e observa que o lugar de resolvê-los é o design system, o que liga acessibilidade a capacidade instalada, não a auditoria.\n\nO nódulo que conecta os eixos é a assimetria entre o que é fácil de contar e o que efetivamente gera valor. O estudo de greenhushing da Wharton quantifica isso em mercado: falar menos do que se faz está associado a 2,29 pontos percentuais de retorno anormal em três meses, enquanto retórica descolada da operação é punida. Moatti encontra o análogo em estratégia — dado proprietário, o ativo mais fácil de acumular e exibir, aparece em 44% das empresas de IA B2B e rende apenas 2,6x, contra 5,3x de counter-positioning, presente em 5%. A a16z mostra o valor migrando para fora da bolsa, onde é menos visível e mais difícil de acessar, e o Brazil Journal expõe a versão física do mesmo fenômeno: 80 GW pedidos, ~10 GW reais, e uma linha de transmissão que leva de 5 a 7 anos contra 1,5 ano de um data center. Frases, tokens, dados e gigawatts pedidos são baratos de somar; capacidade, rede e estrutura difícil de copiar são o que permanece. Registro editorial: o eixo de design e liderança fica com um único item nesta rodada porque a maior parte do material do eixo veio de fontes que bloquearam a leitura (Substack, Medium e MIT SMR Brasil retornaram 403) — foi escassez de acesso, não rebaixamento de régua.",
+  "tensions": [
+    {
+      "title_ptbr": "O ganho de produtividade da IA já chegou ao usuário ou parou na produção?",
+      "side_a": "A geração aumentou muito mais do que a entrega, e o excedente não vira valor: a Wharton mede até 180% mais atividade de codificação contra 30% mais releases, com uso total de apps estagnado mesmo com lançamentos mensais saltando de ~30 mil para ~100 mil; Tunguz mostra que os 3,14 agentes-dia da OpenAI, com mais de 50% das tarefas longas exigindo intervenção humana, equivalem a cerca de 2× e não 3×, com inferência mediana subindo 40× em cinco meses.",
+      "side_b": "No nível do time, o ganho é real e já mudou o ciclo de trabalho: a NN/g documenta redesenho de editor de política de despesas na Ramp concluído em três semanas, com protótipo interativo revelando problemas de uso que wireframes estáticos não revelaram no caso da Purdue; Josh Elman descreve a inversão do ciclo — construir antes de especificar — como prática corrente, sustentando que o que não mudou foi o custo do julgamento, não a velocidade de execução.",
+      "refs": [
+        "https://knowledge.wharton.upenn.edu/article/ai-is-producing-more-software-why-isnt-it-being-used",
+        "https://tomtunguz.com/openai-research-acceleration-agentic-productivity",
+        "https://www.nngroup.com/articles/test-earlier-with-ai",
+        "https://www.a16z.news/p/product-management-is-still-all-about"
+      ]
+    },
+    {
+      "title_ptbr": "Ampliar a norma de acessibilidade resolve ou é parte do problema?",
+      "side_a": "Empilhar requisitos degrada a norma: Eggert argumenta que os requisitos suplementares e assertions do WCAG 3 repetem o destino do AAA e destroem a comparabilidade, já que um mesmo selo Bronze pode cobrir conjuntos completamente diferentes; Roselli mostra o caso concreto do requisito que não entrega — o RGAA exige o atributo `headers`, ignorado por Chrome/TalkBack no Android 17 e inconsistente no Safari/VoiceOver.",
+      "side_b": "A expansão normativa é justamente o que move as organizações: a Deque trata a entrada dos seis critérios do WCAG 2.2 na EN 301 549 v4.1.1, com citação no Jornal Oficial prevista para 30 de novembro de 2026, como o gatilho que finalmente leva tamanho de alvo, alternativa a arrasto e visibilidade de foco para o design system; TetraLogical, por sua vez, não acusa a norma, mas o erro de medir só conformidade — para eles, o padrão é a linha de base necessária, e o que falta são cultura e capacidade.",
+      "refs": [
+        "https://yatil.net/blog/wcag-3-road-to-hell-paved-with-supplemental-requirements",
+        "https://adrianroselli.com/2026/09/support-for-headers-attribute.html",
+        "https://www.deque.com/blog/en-301-549-v4-1-1-is-final-what-changed-what-it-means-and-what-you-should-do",
+        "https://tetralogical.com/blog/2026/09/14/sustainable-accessibility-compliance-capability-culture"
+      ]
+    }
+  ],
+  "feedback_processed": [],
+  "fetch_report": {
+    "failed_sources": [
+      { "id": "arxiv-agentic-hci-ma", "error": "This operation was aborted" },
+      { "id": "bair-berkeley-blog", "error": "fetch failed" },
+      { "id": "import-ai-jack-clark", "error": "HTTP 403" },
+      { "id": "the-beautiful-mess-john-cutler", "error": "HTTP 403" },
+      { "id": "latitud-newsletter", "error": "HTTP 403" },
+      { "id": "jakob-nielsen-ux-tigers", "error": "HTTP 403" },
+      { "id": "the-convivial-society", "error": "HTTP 403" },
+      { "id": "w3c-wai-news", "error": "HTTP 403" },
+      { "id": "clouded-judgement", "error": "HTTP 403" }
+    ]
+  }
+}

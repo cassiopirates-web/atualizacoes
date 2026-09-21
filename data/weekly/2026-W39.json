@@ -1,0 +1,265 @@
+{
+  "week": "2026-W39",
+  "generated_at": "2026-09-21T19:18:15.954Z",
+  "items": [
+    {
+      "title_original": "Value-Sensitive Delegation in Everyday AI Agent Use: Evidence from OpenClaw",
+      "url": "https://arxiv.org/abs/2609.22067v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "referencia",
+      "synthesis_ptbr": "A análise de 73.093 relatos em primeira pessoa no Reddit sobre o uso do OpenClaw, codificados por Value Sensitive Design, mostra que avaliar agentes por conclusão de tarefa ignora o que os usuários de fato priorizam: 21 valores agrupados em seis famílias, entre elas operação autônoma, revisabilidade e acesso equitativo. Os valores aparecem atendidos quando o relato descreve a entrega do agente e majoritariamente não atendidos — nos seis grupos — quando descreve a supervisão dele. A consequência para produto é direta: o gargalo de adoção não está na capacidade de executar, e sim nas condições que cercam a delegação — custo, acesso e supervisão —, que é onde a régua de avaliação precisa passar a incidir."
+    },
+    {
+      "title_original": "Loopjacking: Hijacking Human-in-the-Loop Approval",
+      "url": "https://arxiv.org/abs/2609.21081v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "referencia",
+      "synthesis_ptbr": "O paper nomeia uma classe de falha em que a operação aprovada pelo humano não é a operação executada: ou a tela de aprovação omite e deturpa o que está codificado, ou estado mutável substitui a ação depois do aceite. A evidência é reprodução em produtos reais — sete versões do Agno AgentOS (até a 3.0.9), doze do LangGraph Agent Server (até a 0.14.0) e o OpenClaw 2026.2.23, corrigido na 2026.2.24 —, com o OpenAI Agents SDK funcionando como controle negativo. Para quem desenha governança de agentes, isso desmonta o pressuposto de que human-in-the-loop é fronteira de segurança por si: a mitigação exige serializar e comparar exatamente o objeto aprovado contra o objeto executado."
+    },
+    {
+      "title_original": "Language-model groups overstate consensus when replaying human deliberation on a reasoning task",
+      "url": "https://arxiv.org/abs/2609.20543v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "referencia",
+      "synthesis_ptbr": "Replicando 100 grupos humanos da tarefa de Wason com grupos equivalentes de agentes LLM — um agente ancorado na resposta pré-discussão de cada participante e o mesmo código de pontuação aplicado aos dois —, o estudo encontra excesso de consenso de 34,0 a 44,4 pontos percentuais sobre estimativas humanas que variam de 24% a 57% conforme a definição adotada. A causa é estrutural: agentes quase sempre se manifestam, enquanto cerca de um quinto dos humanos nunca postou; em modo de raciocínio, os grupos convergem quase unanimemente, e em respostas erradas. Quem usa simulação com LLM como proxy de deliberação ou de pesquisa com usuários está comprando viés de concordância — e o trabalho é pré-registrado, com código e dados públicos para checar isso."
+    },
+    {
+      "title_original": "Maritime chokepoints and the  global economy: evidence  from the Strait of Hormuz",
+      "url": "https://www.bis.org/publications/working-paper-1378-maritime-chokepoints-and-the-global-economy-evidence-strait-hormuz",
+      "source": "BIS — Bank for International Settlements",
+      "axis": "macro-capital",
+      "tier": "referencia",
+      "synthesis_ptbr": "Com dados de tráfego marítimo em tempo real da base Portwatch (FMI/Universidade de Oxford), o paper separa choques de oferta e de demanda no Estreito de Hormuz e rastreia seus efeitos sobre preços de energia, produção industrial, preços ao consumidor e spreads de crédito. O canal é de estagflação global, com efeitos aparecendo em quatro a seis meses e persistindo por até um ano; outros pontos de estrangulamento, como Malaca e Gibraltar, importam ocasionalmente, mas Hormuz oferece o sinal mais consistente. Para planejamento de capital em tecnologia, isso converte tráfego marítimo em indicador antecedente de custo de energia e de financiamento — as duas variáveis que definem o custo de infraestrutura de IA.",
+      "latam_note": "O estudo documenta que a disrupção aperta o crédito ampliando spreads soberanos e corporativos de mercados emergentes, o que encarece o funding de empresas brasileiras meses depois do choque."
+    },
+    {
+      "title_original": "From Task Success to Productive Success: Evaluating Human-AI Collaboration by Quality and Cost",
+      "url": "https://arxiv.org/abs/2609.21117v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "O paper propõe medir colaboração humano-IA pela qualidade do resultado relativa ao custo de interação, e não por conclusão de tarefa. Em dois conjuntos de dados cobrindo quatro tarefas, sessões com avaliação de qualidade idêntica diferem em até 70 vezes no custo de interação, e a relação qualidade-custo muda conforme a tarefa. A consequência prática é que avaliação subjetiva do usuário não substitui medida de produtividade: o custo escondido da interação precisa entrar no cálculo de ROI de qualquer assistente em produção."
+    },
+    {
+      "title_original": "4 New Evals and 16 Experiment Variants to Fix 1 Customer Complaint",
+      "url": "https://www.producttalk.org/4-new-evals-and-16-experiment-variants",
+      "source": "Product Talk — Teresa Torres",
+      "axis": "produto-descoberta",
+      "tier": "citada",
+      "synthesis_ptbr": "Torres documenta três semanas de trabalho para corrigir uma única reclamação de cliente — árvores de oportunidade mal estruturadas geradas por IA — com quatro evals novos e 16 variantes de experimento. Os ganhos são medidos (queda de 78% em nós que apenas repetem o pai, alta de 65% em agrupamentos intermediários), mas o achado mais útil é a falha: juízes LLM calibrados contra rótulos manuais partiram de 43,75% de especificidade e produziram mais de 90% de falsos positivos contra dados reais, obrigando a trocar ajuste de prompt por um loop de agente com auditor determinístico. A lição operacional é que qualidade em produto de IA é problema de orquestração e medição contínua, não de engenharia de prompt."
+    },
+    {
+      "title_original": "The 3 Roles of Context for AI Agents",
+      "url": "https://www.nngroup.com/articles/3-agent-context-roles",
+      "source": "Nielsen Norman Group",
+      "axis": "design-lideranca",
+      "tier": "citada",
+      "synthesis_ptbr": "A partir de entrevistas com usuários avançados de agentes, a NN/g separa o contexto em três papéis: global (orientações duradouras que atravessam tarefas), local (dados da tarefa específica) e ambiente (fluxos brutos como e-mail, analytics e transcrições). Todos os entrevistados haviam construído bibliotecas de contexto com arquivos, bases e conexões vivas, e é isso que permite comandos curtos no lugar de prompts elaborados. Para design, o objeto de projeto deixa de ser a caixa de texto e passa a ser a arquitetura em camadas do contexto e sua conexão com as ferramentas onde o dado já vive."
+    },
+    {
+      "title_original": "Is Overreliance on AI Causing Agency Decay?",
+      "url": "https://knowledge.wharton.upenn.edu/article/is-overreliance-on-ai-causing-agency-decay",
+      "source": "Knowledge at Wharton",
+      "axis": "design-lideranca",
+      "tier": "citada",
+      "synthesis_ptbr": "Cornelia Walther organiza em quatro estágios — experimentação, integração, confiança e dependência — a erosão da capacidade de observar, pensar e agir por conta própria sob uso intensivo de IA. A base empírica é heterogênea mas verificável: ganho de 15% de produtividade em atendimento ao cliente publicado no Quarterly Journal of Economics, estudo da Microsoft com 319 trabalhadores associando maior confiança na IA a menos pensamento crítico, e o custo do \"workslop\" estimado pela BetterUp Labs em cerca de US$ 186 por funcionário por mês. Para liderança de design, o ponto acionável é que ganho de produtividade e perda de julgamento aparecem na mesma implantação e exigem métricas separadas, sob pena de só se enxergar metade do resultado."
+    },
+    {
+      "title_original": "People escalate against a competitor labelled human and hold back against one labelled an optimising machine",
+      "url": "https://arxiv.org/abs/2609.21439v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "design-lideranca",
+      "tier": "citada",
+      "synthesis_ptbr": "Experimento pré-registrado com 1.395 participantes em um leilão all-pay dinâmico separa o efeito do adversário real do efeito da informação sobre ele, sem enganar os participantes. O rótulo move o comportamento sozinho: o preço mediano sobe 6,7 pontos quando há possibilidade de o oponente ser humano e cai 8,8 pontos diante de uma máquina descrita como otimizadora — diferença equivalente a cerca de 15% do valor do prêmio. Como o efeito de informação é propriedade do ambiente informacional, e não do sistema específico, escrever ou omitir o rótulo \"IA\" em uma interface competitiva é decisão de design com consequência econômica mensurável e sob controle de quem projeta."
+    },
+    {
+      "title_original": "AI and Digital Accessibility in 2026: Where AI Helps and Where It Doesn’t",
+      "url": "https://www.levelaccess.com/blog/ai-and-digital-accessibility-in-2026",
+      "source": "Level Access",
+      "axis": "acessibilidade",
+      "tier": "citada",
+      "synthesis_ptbr": "A oitava edição da pesquisa da Level Access, com mais de 2.530 profissionais na América do Norte e na Europa, mostra adoção de IA quase universal em acessibilidade (80%) e retorno desigual: aceleração em design (61%) e planejamento (58%), mas apenas 30% em testes e somente 6% relatando redução de custo. Organizações com comunicação clara (81% contra 40%), treinamento efetivo (88% contra 49%) e IA embutida no fluxo de trabalho extraem até seis vezes mais valor da tecnologia do que as que não têm essa base, e 89% defendem manter humanos no circuito. A leitura estratégica é que IA amplifica programa maduro de acessibilidade em vez de substituir sua fundação — o investimento com retorno está na maturidade do programa, não na ferramenta."
+    },
+    {
+      "title_original": "Four Digital Accessibility Trends to Watch in 2027",
+      "url": "https://www.levelaccess.com/blog/four-digital-accessibility-trends-to-watch-in-2027",
+      "source": "Level Access",
+      "axis": "acessibilidade",
+      "tier": "citada",
+      "synthesis_ptbr": "Sobre a mesma base de mais de 2.500 profissionais nos EUA, Reino Unido e União Europeia, o recorte de pressão externa mostra 72% das organizações americanas enfrentando ação legal por acessibilidade, ante 53% em 2025, e 83% exigindo comprovação de acessibilidade em processos de compra. O paradoxo está na distância entre política e operação: 91% têm política formal, mas só 60% relatam impacto significativo, e entre os 62% com liderança engajada a mobilização veio majoritariamente de litígio. Para quem vende B2B, acessibilidade migrou de tema de conformidade para requisito de procurement; para quem lidera o programa, o diferencial deixou de ser adotar ferramenta e passou a ser operacionalizar a governança que já está no papel."
+    },
+    {
+      "title_original": "This debate exposes something that has bothered me about How Brands Grow for a long time",
+      "url": "https://vivaldigroup.com/this-debate-exposes-something-that-has-bothered-me-about-how-brands-grow-for-a-long-time",
+      "source": "Vivaldi Group",
+      "axis": "branding-tendencias",
+      "tier": "citada",
+      "synthesis_ptbr": "Joachimsthaler separa regularidade empírica de explicação causal: Double Jeopardy e as Leis do Crescimento documentam que marcas maiores têm mais penetração, mas descrever o padrão não identifica o mecanismo que o produz. A analogia é direta — pessoas ricas possuem mais aviões particulares, o que não explica como ficaram ricas; replicação reforça a regularidade e não converte correlação em causa. A consequência prática é que estratégia de marca ancorada apenas em penetração terceiriza a pergunta que importa — inovação, relevância, diferenciação, distribuição e desempenho do produto — para uma estatística descritiva."
+    },
+    {
+      "title_original": "Inside team MKT1's multiplayer AI setup",
+      "url": "https://newsletter.mkt1.co/p/multiplayer-ai-team-mkt1",
+      "source": "MKT1 Newsletter",
+      "axis": "branding-tendencias",
+      "tier": "citada",
+      "synthesis_ptbr": "Kramer detalha a infraestrutura de IA compartilhada de um time de marketing de três pessoas: dois repositórios GitHub instalados como plugins no Claude Code, mais de 100 skills reutilizáveis organizadas por função, 30+ rotinas agendadas preferencialmente na nuvem e contexto distribuído entre Airtable, Asana, Obsidian e Google Drive. O critério de projeto é o \"teste de férias\" — se uma pessoa ou uma máquina sai do ar, o trabalho continua rodando? —, e a produção mensal relatada é de duas newsletters, 20+ posts sociais, 10+ gráficos, 5+ vídeos e cerca de 200 vagas triadas. O ponto transferível para go-to-market é que a alavanca está em contexto e rotinas compartilhados na nuvem, não em contas individuais e prompts pessoais."
+    },
+    {
+      "title_original": "The New York Fed DSGE Model Forecast—September 2026",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/09/the-new-york-fed-dsge-model-forecast-september-2026",
+      "source": "Liberty Street Economics — Federal Reserve Bank of New York",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "O modelo DSGE do Fed de Nova York projeta crescimento de 1,2% em 2026 e revisa para baixo os anos seguintes: 0,1% em 2027, 0,5% em 2028 e 1,2% em 2029, contra 0,2%, 0,7% e 1,5% na rodada de junho. A inflação de núcleo (PCE) fica em 3,3% em 2026 e converge mais devagar para a meta — 2,1% em 2027 e 1,8% em 2028 e 2029 —, com a persistência atribuída principalmente ao crescimento menor da produtividade. O juro natural real recua de 1,9% para 1,2% no horizonte: é esse pano de fundo de crescimento fraco com r* em queda que precifica as teses de capital para tecnologia nos próximos trimestres."
+    },
+    {
+      "title_original": "A Hard Year For Software IPOs",
+      "url": "https://news.crunchbase.com/public/energy-ai-defense-saas-ipos-2026",
+      "source": "Crunchbase News",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "Os cerca de US$ 90 bilhões captados neste ano em ofertas públicas por empresas de tecnologia com lastro em venture nos EUA — segundo maior valor já registrado — escondem concentração extrema: a SpaceX responde por 83% do total e a Cerebras por 6%, restando menos de US$ 10 bilhões distribuídos entre outras 21 empresas. Energia (cerca de 25% das ofertas), defesa, aeroespacial, computação quântica e nuclear ocuparam o espaço que o software empresarial deixou vago. Para fundadores de SaaS, o sinal é que a janela pública se fechou para o modelo antigo enquanto o capital migra para plataformas AI-first, empurrando a saída para M&A ou para uma reconstrução do produto em torno de IA."
+    },
+    {
+      "title_original": "AI and Financial Regulation",
+      "url": "https://knowledge.wharton.upenn.edu/article/ai-and-financial-regulation",
+      "source": "Knowledge at Wharton",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "Sarah Breeden, vice-governadora do Banco da Inglaterra, argumenta que a IA agêntica — que recebe um objetivo e deriva sozinha a sequência de passos — opera em velocidade e escala incompatíveis com supervisão humana em tempo real, o que obriga a regulação financeira a mudar de foco. A evidência citada é a pesquisa de Goldstein mostrando agentes que aprendem comportamento colusivo sem coordenação explícita, e a preocupação com o investimento massivo em infraestrutura de IA cujo caminho de monetização e de pagamento da dívida segue indefinido. A implicação é deslocar o teste regulatório da intenção individual para o resultado coletivo de mercado, com monitoramento contínuo de outputs — e ela admite não ter, hoje, resposta sobre como seria um kill switch."
+    },
+    {
+      "title_original": "The Harness Margin Opportunity",
+      "url": "https://tomtunguz.com/the-harness-margin-opportunity",
+      "source": "Tomasz Tunguz",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "O estudo HarnessTax (Pan et al., 2026) comparou 21 pares de modelo e harness em 30 tarefas do SWE-bench Lite e não encontrou diferença estatisticamente significativa de qualidade, mas encontrou até 71% de diferença de custo para a mesma resposta do mesmo modelo. Tunguz traduz o achado em economia de negócio: em um contrato de US$ 250 mil, a margem bruta oscila entre 38% e 75% conforme o que foi construído em volta do modelo, e o payback de vendas cai de 19 para 10 meses. Os valores do exemplo são ilustrativos e o próprio autor registra as limitações amostrais do estudo, mas a tese estrutural se sustenta: a camada de orquestração, não o modelo, decide a margem de uma startup de IA."
+    },
+    {
+      "title_original": "AI Comes for the If Statement",
+      "url": "https://tomtunguz.com/ai-comes-for-the-if-statement",
+      "source": "Tomasz Tunguz",
+      "axis": "ia-aplicada",
+      "tier": "solida",
+      "synthesis_ptbr": "Tunguz relata a substituição de cerca de 25% das chamadas de IA de um agente próprio por modelos especializados de classificação, a US$ 0,042 por milhão de tokens de entrada — 82 a 209 vezes mais barato que modelos de fronteira — com resposta em centenas de milissegundos. Em 98 e-mails de produção, a precisão subiu de 47% para 80–82%. A amostra é pequena e o relato é de caso único, mas o padrão arquitetural — reservar o modelo grande para o que é difícil e empurrar primitivas lógicas para modelos baratos — é diretamente testável em qualquer pipeline com volume de classificação."
+    },
+    {
+      "title_original": "The Overhang",
+      "url": "https://www.oneusefulthing.org/p/the-overhang",
+      "source": "One Useful Thing",
+      "axis": "ia-aplicada",
+      "tier": "solida",
+      "synthesis_ptbr": "Mollick argumenta que existe um capability overhang — a distância entre o que os modelos atuais já fazem e o que as pessoas efetivamente extraem deles — e que as vantagens humanas capazes de fechar essa distância são conhecimento profundo, conhecimento amplo, gosto e agência. A sustentação é demonstrativa: conversão do Zork de 1977 em jogo 3D, reconstrução em 3D da biblioteca de Umberto Eco a partir de vídeos e fotografias, trailer de filme produzido em 45 minutos — sem comparação sistemática com o esforço humano equivalente, e com o texto funcionando também como pré-venda do livro do autor. Vale pelo enquadramento da pergunta certa para dentro da organização (como reduzir o overhang), não como evidência de ganho de produtividade."
+    },
+    {
+      "title_original": "Delivery Isn’t Free - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/delivery-isnt-free-all-things-product-podcast-with-teresa-torres-petra-wille",
+      "source": "Product Talk — Teresa Torres",
+      "axis": "produto-descoberta",
+      "tier": "solida",
+      "synthesis_ptbr": "Torres e Wille confrontam a afirmação de que a IA tornou a entrega gratuita: construir uma funcionalidade isolada ficou mais barato, mas os times leem isso como licença para construir mais, e o custo reaparece semanas depois em código emaranhado, modelo de dados deformado, duplicação e problemas de performance. O episódio nomeia a armadilha dos 60–70% — o protótipo convincente sai rápido, os últimos 30% até um produto confiável levam meses ou anos — e lembra que produto com IA ainda exige análise de erros, evals e iteração contínua de prompt. A consequência para o time é que decisão de arquitetura e descoberta de usuário continuam indelegáveis ao agente."
+    },
+    {
+      "title_original": "Connecting Product Outcomes to Business Strategy",
+      "url": "https://www.romanpichler.com/blog/connecting-product-outcomes-and-business-strategy",
+      "source": "Roman Pichler",
+      "axis": "produto-descoberta",
+      "tier": "solida",
+      "synthesis_ptbr": "Pichler propõe o Strategy Stack em quatro camadas — estratégia de negócio e seus objetivos, estratégia de portfólio e seus resultados, estratégia de produto e seus resultados, e o backlog —, cada nível derivando métrica do nível acima, com revisão trimestral. O exemplo é a Microsoft: a estratégia corporativa orienta portfólios (365, Xbox, Windows) que orientam produtos individuais (Word, PowerPoint). A tese de que estratégias devem se alinhar verticalmente é consenso, mas a contribuição está na estrutura operacional que permite empoderar gerentes de produto sem transformar a liderança em gargalo de decisão — o texto, porém, não enfrenta os conflitos entre objetivos de curto e longo prazo."
+    },
+    {
+      "title_original": "Product Engineering for PMs, Part 3: Build a SaaS App Without Coding",
+      "url": "https://www.productcompass.pm/p/product-engineering-for-pms-part-3",
+      "source": "The Product Compass — Paweł Huryn",
+      "axis": "produto-descoberta",
+      "tier": "solida",
+      "synthesis_ptbr": "Huryn detalha o fechamento de um SaaS multi-inquilino construído por um PM sem escrever código: branching de GitHub separando dev e produção, pagamentos Stripe reais integrados ao Clerk, firewall de aplicação em Cloudflare ou Netlify, revisões agênticas de lógica, segurança e performance, e monitoramento de disponibilidade via UptimeRobot. O argumento é que o conhecimento técnico deixa de ser o diferencial e o gargalo volta a ser a descoberta — decidir o que construir, quando experimentar leva duas a três semanas. Parte do material está atrás de assinatura, mas o roteiro operacional visível já basta para reproduzir o teste dentro de um time de produto."
+    },
+    {
+      "title_original": "The Dunning-Kruger effect in accessibility",
+      "url": "https://www.craigabbott.co.uk/blog/2026/the-dunning-kruger-effect-in-accessibility",
+      "source": "Craig Abbott",
+      "axis": "acessibilidade",
+      "tier": "solida",
+      "synthesis_ptbr": "Abbott atribui o excesso de confiança em acessibilidade à ausência de ciclo de feedback: código inválido gera erro, layout quebrado é visível, mas componente inacessível \"funciona\" e a reclamação chega meses depois, pelo cliente, não pelo sistema de qualidade. O dado que ancora o argumento é a limitação dos validadores automáticos — no teste do GDS, a melhor ferramenta detectou 41% de 143 problemas conhecidos —, o que explica a falsa segurança de quem mede maturidade por painel verde. O autor reconhece as críticas metodológicas ao próprio efeito Dunning-Kruger e apresenta suas cinco fases como heurística observacional, não como achado validado."
+    },
+    {
+      "title_original": "Two's a Crowd: Human and AI-Based Copresence for Developers with ADHD",
+      "url": "https://arxiv.org/abs/2609.21254v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "acessibilidade",
+      "tier": "solida",
+      "synthesis_ptbr": "Entrevistas semiestruturadas com 14 engenheiros de software com TDAH mapeiam por que a copresença com IA funciona onde a copresença humana trava: o par humano traz suporte social, mas também ansiedade de desempenho e sensação de vigilância, enquanto o assistente agêntico preserva estrutura e responsabilização sem o custo reputacional. O estudo lê as práticas observadas pelas lentes de Goffman sobre copresença e do framework SPACE de produtividade, e converte o achado em recomendações de design para ferramentas de colaboração inclusiva. A amostra é pequena e qualitativa, mas desloca a conversa sobre agentes de codificação da produtividade média para a remoção de barreira ambiental enfrentada por profissionais neurodivergentes."
+    },
+    {
+      "title_original": "How B2B Marketers Misunderstand Their Customers",
+      "url": "https://sloanreview.mit.edu/article/how-b2b-marketers-misunderstand-their-customers",
+      "source": "MIT Sloan Management Review",
+      "axis": "branding-tendencias",
+      "tier": "solida",
+      "synthesis_ptbr": "Marcus Collins argumenta que o marketing B2B opera há décadas sobre a premissa equivocada de que a decisão de compra corporativa é puramente racional, quando é fortemente emocional e socialmente influenciada. As táticas migraram para o digital e a segmentação ficou mais precisa, mas as suposições de base seguem intactas — e os mesmos mecanismos cognitivos e afetivos que operam no B2C operam dentro do comitê de compras. Para posicionamento, isso recoloca identidade e pertencimento no centro de uma disciplina que se organizou em torno de comparação de especificação e preço."
+    }
+  ],
+  "convergences_ptbr": "O modelo mental dominante da semana é a troca da métrica de sucesso: deixar de perguntar se a tarefa foi concluída e passar a perguntar a que custo e sob que condições. O estudo sobre delegação a agentes com base em 73 mil relatos mostra que os valores dos usuários são atendidos na entrega e frustrados na supervisão; o framework de produtividade humano-IA encontra sessões de qualidade idêntica separadas por até 70 vezes no custo de interação; o relato de três semanas e 16 variantes para consertar uma reclamação em produto com IA mostra o mesmo fenômeno pelo lado de dentro do time. As três peças convergem para a ideia de que a conta da IA está no que cerca a execução — revisão, orquestração, medição —, não na execução.\n\nEm cima dessa mudança de métrica, forma-se o eixo de infraestrutura de confiança. O paper sobre sequestro da aprovação humana demonstra, em versões específicas de produtos de mercado, que a tela de aprovação pode não corresponder à operação executada, o que retira do human-in-the-loop o status de fronteira de segurança. A leitura regulatória do Banco da Inglaterra chega ao mesmo lugar por outro caminho: com agentes que derivam sozinhos a sequência de passos e aprendem comportamento colusivo sem coordenação explícita, a supervisão individual em tempo real deixa de ser viável e o teste precisa migrar para resultado coletivo. E o estudo que replica grupos humanos com agentes acrescenta a advertência metodológica: simulação com LLM superestima consenso em dezenas de pontos percentuais, de modo que também a evidência usada para decidir sobre agentes precisa ser auditada.\n\nO ciclo capital → ferramenta → prática → métrica aparece inteiro e fechado. No capital, o Fed de Nova York projeta crescimento fraco com juro natural em queda e o mercado de IPOs mostra 83% do volume em uma única empresa, com software empresarial praticamente ausente — o dinheiro público migrou para energia, defesa e plataformas AI-first. Na ferramenta, o estudo de harnesses mostra até 71% de diferença de custo para a mesma resposta do mesmo modelo, e o caso de modelos especializados de classificação repete o padrão em outra escala; na prática, o time de marketing que operacionalizou contexto e rotinas compartilhadas e o PM que fechou um SaaS multi-inquilino sem código mostram onde esse custo menor vira capacidade instalada. O nódulo entre macro e produto é a margem: quando a qualidade do modelo não diferencia, a orquestração é o que separa 38% de 75% de margem bruta.\n\nA tensão de fundo é sobre agência, e ela atravessa os seis eixos. O argumento do capability overhang aposta que conhecimento, gosto e agência humana ampliam o que a máquina entrega; a análise sobre decaimento de agência reúne evidência de que confiança maior na IA acompanha menos pensamento crítico e custo mensurável de trabalho superficial; o experimento com 1.395 participantes mostra que o mero rótulo do oponente move o comportamento econômico em cerca de 15% do valor do prêmio, o que transfere responsabilidade para quem projeta a interface. Na acessibilidade, a mesma estrutura reaparece com dados de campo: adoção de IA perto de universal, mas ganho concentrado em quem já tinha governança, pressão legal e de procurement subindo, e a crítica à falsa segurança de validadores que detectam 41% dos problemas conhecidos. E o item sobre marcas fecha a semana com o alerta epistemológico que serve a todos os outros: padrão replicado não é explicação causal, e decidir a partir de descrição é o erro que antecede todos os demais. Registro de escassez: as fontes com recorte brasileiro caíram por bloqueio de acesso nesta rodada, e o único ângulo LATAM verificável veio do paper do BIS sobre spreads de mercados emergentes.",
+  "tensions": [
+    {
+      "title_ptbr": "A IA tornou a entrega barata — ou só deslocou o custo?",
+      "side_a": "O custo unitário de execução despenca e é mensurável: o estudo HarnessTax não achou diferença significativa de qualidade entre 21 pares de modelo e harness em 30 tarefas do SWE-bench Lite, mas achou até 71% de diferença de preço para a mesma resposta; e substituir primitivas lógicas por modelos especializados saiu 82 a 209 vezes mais barato, com a precisão subindo de 47% para 80–82% em 98 e-mails de produção.",
+      "side_b": "O custo não desaparece, muda de lugar e chega depois: sessões com qualidade idêntica diferem em até 70 vezes no custo de interação, consertar uma única reclamação num produto com IA exigiu três semanas, quatro evals e 16 variantes, e a armadilha dos 60–70% mostra que o protótipo é rápido enquanto os últimos 30% até um produto confiável levam meses, pagos em código emaranhado e modelo de dados deformado.",
+      "refs": [
+        "https://tomtunguz.com/the-harness-margin-opportunity",
+        "https://tomtunguz.com/ai-comes-for-the-if-statement",
+        "https://arxiv.org/abs/2609.21117v1",
+        "https://www.producttalk.org/4-new-evals-and-16-experiment-variants",
+        "https://www.producttalk.org/delivery-isnt-free-all-things-product-podcast-with-teresa-torres-petra-wille"
+      ]
+    },
+    {
+      "title_ptbr": "A IA amplia ou corrói a agência de quem a usa?",
+      "side_a": "A distância entre o que os modelos já fazem e o que as pessoas extraem deles é um overhang a ser fechado por conhecimento profundo, conhecimento amplo, gosto e agência — e os casos demonstrados (jogo 3D a partir do Zork, reconstrução da biblioteca de Umberto Eco, trailer em 45 minutos) sustentam que a capacidade está disponível para quem souber dirigi-la.",
+      "side_b": "A dependência tem custo documentado: maior confiança na IA aparece associada a menos pensamento crítico em estudo com 319 trabalhadores, o trabalho superficial gerado por IA é estimado em cerca de US$ 186 por funcionário por mês, e a análise de 73 mil relatos de uso de agentes mostra os valores dos usuários frustrados justamente na etapa de supervisão — isto é, onde a agência deveria ser exercida.",
+      "refs": [
+        "https://www.oneusefulthing.org/p/the-overhang",
+        "https://knowledge.wharton.upenn.edu/article/is-overreliance-on-ai-causing-agency-decay",
+        "https://arxiv.org/abs/2609.22067v1"
+      ]
+    }
+  ],
+  "feedback_processed": [],
+  "fetch_report": {
+    "failed_sources": [
+      {
+        "id": "import-ai-jack-clark",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "the-beautiful-mess-john-cutler",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "latitud-newsletter",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "jakob-nielsen-ux-tigers",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "the-convivial-society",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "w3c-wai-news",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "clouded-judgement",
+        "error": "HTTP 403"
+      }
+    ]
+  }
+}

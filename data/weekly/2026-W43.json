@@ -1,0 +1,266 @@
+{
+  "week": "2026-W43",
+  "generated_at": "2026-10-19T19:58:40.143Z",
+  "items": [
+    {
+      "title_original": "\"To Boldly Go Where No One Has Gone Before\" What Has AI Let Developers Unlock?",
+      "url": "https://arxiv.org/abs/2610.23708v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "referencia",
+      "synthesis_ptbr": "Survey com 331 desenvolvedores da Microsoft, analisado por análise temática reflexiva, separa o ganho de IA em três categorias: fazer mais rápido o trabalho familiar (45%), alcançar trabalho antes inviável (36,9%) e construir para e dirigir agentes (12,4%). O achado que desloca a discussão é o enquadramento da medição — avaliar IA por velocidade é como julgar a eletricidade pela rotação da fábrica a vapor, e a fatia pequena de trabalho inédito é justamente onde a capacidade nova aparece. Os autores nomeiam o risco de quem não fecha a lacuna entre habilidade de IA e julgamento próprio: tornar-se \"hollow orchestrator\", aprovando trabalho que já não sabe avaliar. Para liderança, isso reposiciona a métrica de adoção — o indicador útil é quanto trabalho novo passou a ser possível, não quantas horas foram economizadas."
+    },
+    {
+      "title_original": "2026 AI Adoption Report",
+      "url": "https://knowledge.wharton.upenn.edu/special-report/2026-ai-adoption-report",
+      "source": "Knowledge at Wharton",
+      "axis": "ia-aplicada",
+      "tier": "referencia",
+      "synthesis_ptbr": "Quarto ano do estudo longitudinal da Wharton Human-AI Research com a GBK Collective, e o primeiro a comparar a visão de líderes com a de funcionários de nível inicial e médio. O retorno forte não vem da adoção, e sim da reorganização: 67% dos líderes cujos departamentos cumprem os três componentes de transformação relatam ROI fortemente positivo, contra 19% dos demais; 58% com um CAIO designado contra 8% sem o cargo; 50% padronizados em uma única plataforma aprovada contra 9% ainda experimentando. Dois terços dos departamentos dizem usar agentes, mas só 17% permitem que um agente conclua tarefa sem aprovação humana por etapa — e são justamente os departamentos onde agentes podem tomar ações financeiras ou jurídicas irreversíveis que relatam mais fluxos transformados (29% contra 13%). Quem mede IA apenas por eficiência relata ROI fortemente positivo em 13% dos casos, contra 35% de quem acompanha ao menos uma medida de crescimento."
+    },
+    {
+      "title_original": "Synthetic Users vs. Human Respondents: Same Conclusion, Less Variation",
+      "url": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents",
+      "source": "Nielsen Norman Group",
+      "axis": "design-lideranca",
+      "tier": "referencia",
+      "synthesis_ptbr": "A NN/g rodou a mesma pergunta aberta com 120 respondentes sintéticos (plataforma Synthetic Users, fevereiro de 2026) e comparou com os 604 humanos da pesquisa original: a conclusão principal foi idêntica — \"UX\" segue o termo dominante — mas a variação desapareceu. Humanos produziram mais de 50 rótulos distintos, muitos citados uma ou duas vezes; os sintéticos colapsaram em cerca de uma dúzia, padrão que os autores chamam de mode collapse. A diferença de 14 pontos no uso de termos ligados a UX (84% dos sintéticos contra cerca de 70% dos humanos) foi estatisticamente significativa sem alterar a conclusão prática. A regra operacional que sai disso: respondente sintético serve para checar a resposta mais comum ou gerar hipótese, nunca para encontrar terminologia emergente, tema minoritário ou diferença entre subgrupos."
+    },
+    {
+      "title_original": "Has the AI Boom Impacted the U.S. Current Account?",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/10/has-the-ai-boom-impacted-the-u-s-current-account",
+      "source": "Liberty Street Economics — Federal Reserve Bank of New York",
+      "axis": "macro-capital",
+      "tier": "referencia",
+      "synthesis_ptbr": "Julian di Giovanni decompõe o alargamento do déficit em conta corrente dos EUA — de cerca de 2,2% do PIB em 2015–19 para cerca de 3,7% desde 2023 — e mostra que o boom de IA não aparece nele. Dos cerca de 2,4 pontos de alargamento no gap poupança-investimento, cerca de 1,75 ponto vem da despoupança do governo e cerca de 0,5 da queda da poupança privada, enquanto o investimento bruto ficou praticamente parado (21,3% do PIB antes da pandemia, 21,1% nos últimos quatro trimestres) — apesar de importações ligadas a IA já responderem por 23% das importações americanas em 2025. O mecanismo: o capex de IA sai de empresas altamente geradoras de caixa, com poupança empresarial em 10,9% do PIB contra cerca de 10,5% pré-pandemia, e investimento residencial e não-tech fracos compensaram o resto. O autor marca onde a conta muda: se esses contrapesos cederem enquanto o capex acelera, aí sim o déficit alarga."
+    },
+    {
+      "title_original": "The Defining Challenge of Responsible AI Is Designing Systems That Preserve Human Judgment When and Where It Counts",
+      "url": "https://sloanreview.mit.edu/article/the-defining-challenge-of-responsible-ai-is-designing-systems-that-preserve-human-judgment-when-and-where-it-counts",
+      "source": "MIT Sloan Management Review",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "Quinto ano do painel MIT SMR–BCG de IA responsável: 65% dos especialistas concordam que o desafio definidor é projetar sistemas que preservem o julgamento humano onde ele conta, contra 19% que discordam. O painel rejeita explicitamente o \"human in the loop\" como solução — \"a human in the loop does not automatically make a system trustworthy\" (Franziska Weindauer, TÜV AI.Lab) — e Tshilidzi Marwala resume o portão: \"capability does not equal wisdom, context, or legitimacy\". O enquadramento prático é alocativo, não absoluto: identificar onde o julgamento importa (decisões de alto risco e baixo precedente), projetá-lo para dentro do fluxo, calibrar treino por nível de experiência e construir laços de retroalimentação. Leia sabendo da limitação declarada: o painel é pequeno e qualitativo, os coautores da BCG cossustentam a pesquisa e não há dado de resultado mostrando que os desenhos recomendados funcionam."
+    },
+    {
+      "title_original": "Steering AI Beyond Automation",
+      "url": "https://www.normaltech.ai/p/steering-ai-beyond-automation",
+      "source": "AI as Normal Technology",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "Os autores do AI as Normal Technology argumentam que a agenda dominante de autonomia total é técnica e economicamente supervalorizada, e propõem uma agenda de pesquisa com quatro problemas nomeados: agentes white-box que capturem traços de processo em profissões sem repositório público (direito, medicina, ciência), interação de baixa latência, colaboração contínua em vez de delegação por turnos, e avaliação de colaboração em vez de desempenho autônomo. O argumento que organiza tudo é um trilema: \"(1) completely autonomous, (2) reliable in high-stakes settings, (3) truly general purpose – pick two\". A peça liga isso a alavancas de política — financiamento de pesquisa, prêmios estilo DARPA, assimetria tributária, compras governamentais, política de concorrência — e ancora a linhagem em Licklider (1960) e Engelbart (1962), tratando automação de tarefa rotineira como legítima e o espaço de augmentação como o negligenciado. É framework, não evidência: os próprios autores chamam as direções de \"tentative and experimental\" e não apresentam dado comparativo de resultados de augmentação."
+    },
+    {
+      "title_original": "PersonaCUABench: Benchmarking Computer-Use Agents Serving Diverse Personas",
+      "url": "https://arxiv.org/abs/2610.22990v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "O benchmark mantém 74 tarefas em 11 domínios fixas e varia apenas quem pede: um agente-persona reescreve a instrução nas palavras de uma de 44 personas e responde às perguntas do agente, que nunca vê o perfil nem a instrução original. Em 3.330 execuções com nove modelos, a conclusão de tarefa cai 36% em relação aos pedidos originais — e 59,9% das perdas vêm de agentes que engajam com o pedido e ainda assim erram, não de recusa. O número mais incômodo para quem desenha governança: 11,2% das perdas são paradas que o próprio usuário pediu e que o avaliador pontua como falha, ou seja, o benchmark penaliza o agente por respeitar o freio humano. Mesmo quando o pedido da persona é integralmente cumprido, a nota máxima de satisfação aparece em apenas 62,7% dos casos, contra 84,1% nos pedidos originais."
+    },
+    {
+      "title_original": "KiranaBench: Can a Language Model Run a Neighbourhood Shop?",
+      "url": "https://arxiv.org/abs/2610.22980v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "Quatro agentes LLM assumem papéis separados — gerente, caixa, ajudante e contador — de uma mercearia de bairro indiana, com clientes e fornecedores em inglês, hindi ou hinglish e demanda calibrada pela Household Consumption Expenditure Survey nacional. Os quatro modelos de peso aberto testados ficaram muito abaixo de um lojista de regra fixa: o melhor lucra cerca de um oitavo do baseline e dois terminam abaixo de uma loja sem gestão alguma. O desempenho também cai de forma consistente quando a comunicação com fornecedores é em hindi ou hinglish em vez de inglês. O recado metodológico é que os benchmarks existentes de \"agente que opera um negócio\" são quase todos monolíngues em inglês, ocidentais no contexto de varejo e de agente único — e por isso superestimam capacidade.",
+      "latam_note": "A queda consistente de desempenho fora do inglês é evidência direta de que benchmark anglófono superestima o que um agente entrega operando em português com fornecedores e clientes brasileiros."
+    },
+    {
+      "title_original": "WCAG 3: a different future for accessibility",
+      "url": "https://tetralogical.com/blog/2026/10/15/wcag3",
+      "source": "TetraLogical",
+      "axis": "acessibilidade",
+      "tier": "citada",
+      "synthesis_ptbr": "Léonie Watson argumenta que o teste binário aprova/reprova do WCAG 2 empurrou a indústria a otimizar para conformidade em vez de usabilidade, e que esse modelo virou a base da legislação de acessibilidade. O WCAG 3 proposto reorganiza isso em requisitos core, requisitos suplementares e assertions: cumprir todos os core equivale a conformidade, \"broadly equivalent, though not identical to, WCAG 2.2 Level AA\", e os suplementares mais as assertions sustentam reconhecimento em bronze, prata ou ouro — \"conformance is now a floor, not a ceiling\". Uma proposta inicial etiqueta requisitos por impacto humano (dano físico, risco, barreira, fricção), deslocando a pergunta de \"esta página tem alt text\" para \"uma pessoa cega consegue consumir o conteúdo da imagem\". Watson sugere escalonar a exigência regulatória por porte e criticidade do serviço; é comentário fundamentado de consultoria, não documento do W3C, e os detalhes do WCAG 3 seguem preliminares e sem cronograma."
+    },
+    {
+      "title_original": "Introducing the Accessible Components Library",
+      "url": "https://tetralogical.com/blog/2026/10/14/accessible-components-library",
+      "source": "TetraLogical",
+      "axis": "acessibilidade",
+      "tier": "citada",
+      "synthesis_ptbr": "A TetraLogical abriu o código da sua Accessible Components Library na versão 1.0.0 — oito componentes (accordion, breadcrumbs, dialog, disclosure, pagination, tabs, text input, textarea) com HTML/CSS/JS, documentação dos critérios WCAG 2.2 em A, AA e AAA agrupados em dez temas, e notas de compatibilidade com tecnologia assistiva. O que a distingue de um catálogo é o que vem junto: cenários de teste escritos em Gherkin e executados com Cucumber e Playwright, 97% dos cenários totalmente automatizados, relatório JSON por execução, checklist em Markdown para os 3% restantes e feedback em cerca de 30 segundos na máquina do desenvolvedor. Isso materializa shift-left de forma verificável — o teste roda contra cada pull request, e o Gherkin em linguagem simples serve de vocabulário comum entre design, QA e produto. Os próprios autores delimitam o uso: a biblioteca é \"opinionated and built for our needs\", explicitamente não é design system pronto para produção, e todo teste com tecnologia assistiva segue manual."
+    },
+    {
+      "title_original": "Automated screen reader testing with Claude Code, VoiceOver and Gherkin",
+      "url": "https://www.craigabbott.co.uk/blog/2026/automated-screen-reader-testing-with-claude-code-voiceover-and-gherkin",
+      "source": "Craig Abbott",
+      "axis": "acessibilidade",
+      "tier": "citada",
+      "synthesis_ptbr": "Abbott mostra que o VoiceOver no macOS pode ser dirigido pelo terminal via seu dicionário AppleScript, e amarra isso a cenários Gherkin que o Claude Code interpreta, produzindo log do que o leitor de tela anuncia com PASS/FAIL por passo. O desenho tem guardrails reais: o modelo só pode usar um wrapper fixo com subcomandos (start, first, next, find, activate), as permissões ficam em settings.json — regra aplicada pelo software, não instrução de CLAUDE.md, que o modelo apenas tende a seguir — e editar o código da aplicação é proibido. O valor está na lista honesta de limites: o modelo lê texto da API do VoiceOver e não ouve nada, perdendo pronúncia e ritmo; menus de autofill do Safari e do 1Password poluem o log; o resultado é não determinístico porque os passos são interpretados, não executados por definições fixas; e vale só para VoiceOver, sem transferência garantida para NVDA ou JAWS. O próprio autor aponta Guidepup para teste repetível em CI e questiona o custo em tokens — serve como primeira passada de alerta precoce, nunca como substituto de teste com pessoas que usam leitor de tela."
+    },
+    {
+      "title_original": "The New Rules of Brand Visibility in AI Search",
+      "url": "https://sloanreview.mit.edu/article/the-new-rules-of-brand-visibility-in-ai-search",
+      "source": "MIT Sloan Management Review",
+      "axis": "branding-tendencias",
+      "tier": "citada",
+      "synthesis_ptbr": "Entrevistas com 15 líderes seniores de marketing e digital em serviços financeiros, SaaS, varejo, mídia, ensino superior e serviços profissionais apontam três lacunas: pontos cegos nas métricas de visibilidade em IA, inércia organizacional em adaptar os fluxos de SEO estabelecidos e subestimação da velocidade com que a IA amplifica informação incorreta sobre a marca. O problema deixou de ser apenas visibilidade e passou a ser acurácia: \"For AI search, SEO is now entwined with GEO, generative engine optimization\". O caso documentado — uma plataforma de investimento neozelandesa pseudonimizada como Stakewise, com cerca de 700 sessões de referência do ChatGPT por mês em meados de 2025 — teve de rastrear as respostas erradas até as URLs de origem e corrigir o conteúdo subjacente, depois de o produto KiwiSaver aparecer com cinco fundos em vez de sete. O trabalho novo que isso cria é auditoria contínua da representação da marca em LLMs com rastreabilidade até a fonte; o texto visível é introdução e caso, com o detalhamento das práticas atrás de assinatura."
+    },
+    {
+      "title_original": "From Attention to Intent",
+      "url": "https://vivaldigroup.com/from-attention-to-intent",
+      "source": "Vivaldi Group",
+      "axis": "branding-tendencias",
+      "tier": "citada",
+      "synthesis_ptbr": "A tese é que IA generativa permite descrever uma situação em vez de traduzi-la em termos de categoria, o que move a competição para antes da escolha de categoria — \"where demand forms, before anyone has chosen a category\" — e deixa quem só vê a consulta final disputando o que sobrou. Os números de terceiros sustentam o deslocamento: jornadas de viagem com cerca de 65 pontos de contato antes da reserva contra cerca de 45 em 2018 (Skift/McKinsey, 2026), tráfego de assistentes de IA para varejo americano 393% maior ano a ano no primeiro trimestre de 2026 (Adobe Analytics), Sparky do Walmart com valor de pedido cerca de 35% mais alto, e agentes de compras da Ramp reportando corte de 16% ao ano em custo de fornecedor e 46 horas por mês. O framework operacional é \"demand spaces\" — contexto, motivação, resultado desejado, comportamento e oportunidade econômica — ancorado na pesquisa de Barsalou sobre categorias ad hoc derivadas de objetivo. O autor qualifica a própria evidência, atribuindo a conversão 42% melhor a efeito de seleção, mas também promove frameworks proprietários da casa e um índice ainda não publicado, o que pede leitura com desconto."
+    },
+    {
+      "title_original": "LatAm Startup Funding Jumps 26% In Q3 As VCs Begin ‘Rediscovering’ The Region",
+      "url": "https://news.crunchbase.com/venture/q3-2026-latam-startup-funding-jumps-ai-fintech-mexico",
+      "source": "Crunchbase News",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "O terceiro trimestre de 2026 fechou em US$ 1,3 bilhão de investimento de risco na América Latina, 26% acima do ano anterior e 9% abaixo do segundo trimestre; a composição é o que importa. Late-stage e growth somaram US$ 757 milhões, 74% acima dos US$ 435 milhões do terceiro trimestre de 2025, e anjo/seed somou US$ 266 milhões, 128% acima do trimestre anterior — enquanto early-stage caiu 34% ano a ano, para US$ 288 milhões: a barriga do funil é onde o capital não voltou. O argumento de redescoberta tem base nomeada: Allen Taylor (Endeavor Catalyst) afirma que VCs internacionais estiveram mais ativos no Brasil nos três primeiros trimestres de 2026 do que em 2024 e 2025 somados, e Ana Cristina Gadala-Maria (QED) explica o filtro — \"Global investors are increasingly investing behind themes rather than geographies\", o que coloca startup latino-americana competindo diretamente com americana. A liquidez melhora por aquisição e secundário, não por IPO, com pipeline citado de cerca de 60 empresas privadas da região que já levantaram US$ 150 milhões ou mais.",
+      "latam_note": "O México lidera o acumulado de 2026 com US$ 1,52 bilhão contra US$ 1,08 bilhão do Brasil, mas os maiores negócios brasileiros do período — Kesh Bank (US$ 106,9 milhões) e Decade (US$ 85 milhões, maior seed já registrada na região) — mostram que o capital global entra no Brasil por tese de IA e infraestrutura financeira, não por alocação geográfica."
+    },
+    {
+      "title_original": "How AI Planning Could Create Financial Market Fragility",
+      "url": "https://knowledge.wharton.upenn.edu/article/how-ai-planning-could-create-financial-market-fragility",
+      "source": "Knowledge at Wharton",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "Dou, Goldstein e Ji (\"Financial Market Fragility in the Era of AI Planning\") treinaram especuladores de IA por aprendizado por reforço ao longo de milhões de episódios em um mercado sintético com fundamentos persistentes — ambiente construído porque dado real de negociação por IA é proprietário e indisponível. O achado: com capacidade de planejamento, os agentes aprendem a coordenar sem comunicar, criando e explorando bolhas; sem planejamento, não aprendem a coordenação multi-passo necessária, e a coordenação se sustenta por punição endógena, com venda agressiva pontual contra quem desvia e retorno rápido ao estado lucrativo. A condição crítica é a composição do mercado: o efeito amplifica instabilidade apenas quando investidores de feedback positivo são fatia grande; com presença limitada, a coordenação não gera bolha e pode até ter efeito levemente estabilizador. A implicação regulatória defendida pelos autores é vigiar padrão de preço e comportamento de negociação em vez de buscar intenção ou acordo explícito, porque a estratégia emerge do aprendizado independente e não do desenho."
+    },
+    {
+      "title_original": "Price War in the Chip Aisle",
+      "url": "https://tomtunguz.com/intelligence-per-dollar-2026",
+      "source": "Tomasz Tunguz",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "Usando o Artificial Analysis Intelligence Index v4.3.2 (coletado em outubro de 2026, esforço máximo de raciocínio), Tunguz mostra três modelos empatados em 53 pontos com custo por tarefa de US$ 1,99 a US$ 7,63 — espalhamento de 3,8 vezes para a mesma inteligência entregue. O Argon do Google é o mais barato a US$ 1,99; o Fable 5.1 sai 74% mais caro, e o Argon fica 67% abaixo do Opus 5.5, 56% abaixo do Muse Wonder e 39% abaixo do Astra. A tese é que a vantagem vem de silício próprio integrado ao modelo — TPU v4 com 1,2 a 1,7 vez mais velocidade e 1,3 a 1,9 vez menos energia que o A100 por medição do próprio Google, Maia 300 da Microsoft com \"40% more tokens per watt\", Jalapeño da OpenAI com 1,5 a 1,9 vez mais throughput por watt. A consequência prática para quem orça inferência é comparar custo por tarefa em vez de placar de benchmark, descontando que quase toda a evidência de eficiência é autorreportada pelos fabricantes e que a faixa de margem de 40% a 70% é estimativa do autor."
+    },
+    {
+      "title_original": "Are stablecoins and bank deposits substitutes?",
+      "url": "https://www.bis.org/publications/working-paper-1382-are-stablecoins-and-bank-deposits-substitutes",
+      "source": "BIS — Bank for International Settlements",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "Ahmed e Aldasoro (BIS Working Paper 1382) testam substituição entre stablecoins e depósitos bancários por projeções locais em dados semanais americanos de janeiro de 2019 a junho de 2025: alta de taxa de depósito antecede crescimento mais lento da capitalização de stablecoin, com efeito maior em USDC que em USDT e ausente em criptoativos que não são stablecoin. A identificação explora uma não linearidade real do mercado — outras taxas acompanham a fed funds de forma aproximadamente linear, mas bancos reprecificam depósito de forma mais agressiva acima de cerca de 3%. O tamanho estimado é de cerca de 3 pontos percentuais por ponto-base de reprecificação no OLS, ou cerca de 2,4 pontos por movimento de um desvio-padrão, contra crescimento médio de 15% em dez semanas; as estimativas por variável instrumental ficam cerca de três vezes maiores e passam em teste placebo. Os autores delimitam a conclusão: o paper trata de alocação entre ativos e não demonstra que crescimento de stablecoin reduza depósito ou crédito bancário agregado."
+    },
+    {
+      "title_original": "Building an AI Voice Agent for 360 Degree Feedback: How Your360 AI Uses State Machines, Evals, and Layered Synthesis",
+      "url": "https://www.producttalk.org/building-an-ai-voice-agent-for-360-degree-feedback-how-your360-ai-uses-state-machines-evals-and-layered-synthesis",
+      "source": "Product Talk — Teresa Torres",
+      "axis": "produto-descoberta",
+      "tier": "solida",
+      "synthesis_ptbr": "A Your360 AI construiu um agente de voz para feedback 360 em três chamadas — autodescoberta, coleta e debrief — e o caso documenta as escolhas que o fizeram funcionar: máquina de estados em vez de prompt único, porque prompt único não mantém conversa estruturada no rumo; migração de Retell AI para LiveKit para controlar separadamente speech-to-text, LLM e text-to-speech (Deepgram e ElevenLabs nas pontas); e modelos de raciocínio descartados para voz pelo trade-off entre personalidade e tempo até o primeiro token. O debrief mediano hoje dura 44 minutos, depois de a primeira chamada estourar o limite de 60 minutos da plataforma. Em avaliação rodam dois tipos de passe de síntese — estrutural, que pega feedback atribuído à pessoa errada, e substantivo, que reexecuta a análise com menos regras para achar padrão que o primeiro passe perdeu — e personas construídas a partir de chamadas que falharam servem de teste de regressão a cada troca de modelo ou provedor. A lição mais transferível é de descoberta, não de engenharia: cliente que não deixa você revisar conversas cedo é sinal de risco de mercado, e flags automáticas de sentimento, valor de cliente e qualidade de produto substituem a revisão rotineira de transcrição."
+    },
+    {
+      "title_original": "Training Expectations - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/training-expectations-all-things-product-podcast-with-teresa-torres-petra-wille",
+      "source": "Product Talk — Teresa Torres",
+      "axis": "produto-descoberta",
+      "tier": "solida",
+      "synthesis_ptbr": "Torres e Wille atacam um desalinhamento recorrente de compra: o comprador quer um time capaz e com hábitos instalados, mas pede um serviço — palestra ou workshop — que não entrega esse resultado isoladamente. A distinção operacional é entre know-how, que transfere rápido, e habilidade ou mudança de mentalidade, que exigem prática repetida; por isso a resposta de Torres a \"ensine descoberta contínua em uma hora para doze pessoas\" é um não direto. O que funciona é palestra dentro de programa mais longo: o caso citado é a Laerdal Medical, com programa de seis meses que pareia palestras externas a treino de acompanhamento, e o curso de Wille estruturado como academia, com capacidade construída por prática. Para quem contrata ou vende capacitação, o critério prático é honestidade sobre o tempo de maestria — a palestra inspira e autoriza mudança de comportamento de baixo risco, não instala os 13 hábitos de descoberta contínua."
+    },
+    {
+      "title_original": "Why Every High-Performing Leader Needs a Pacer",
+      "url": "https://sloanreview.mit.edu/article/why-every-high-performing-leader-needs-a-pacer",
+      "source": "MIT Sloan Management Review",
+      "axis": "design-lideranca",
+      "tier": "solida",
+      "synthesis_ptbr": "Os autores tratam ritmo como dimensão própria de eficácia de liderança: \"Getting the pace of leadership right can be as consequential as getting the direction right\". A base é uma pesquisa com 125 funcionários em papéis profissionais e de liderança: mais de 93% descreveram um líder cujo ritmo frequentemente não batia com a situação, cerca de três quartos deles rápido demais e um quarto lento demais, e apenas 40% desses líderes tinham um \"pacer\" — alguém de confiança que acelera ou freia. O artefato mais útil é a pergunta de conselho relatada por um dos coautores — \"What are you willing to stop doing to make room for this?\" — somada a checklists de sinais de alerta nos dois sentidos, tabela de tipos de pacer com forças e fraquezas, e perguntas de check-in a cada 90 dias. A base empírica é fina (amostra pequena, autorreportada, sem método descrito) e a analogia atlética carrega boa parte do argumento, então vale como instrumento de diagnóstico, não como achado estabelecido."
+    },
+    {
+      "title_original": "Wait for It: A Component-Level Analysis of Latency Feedback Mechanisms for LLM Agents in VR",
+      "url": "https://arxiv.org/abs/2610.23336v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "design-lideranca",
+      "tier": "solida",
+      "synthesis_ptbr": "Estudo intrassujeitos com 18 participantes compara três mecanismos isolados de feedback durante a espera por resposta de um agente LLM em realidade virtual: preenchimento verbal, indicador visual do tipo spinner de carregamento, e gesto corporal de \"pensar\". O gesto corporal superou significativamente o indicador visual em múltiplas dimensões, e o feedback visual explícito degradou a percepção de humanidade e rompeu a imersão. O mecanismo proposto é que feedback baseado em comportamento mantém a ilusão de conversar com uma entidade que pensa, enquanto o indicador técnico expõe a computação por baixo. O abstract não traz tamanho de efeito nem estatística de teste, então o achado vale como diretriz de projeto em escopo restrito: ao desenhar a espera em interface conversacional, sinalize com comportamento, não com spinner."
+    },
+    {
+      "title_original": "Can AI Make a Website Accessible?",
+      "url": "https://www.levelaccess.com/blog/can-ai-make-a-website-accessible",
+      "source": "Level Access",
+      "axis": "acessibilidade",
+      "tier": "solida",
+      "synthesis_ptbr": "A resposta do artigo é negativa e qualificada: IA não torna um site plenamente acessível por si, mas funciona com revisão humana, teste com pessoas com deficiência, design system validado e verificação automatizada no pipeline. A evidência externa é a parte mais forte — o WebAIM Million 2026 encontrou falhas detectáveis de WCAG 2 em 95,9% das home pages, alta sobre os 94,8% de 2025, com texto de baixo contraste em 83,9%, alt text ausente em 53,1% e rótulo de formulário ausente em 51%. A pesquisa própria da Level Access localiza onde a IA ajuda e onde não: 61% dizem que ela acelerou design e 58% planejamento, mas só 30% dizem o mesmo de QA e teste. O texto sugere que codificação assistida por IA \"may help explain\" a alta de falhas sem demonstrar o vínculo, e a seção final vende a solução da própria casa — ainda assim, o corpo da análise, com tabela do que a IA consegue e não consegue checar por critério WCAG, sustenta a leitura."
+    },
+    {
+      "title_original": "Brand lift: como saber se sua comunicação está realmente movendo a percepção da marca",
+      "url": "https://anacouto.com.br/artigos/2026/10/14/brand-lift-como-saber-se-sua-comunicacao-esta-realmente-movendo-a-percepcao-da-marca",
+      "source": "Ana Couto",
+      "axis": "branding-tendencias",
+      "tier": "solida",
+      "synthesis_ptbr": "O texto separa métrica de mídia de métrica de marca: alcance, visualização e clique medem o que a pessoa fez diante do anúncio, enquanto brand lift isola o efeito da comunicação sobre lembrança, associação, consideração e intenção, separando o que a campanha causou do que aconteceria de qualquer forma. O desenho defendido é grupo exposto contra controle de mesmo perfil, com pesquisa antes-e-depois em amostras equivalentes quando a cobertura é ampla demais para formar controle, e verificação explícita de significância em vez de leitura de diferença bruta — o exemplo ilustrativo é controle em 30% de consideração contra 36% nos expostos, lift absoluto de 6 pontos e relativo de 20%. A referência de alocação é Binet e Field (IPA, 996 campanhas, 1980–2010), com equilíbrio aproximado de 60/40 entre construção de marca e ativação, e o horizonte de avaliação proposto é de meses, não de fim de campanha. Faltam questionário, critério de amostragem e janela das ondas, e as seções sobre o case Intelbras e a ferramenta proprietária da casa têm caráter comercial sem apresentar resultado de lift.",
+      "latam_note": "É um dos poucos materiais em português que descreve desenho de brand lift com grupo de controle, referência direta para defender orçamento de marca em diretoria brasileira — ainda que o único case local citado, a campanha \"Tecnologia no seu ritmo\" da Intelbras, venha sem números de resultado."
+    },
+    {
+      "title_original": "The FDE Bubble: Silicon Valley’s Most Expensive Game Of Pretend",
+      "url": "https://news.crunchbase.com/venture/fde-bubble-enterprise-agentic-ai-gurtu-airrived",
+      "source": "Crunchbase News",
+      "axis": "macro-capital",
+      "tier": "solida",
+      "synthesis_ptbr": "Gurtu argumenta que boa parte da ARR de IA empresarial é receita de serviço contabilizada como software, e propõe um teste direto: se o engenheiro embarcado sair amanhã, o cliente continua recebendo o que pagou? Ele chama o padrão de \"people-market fit\" e oferece diagnósticos acionáveis — custo de onboarding, se o custo de entrega cai com escala, e margem bruta sob crescimento mais lento. Os dados de apoio são indiretos mas verificáveis: vagas de forward deployed engineer saltaram de 643 em abril de 2025 para 5.330 em abril de 2026 pelo Indeed, com bases anunciadas de US$ 280 mil a US$ 320 mil na Anthropic, e a OpenAI aportando até US$ 1,5 bilhão numa joint venture de implantação avaliada em US$ 10 bilhões, com retorno anual de 17,5% ao longo de cinco anos supostamente garantido aos cotistas. Leia como hipótese bem formulada, não achado demonstrado: é comentário convidado de um CEO de empresa de IA concorrente, sem dado de margem bruta de nenhuma companhia nomeada, sem a empresa-alvo identificada e sem expor o próprio modelo de entrega."
+    }
+  ],
+  "convergences_ptbr": "O nó mais forte da semana é a migração da descoberta para antes da intenção declarada. A Vivaldi sustenta que a IA generativa permite descrever uma situação em vez de traduzi-la em termos de categoria, e mede o deslocamento: 65 pontos de contato por jornada de viagem contra cerca de 45 em 2018, tráfego de assistentes para varejo americano 393% maior ano a ano. A pesquisa do MIT SMR com 15 líderes seniores mostra o outro lado do mesmo movimento — o trabalho que a marca ganha não é otimizar posição, é auditar acurácia, porque o LLM amplifica erro sobre o produto mais rápido do que a empresa percebe; no caso da plataforma neozelandesa, um produto de aposentadoria descrito com cinco fundos em vez de sete, rastreado de volta até a URL de origem. Juntos, os dois itens reclassificam a disciplina: busca deixa de ser canal de aquisição e passa a ser superfície de representação da marca, com dívida de acurácia que se acumula silenciosamente.\n\nO ciclo capital → ferramenta → prática → métrica fecha de forma legível neste corpus. Na ponta do capital, o Fed de Nova York mostra que o capex de IA ainda não aparece no investimento agregado americano (21,1% do PIB nos últimos quatro trimestres contra 21,3% pré-pandemia), porque sai de empresas com caixa — o déficit externo alargou por despoupança do governo, não por IA. Na ponta da ferramenta, Tunguz mede 3,8 vezes de diferença de custo por tarefa entre modelos empatados em inteligência e atribui a vantagem a silício integrado: o insumo está deflacionando. Na ponta da métrica, a Wharton mostra que o retorno não acompanha a adoção, e sim a reorganização (67% de ROI fortemente positivo onde os três componentes de transformação estão presentes, contra 19%; 58% com CAIO designado contra 8% sem), enquanto Gurtu questiona se a receita gerada por esse ciclo é software ou serviço disfarçado, com vagas de forward deployed engineer saindo de 643 para 5.330 em um ano. O gargalo do ciclo não está no insumo nem no capital: está na prática organizacional, que é a etapa mais lenta e a menos financiável.\n\nCinco campos distintos convergem no mesmo diagnóstico de medição: o indicador fácil mede a ação, não a mudança de estado. Ana Couto separa clique de brand lift e exige grupo de controle; o survey de 331 desenvolvedores da Microsoft argumenta que medir IA por velocidade é julgar a eletricidade pela rotação da fábrica a vapor, e propõe medir o trabalho que passou a ser possível; a Wharton mostra que quem mede só eficiência relata ROI forte em 13% dos casos contra 35% de quem acompanha crescimento; o PersonaCUABench separa conclusão de tarefa de satisfação (62,7% contra 84,1%) e revela que o avaliador pune a parada que o usuário pediu; e a NN/g mostra respondente sintético reproduzindo a conclusão média dos 604 humanos enquanto colapsa mais de 50 rótulos distintos em cerca de uma dúzia. O padrão se repete em marca, produtividade, ROI, agentes e pesquisa: a métrica conveniente converge para a média e apaga exatamente a variância onde está a informação de decisão. A consequência prática é que métrica barata produz consenso falso, e consenso falso custa mais caro que ausência de dado.\n\nO quarto nó é o mais consequente para quem lidera design: supervisão virou objeto de projeto, não etapa de controle. O survey da Microsoft nomeia o risco — tornar-se \"hollow orchestrator\", aprovando trabalho que já não se sabe avaliar; o painel MIT SMR–BCG rejeita o \"human in the loop\" como garantia e propõe alocar julgamento onde há alto risco e baixo precedente; a agenda do AI as Normal Technology formaliza a restrição em trilema (autonomia total, confiabilidade em alto risco, generalidade — escolha dois) e aponta perda de fluxo entre quem supervisiona agentes de código. Do lado operacional, o KiranaBench mostra quatro agentes coordenados perdendo para um lojista de regra fixa por fator de oito, e o corpus de acessibilidade mostra como a supervisão é efetivamente desenhada: 97% dos cenários da TetraLogical automatizados com os 3% restantes virando checklist humana explícita, e Abbott registrando que o modelo lê a API do VoiceOver sem ouvir nada, perdendo pronúncia e ritmo. Vale registrar onde a semana foi magra: dois finalistas em português do UX Collective Brasil retornaram HTTP 403 e ficaram fora por não poderem ser lidos, o eixo de descoberta de produto sustentou apenas dois itens, e nove fontes já haviam falhado na coleta, conforme o relatório anexo.",
+  "tensions": [
+    {
+      "title_ptbr": "Soltar a rédea do agente ou retê-la: o que o dado da semana recomenda?",
+      "side_a": "O retorno medido premia autonomia maior. No estudo da Wharton, os departamentos onde agentes podem tomar ações financeiras ou jurídicas irreversíveis relatam fluxos transformados em 29% dos casos, contra 13% onde a responsabilidade do agente é mais limitada, e os que monitoram agentes automaticamente chegam a 24% contra 9% dos que não monitoram. Como apenas 17% permitem que um agente conclua tarefa sem aprovação humana por etapa, a prática majoritária de revisão passo a passo aparece associada a menos transformação de fluxo, não a mais.",
+      "side_b": "A capacidade medida não sustenta a delegação. O PersonaCUABench mantém 74 tarefas fixas e troca apenas quem pede: a conclusão cai 36%, com 59,9% das perdas vindas de agentes que engajam e erram, e a satisfação máxima aparece em 62,7% dos casos mesmo quando a tarefa é cumprida. O KiranaBench é mais duro — o melhor de quatro modelos lucra um oitavo do que rende um lojista de regra fixa, e dois ficam abaixo de uma loja sem gestão alguma. O painel MIT SMR–BCG converge pelo lado normativo, com 65% dos especialistas tratando a preservação do julgamento humano como o desafio definidor e rejeitando o \"human in the loop\" como garantia automática.",
+      "refs": [
+        "https://knowledge.wharton.upenn.edu/special-report/2026-ai-adoption-report",
+        "https://arxiv.org/abs/2610.22990v1",
+        "https://arxiv.org/abs/2610.22980v1",
+        "https://sloanreview.mit.edu/article/the-defining-challenge-of-responsible-ai-is-designing-systems-that-preserve-human-judgment-when-and-where-it-counts"
+      ]
+    },
+    {
+      "title_ptbr": "IA na acessibilidade: aceleradora de conformidade ou fábrica de dívida?",
+      "side_a": "A IA já encurta trabalho real de verificação. Abbott dirige o VoiceOver pelo dicionário AppleScript com cenários Gherkin interpretados pelo Claude Code, com permissões aplicadas por settings.json e proibição de editar o código da aplicação, produzindo log PASS/FAIL por passo como primeira passada de alerta precoce. A TetraLogical publica a infraestrutura correspondente: 97% dos cenários da biblioteca totalmente automatizados em Cucumber e Playwright, rodando contra cada pull request com retorno em cerca de 30 segundos.",
+      "side_b": "O agregado de campo piorou justamente enquanto a IA acelerou a produção. O WebAIM Million 2026, citado pela Level Access, encontrou falhas detectáveis de WCAG 2 em 95,9% das home pages, contra 94,8% em 2025, com baixo contraste em 83,9% e alt text ausente em 53,1%. A pesquisa da própria Level Access localiza a assimetria que explica o risco: 61% dizem que a IA acelerou design e 58% planejamento, mas apenas 30% dizem o mesmo de QA e teste — a produção acelera mais que a verificação. Os dois lados reconhecem o limite do automatizável: a TetraLogical mantém manual todo o teste com tecnologia assistiva, e Abbott registra que o modelo não ouve nada.",
+      "refs": [
+        "https://www.craigabbott.co.uk/blog/2026/automated-screen-reader-testing-with-claude-code-voiceover-and-gherkin",
+        "https://tetralogical.com/blog/2026/10/14/accessible-components-library",
+        "https://www.levelaccess.com/blog/can-ai-make-a-website-accessible"
+      ]
+    }
+  ],
+  "feedback_processed": [],
+  "fetch_report": {
+    "failed_sources": [
+      {
+        "id": "import-ai-jack-clark",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "the-beautiful-mess-john-cutler",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "latitud-newsletter",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "jakob-nielsen-ux-tigers",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "the-convivial-society",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "w3c-wai-news",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "branding-strategy-insider",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "lavca",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "clouded-judgement",
+        "error": "HTTP 403"
+      }
+    ]
+  }
+}

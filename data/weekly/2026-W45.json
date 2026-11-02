@@ -1,0 +1,219 @@
+{
+  "week": "2026-W45",
+  "generated_at": "2026-11-02T22:51:58.819Z",
+  "items": [
+    {
+      "title_original": "AutoAnalysis: An automated, self-updating meta-analysis of human-AI collaboration",
+      "url": "https://arxiv.org/abs/2610.42001v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "referencia",
+      "synthesis_ptbr": "Meta-análise automatizada e autoatualizável de Vaccaro, Almaatouq e Malone sintetiza 1.955 tamanhos de efeito extraídos de 420 estudos e encontra que combinações humano-IA superam humanos sozinhos, mas ficam abaixo do melhor desempenho isolado entre humano e IA. A consequência metodológica é direta: avaliar colaboração contra a linha de base humana infla o ganho aparente, e sinergia real exige bater também a IA operando sozinha. Para quem decide fluxos de trabalho, a pergunta muda de \"o par melhora o humano?\" para \"o par bate a melhor alternativa isolada?\", e o desenho autoatualizável promete manter a evidência sob revisão conforme novos estudos entram."
+    },
+    {
+      "title_original": "A prospective randomized study of patient-centered AI for clinical visit preparation",
+      "url": "https://arxiv.org/abs/2610.41437v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "referencia",
+      "synthesis_ptbr": "Estudo randomizado prospectivo com 802 adultos nos EUA e 866 conversas comparou um agente estruturado de preparação de consulta contra um chatbot de prompt mínimo sobre o mesmo LLM: preparação avaliada como completa por clínicos cegos subiu de 50,6% para 67,2%, preparo autorrelatado de 57,0% para 73,8% e confiança em saber o que perguntar de 67,1% para 81,4%. O achado acionável não é o modelo, é a estrutura — coleta de contexto, lista priorizada de perguntas e sumário produzem resultado materialmente diferente com a mesma capacidade subjacente. As avaliações de clínicos e de pacientes não se correlacionaram, o que obriga medir as duas dimensões em paralelo; o desfecho medido é preparo, não resultado clínico."
+    },
+    {
+      "title_original": "Building AI on credit: structures and spillovers",
+      "url": "https://www.bis.org/publications/bulletin-140-building-ai-credit--structures-and-spillovers",
+      "source": "BIS — Bank for International Settlements",
+      "axis": "macro-capital",
+      "tier": "referencia",
+      "synthesis_ptbr": "O Boletim 140 do BIS, de Drehmann e Eren, documenta que o capex de infraestrutura de IA é crescentemente financiado por dívida de longo prazo e por arranjos fora do balanço, nos quais compromissos de poucas empresas grandes elevam o rating do papel e atraem capital institucional. Bancos aparecem dos dois lados da operação — emprestando aos veículos de financiamento e aos investidores que carregam a dívida —, o que concentra exposição em um mesmo canal em vez de distribuí-la. Nos dias de notícia sobre financiamento de IA em 2026 os transbordamentos para Treasuries e crédito investment grade foram pequenos e curtos, mas os autores alertam que emissão sustentada no ritmo atual pode alterar esse quadro."
+    },
+    {
+      "title_original": "Why Semi-Liquid Private Credit Funds Are in Fragile Territory",
+      "url": "https://knowledge.wharton.upenn.edu/article/why-semi-liquid-private-credit-funds-are-in-fragile-territory",
+      "source": "Knowledge at Wharton",
+      "axis": "macro-capital",
+      "tier": "referencia",
+      "synthesis_ptbr": "O paper de Fang (Drexel), Goldstein e Zeng (Wharton) analisa 52 BDCs semilíquidos entre o 1T2024 e o 2T2026 e descreve um laço alavancagem-resgate: investidores resgatam a NAV defasada acima do valor real, o fundo queima caixa (média de 5,5% do patrimônio líquido), vende crédito ilíquido com desconto e se endivida, encarecendo a permanência de quem fica. O gatilho é de IA — cerca de um quinto da carteira é crédito a empresas de software, remarcado com a disrupção do setor — e no 2T2026 houve a primeira saída líquida da história desses fundos: US$ 7,1 bilhões em resgates contra US$ 3,8 bilhões de captação, com US$ 10,7 bilhões barrados pelo limite trimestral de 5%. Pedidos equivalentes a 22% e 40% das cotas em fundos da Blue Owl mostram que esse limite virou restrição ativa, e que 80% dos empréstimos sem rating agravam a opacidade da marcação."
+    },
+    {
+      "title_original": "The AI Governance Paradox",
+      "url": "https://sloanreview.mit.edu/article/the-ai-governance-paradox",
+      "source": "MIT Sloan Management Review",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "Shefali Patil (McCombs, UT Austin) argumenta que frameworks de governança de IA em setores de alto risco podem degradar justamente o comportamento humano que pretendem proteger: o \"humano no loop\" definido como respondedor de alertas torna-se reativo, em vez de proativo na detecção de anomalias. A proposta é importar princípios de high-reliability organizing — preservar o julgamento da linha de frente, devolver autoridade decisória a quem está mais perto do problema e tratar anomalia como sinal, não como ruído. A evidência é histórica e de caso (os mais de cem alarmes simultâneos sem priorização em Three Mile Island, os canais de escalonamento disponíveis e não usados antes do Columbia), não quantitativa: o valor está na transposição do framework para desenho de governança, não em dado novo."
+    },
+    {
+      "title_original": "AI Is Thriving at Capital One",
+      "url": "https://sloanreview.mit.edu/article/ai-is-thriving-at-capital-one",
+      "source": "MIT Sloan Management Review",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "Davenport e Bean documentam a operação de IA do Capital One com números verificáveis em auditoria e compliance: queda de 85% em erros de qualidade, cerca de 5.000 horas de auditoria economizadas por 30 auditores em poucos meses e uma tarefa que saiu de cinco horas para três minutos. O diferencial relatado está no encanamento, não no modelo — dados não estruturados geridos como \"data products\" com propriedade federada e padrões centrais de qualidade, tokenização de dados sensíveis (Databolt) antes de alimentar LLMs, grafos de conhecimento ligando clientes a produtos e sumarização agêntica de chamadas em uso por centenas de atendentes. A tese declarada da liderança, de que não se faz transformação olhando ROI trimestral, contrasta com o horizonte de payback que domina a maior parte da adoção corporativa."
+    },
+    {
+      "title_original": "AI evaluators favor job applications written by certain AI models, independent of candidate quality",
+      "url": "https://arxiv.org/abs/2610.41866v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "Auditoria que pareia 11 agentes redatores com 9 avaliadores hospedados em API, sobre 10 descrições de vaga e 50 candidatos por vaga, mostra que a escolha do modelo usado para escrever a candidatura altera o resultado da triagem independentemente da qualificação. Existe uma hierarquia de preferência generativa — modelos hospedados localmente são sistematicamente penalizados, qualquer que seja a licença — somada a viés de autopreferência dos avaliadores; no pareamento mais adverso, cerca de 1,8 de 25 candidatos qualificados é eliminado apenas por incompatibilidade de modelo. O mecanismo é estilístico, com avaliadores premiando ou punindo quase unanimemente certas marcas de escrita, o que torna auditoria periódica de sistemas automáticos de triagem um requisito operacional e não um refinamento."
+    },
+    {
+      "title_original": "OPINIÃO. O que o marco legal da AI vai mudar para as empresas",
+      "url": "https://braziljournal.com/opiniao-o-que-o-marco-legal-da-ai-vai-mudar-para-as-empresas",
+      "source": "Brazil Journal",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "Advogados do Bichara e Motta destrincham o PL 2338/2023 — aprovado no Senado e em regime de prioridade na Câmara, com votação esperada para 2027 — mostrando que as obrigações recaem tanto sobre quem desenvolve quanto sobre quem apenas usa IA, em proporção ao risco da aplicação. Para alto risco (recrutamento, educação, saúde, serviços essenciais) o custo de operar passa a incluir registros de governança, testes de segurança, mitigação de viés, informação de interpretabilidade e registro de supervisão humana; desenvolvedores de modelos de uso geral precisam documentar o desenvolvimento e publicar sumário do conteúdo protegido usado em treinamento, com deveres extras antes da oferta comercial quando houver risco sistêmico. Os prazos são escalonados — 180 dias para as proibições e para os deveres de IA generativa, 730 dias para o regime geral — e a multa chega a 2% do faturamento bruto no Brasil, limitada a R$ 50 milhões por infração, com fiscalização da ANPD dentro do SIA.",
+      "latam_note": "Oferecer o modelo via API ou licença aberta não afasta as obrigações e o deployer permanece responsável pela aplicação mesmo usando modelo de terceiro, o que torna a revisão de contratos de fornecimento — acesso a informação técnica e dever de cooperação — tarefa imediata para quem opera no Brasil."
+    },
+    {
+      "title_original": "The Role of UX in Agentic Software Factories",
+      "url": "https://www.nngroup.com/articles/ux-agentic-software-factories",
+      "source": "Nielsen Norman Group",
+      "axis": "design-lideranca",
+      "tier": "citada",
+      "synthesis_ptbr": "Tanner Kohler compara os ciclos de desenvolvimento \"AI-native\" publicados por Anthropic (agosto de 2026), Google (maio de 2026) e OpenAI (novembro de 2025) e mostra que os três reduzem UX a fornecedor de contexto para geração: no playbook da Anthropic, a cadeia de artefatos (intent.md, spec.md, plan.md) tem portões de aprovação de product owner, engenheiro e líder técnico, e nenhum de UX. O risco é de circularidade — o teste confere a saída contra artefatos que o próprio time escreveu e o monitoramento cobre saúde técnica, não usabilidade — de modo que uma cegueira introduzida no início atravessa o processo inteiro sem ser detectada. As contramedidas são concretas: reescrever o intent.md em torno de necessidade de usuário, co-assinar critérios de aceite exigindo evidência de que o problema existe, definir gatilhos obrigatórios de revisão de UX (navegação, arquitetura de informação) e levar abandono de tarefa e queda de conversão para o monitoramento."
+    },
+    {
+      "title_original": "Experience Design: Dropping the “User” from “User Experience”",
+      "url": "https://www.nngroup.com/articles/ux-vs-experience-design",
+      "source": "Nielsen Norman Group",
+      "axis": "design-lideranca",
+      "tier": "citada",
+      "synthesis_ptbr": "Raluca Budiu propõe \"experience design\" como escopo ampliado da disciplina porque a premissa fundadora de que o usuário é humano deixou de valer: agentes pessoais passam a operar sistemas em nome das pessoas, fora dos canais que a empresa desenhou. O artigo separa três escopos — humanos usando produtos, agentes usando sistemas por pessoas, e humanos e agentes dentro do mesmo produto — e localiza a falha nos pontos de passagem de controle, com o exemplo do agente que devolve o login ao humano, que então não consegue usar seu gerenciador de senhas dentro do navegador embutido. A consequência prática é avaliar a jornada do sistema humano-agente como um todo e tratar autorização, continuidade, transparência e recuperação como objetos de projeto, mantendo o objetivo da pessoa como critério único de sucesso."
+    },
+    {
+      "title_original": "Part 2 of my series, “AI Will Not Kill Brands. It Will Expose Weak Ones.”",
+      "url": "https://vivaldigroup.com/part-2-of-my-series-ai-will-not-kill-brands-it-will-expose-weak-ones",
+      "source": "Vivaldi Group",
+      "axis": "branding-tendencias",
+      "tier": "citada",
+      "synthesis_ptbr": "Erich Joachimsthaler reporta jornadas de compra simuladas pela AIVO em que uma marca aparecia nas primeiras respostas da IA em 96% dos casos, mas era a recomendação final em apenas 13% — porque restrições acrescentadas turno a turno (orçamento, pé plano, treino no inverno de Nova York) eliminam marcas que passaram pela menção inicial. A leitura é que métricas de menção, citação e share of voice em IA repetem o erro histórico de confundir impressão com venda, e quase meio bilhão de dólares de venture entrou em ferramentas desse tipo em menos de dois anos. O deslocamento seguinte já é observável — a Walmart abriu suas portas a agentes de compra externos, nos termos dela — e transforma a pergunta de marca em: o que o seu agente está autorizado a conceder em preço, condições e dados quando negociar com o agente do cliente."
+    },
+    {
+      "title_original": "The Four Questions of AI",
+      "url": "https://tomtunguz.com/the-four-questions-of-ai",
+      "source": "Tomasz Tunguz",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "Tunguz organiza a economia da IA em quatro camadas — aplicação, harness e contexto, modelo e data center — cada uma com uma pergunta econômica aberta, e mostra que elas se movem juntas: custo de financiamento de GPU subindo eleva o valor do harness, porque eficiência corta o custo por tarefa (um estudo de Berkeley citado indica 71% de redução, e um modelo de contrato leva a margem bruta de 38% para 75%). Os dados sustentam a tese de que o valor migra para quem controla contexto e roteamento: 84% dos tokens no OpenRouter não vêm de modelos de ponta, cerca de 83% das tarefas de agente vão para modelos menores ou especializados, e o mesmo GPT-5.5 marca 61,5% no Codex e 87,2% no Cursor. Na base da pilha o risco é de crédito — cerca de US$ 4 trilhões de dívida projetada para data centers em cinco anos, equivalente a 91% do mercado de títulos municipais dos EUA, com CDS de cinco anos em máximas (1.090 bps na CoreWeave, 322 bps na Oracle)."
+    },
+    {
+      "title_original": "Jumbo Series A Rounds Hiding The Real Squeeze On Seed Startups",
+      "url": "https://news.crunchbase.com/seed/jumbo-seriesa-squeeze-seed-startup-funding-schroder-mgv",
+      "source": "Crunchbase News",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "Os dados da Crunchbase mostram que megarrodadas escondem contração: ao menos 114 Séries A de US$ 100 milhões ou mais no ano, com mais de 70% indo para empresas de IA, enquanto o número de Séries A nos EUA no 3T caiu para 272, cerca de 28% abaixo dos 377 do ano anterior. O indicador estrutural é a taxa de graduação — 55% ou mais das empresas com seed de US$ 1 milhão+ passavam de estágio até 2020, contra 24% na safra de 2023 e 16% na de 2024 — com barra de entrada de US$ 2 a 3 milhões de ARR, às vezes 4, e intervalo entre seed e Série A acima de dois anos. A recomendação do autor, sócio da MGV e portanto parte interessada, é dimensionar o seed para alcançar essa barra com meses de folga e construir processo de vendas que não dependa dos fundadores."
+    },
+    {
+      "title_original": "Defining What Good Looks Likes - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/defining-what-good-looks-likes-all-things-product-podcast-with-teresa-torres-petra-wille",
+      "source": "Product Talk — Teresa Torres",
+      "axis": "produto-descoberta",
+      "tier": "solida",
+      "synthesis_ptbr": "Teresa Torres e Petra Wille tratam avaliação de IA como trabalho antigo de produto sob nome novo: definir o que é \"bom\" é a mesma tarefa de definir outcome e instrumentar produto, e times erram ao medir desempenho técnico (uptime, velocidade, concisão) em vez do valor que o cliente obteve. A proposta é uma suíte de avaliação em três camadas — desempenho técnico, valor para o cliente e valor para o negócio — com a ressalva de que \"bom\" depende de contexto, já que resposta concisa serve ao especialista e não ao iniciante, o que inviabiliza evals genéricas de prateleira. As notas do episódio sustentam o argumento e trazem a recomendação de mover métricas de engajamento para a ação específica em que o produto entrega valor pela primeira vez; a transcrição completa é paga, de modo que o detalhe por trás dos exemplos citados não está acessível."
+    },
+    {
+      "title_original": "Interview with Eric Ries: AI, Founder Mode, and Why Good Companies Go Bad",
+      "url": "https://itamargilad.com/eric-ries-incorruptible",
+      "source": "Itamar Gilad",
+      "axis": "produto-descoberta",
+      "tier": "solida",
+      "synthesis_ptbr": "Eric Ries sustenta que custo de construção mais baixo encarece o erro de direção: times que entregam rápido e pulam medição e aprendizado — ou que validam com clientes simulados por IA — perdem a função do ciclo build-measure-learn e do MVP como experimento desenhado para reduzir tamanho de lote. Sobre \"founder mode\" ele aceita o diagnóstico e recusa a prescrição: fundadores morrem, logo a organização precisa de estrutura de governança que preserve valores entre lideranças sucessivas, e mudança de modelo operacional começa em \"ilhas de liberdade\" protegidas que crescem conforme funcionam. A evidência é anedótica e a entrevista também promove o livro do autor; as afirmações quantitativas sobre desempenho de empresas conforme a qualidade da governança aparecem sem fonte nem método e não devem ser citadas como dado."
+    },
+    {
+      "title_original": "When Should AI Agents Ask? Clarification Requests Under Limited Human Attention",
+      "url": "https://arxiv.org/abs/2610.41129v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "design-lideranca",
+      "tier": "solida",
+      "synthesis_ptbr": "Quando uma pessoa supervisiona vários agentes em paralelo, a decisão de perguntar deixa de ser local: o artigo formula o problema como programa dinâmico e demonstra que nenhuma ordenação calculada agente por agente é ótima, porque responder a uma pergunta atrasa todas as outras. A política proposta (Pairwise Coordination Policy) estima o atraso mútuo entre pares de tarefas que compartilham o mesmo humano e, em 864 casos sintéticos, fica a 0,07% do custo ótimo e reduz custo em 18% a 31% frente a três regras padrão de quando perguntar. A consequência de projeto é que a camada de orquestração — e não cada agente isolado — deve ranquear as perguntas pendentes, e que um agente com muito trabalho paralelo disponível faz melhor perguntando mais cedo; a validação com LLMs reais é pequena, então os ganhos valem como indicação, não como medida."
+    },
+    {
+      "title_original": "Out of sync: Accommodation, evaluation, and emergence in five weeks with an agentic AI teammate",
+      "url": "https://arxiv.org/abs/2610.41057v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "design-lideranca",
+      "tier": "solida",
+      "synthesis_ptbr": "Experimento longitudinal de cinco semanas com 17 times (N=48) em disciplina de graduação testou um colega de equipe baseado em LLM que decidia quando intervir, em dois papéis sociais atribuídos por time: cognitivo, contestando consenso rápido, ou de apoio, convidando quem fala menos. Os alunos ajustaram a linguagem ao papel do agente já na primeira sessão e recalibravam a nota de utilidade a cada sessão pelo comportamento observado, não pela atitude prévia em relação à IA; os times com agente de apoio, que o avaliaram como menos útil durante todo o período, terminaram acima dos demais em percepção de colaboração e linguagem de afeto positivo. A consequência para quem avalia agentes é que medição de sessão única perde efeitos que só emergem na repetição, e que nota baixa de utilidade não equivale a ausência de valor de processo."
+    },
+    {
+      "title_original": "Can AI Make a Website WCAG Conformant? A Comprehensive Guide",
+      "url": "https://www.levelaccess.com/blog/can-ai-make-a-website-wcag-conformant",
+      "source": "Level Access",
+      "axis": "acessibilidade",
+      "tier": "solida",
+      "synthesis_ptbr": "O texto organiza os 86 critérios de sucesso da WCAG 2.2 — dos quais 55 compõem o nível AA, com 31 em A e 24 em AA — em três grupos operacionais: os que a automação resolve com confiabilidade (como 1.4.3 Contraste), os em que a IA dá entrada direcional e a pessoa decide (como 1.1.1 Conteúdo Não Textual) e os que dependem inteiramente de julgamento humano (como 2.4.3 Ordem de Foco). O argumento central decorre do escopo normativo do §5.2: conformidade se aplica a páginas completas e a processos completos, então nenhuma ferramenta que avalia componentes isolados pode declará-la, por boa que seja na detecção. Serve como mapa de triagem para decidir onde automatizar remediação, mas não traz resultado medido — tempo economizado, taxa de correção, falsos positivos — e vem de fornecedor que vende escaneamento, remediação e auditoria manual."
+    },
+    {
+      "title_original": "Captioned Doesn’t Always Mean Accessible",
+      "url": "https://webaim.org/blog/captioned-doesnt-always-mean-accessible",
+      "source": "WebAIM",
+      "axis": "acessibilidade",
+      "tier": "solida",
+      "synthesis_ptbr": "A WebAIM desloca o critério de qualidade de legenda de \"existe arquivo sincronizado\" para \"o espectador consegue acompanhar a mensagem\", ancorando-se no documento de entendimento do critério 1.2.2 da WCAG, que exige identificar quem fala e transmitir a informação não verbal conduzida pelo som. O detalhe operacional que muda prática é que o método de produção deixou de indicar qualidade — a legendagem automática melhorou o suficiente para que o autor relate legendas profissionais pagas piores que a saída automática —, o que invalida gatilhos de aprovação baseados em tipo de fornecedor. A avaliação recomendada acontece no player que a audiência de fato usa e cobre precisão, identificação de falante, sons significativos, sincronia, legibilidade e posicionamento; limiares numéricos são deliberadamente delegados a referências externas como o Captioning Key do DCMP e o guia da BBC."
+    },
+    {
+      "title_original": "Complexity has real consequences",
+      "url": "https://www.siegelgale.com/complexity-has-real-consequences",
+      "source": "Siegel+Gale",
+      "axis": "branding-tendencias",
+      "tier": "solida",
+      "synthesis_ptbr": "O relatório World's Simplest Brands: The B2B Report 2026 cobre 80 marcas em quatro setores — serviços financeiros, tecnologia, industriais e saúde — e reporta, no corte de saúde para EUA e Reino Unido, diferenças entre marcas percebidas como simples e as demais: 52 pontos a mais de NPS, 189% mais desejo de fazer negócio, 124% mais chance de receber o benefício da dúvida, 112% mais confiança em \"fazer a coisa certa\" e 34% mais consideração. Os motores de simplicidade percebida apontam para distribuição e linguagem antes de estética: facilidade de encontrar o produto ou serviço, vantagem competitiva legível, soar autêntico e soar distinto. Os números são de pesquisa proprietária de uma consultoria de branding, publicados sem amostra, data de campo ou método, e descrevem associação — não causalidade — entre simplicidade percebida e disposição de compra."
+    },
+    {
+      "title_original": "Why do we keep treating marketing as a budgeting problem rather than a capital allocation problem?",
+      "url": "https://vivaldigroup.com/why-do-we-keep-treating-marketing-as-a-budgeting-problem-rather-than-a-capital-allocation-problem",
+      "source": "Vivaldi Group",
+      "axis": "branding-tendencias",
+      "tier": "solida",
+      "synthesis_ptbr": "Joachimsthaler reenquadra marketing como problema de alocação de capital e não de orçamento: a pergunta deixa de ser como gastar com mais eficiência no portfólio atual e passa a ser onde a demanda vai se formar e quais espaços de demanda, inovações, marcas e capacidades merecem investimento, julgados por lucro econômico, ROIC e valor de longo prazo em vez de retorno de campanha. A evidência vem do CMO Survey de março de 2026 (Christine Moorman, Duke, com apoio da Deloitte): profissionais de marketing gastam 68% do tempo administrando o presente contra 32% preparando o futuro, e quase 60% dos orçamentos de crescimento vão para vender produtos existentes a clientes existentes. O teste prático é imediato — se a maior parte do seu orçamento de crescimento financia o que já existe, é essa a lacuna, e a decisão pertence à mesa de capital, não à de mídia."
+    },
+    {
+      "title_original": "How AI Applications Earn Their Premium",
+      "url": "https://www.a16z.news/p/how-ai-applications-earn-their-premium",
+      "source": "a16z — Andreessen Horowitz",
+      "axis": "macro-capital",
+      "tier": "solida",
+      "synthesis_ptbr": "Com modelos melhores e mais baratos o cliente consegue construir mais internamente, então a aplicação só mantém prêmio se vencer a melhor alternativa do próprio cliente — e o texto propõe três testes: operar o fluxo melhor do que ele consegue, contabilizando implementação, revisão, falhas e manutenção; tornar o contexto mais barato de alugar do que de reconstruir; e precificar na camada mais alta de valor que se consegue medir com confiabilidade. A métrica de custo recomendada é por unidade concluída com sucesso, incluindo tentativas falhas, recuperação, ferramentas e revisão humana, o que desloca a discussão de preço por token para preço por trabalho entregue. Os casos citados — Harvey na Repsol, com piloto de oito semanas, 50 advogados e 12 jurisdições e relato de 4 a 6 horas economizadas por advogado por semana; Decagon na Notion, com até 34% de melhora no tempo de resolução de ticket — são fornecidos pelos próprios vendedores, e a a16z declara não ter verificado informação de terceiros."
+    }
+  ],
+  "convergences_ptbr": "O modelo mental que mais converge nesta semana é o do contrafactual explícito. A meta-análise de colaboração humano-IA mostra que medir o par contra o humano sozinho produz ganho aparente onde pode não haver sinergia nenhuma, porque a comparação correta é contra o melhor desempenho isolado; a discussão de avaliação de produto de Torres e Wille propõe a mesma correção em outra escala, separando desempenho técnico de valor para o cliente e de valor para o negócio; e a análise de precificação de aplicações de IA formaliza o critério como \"vencer a melhor alternativa do próprio cliente\", medida por unidade concluída com sucesso e não por token consumido. O estudo randomizado de preparação de consulta fecha o argumento pelo lado positivo: mantendo o modelo constante e variando apenas a estrutura do fluxo, a diferença medida é grande — o que localiza o ganho no desenho, não na capacidade bruta.\n\nDaí decorre o segundo modelo convergente: capacidade de modelo está virando commodity, estrutura de supervisão é o recurso escasso. O artigo sobre o paradoxo da governança avisa que definir \"humano no loop\" como respondedor de alertas degrada justamente o julgamento proativo que se queria preservar; o trabalho sobre pedidos de esclarecimento demonstra que, com uma pessoa supervisionando vários agentes, nenhuma política calculada agente por agente é ótima, porque a atenção humana é recurso compartilhado entre tarefas; o experimento de cinco semanas com um colega de equipe agêntico mostra que avaliação de sessão única não captura efeitos de processo que só emergem na repetição. A operação do Capital One exibe o mesmo princípio em produção — o diferencial reportado está no encanamento, com dados não estruturados geridos como produtos de propriedade federada e tokenização antes de alimentar LLMs, não no modelo — e o PL 2338/2023 converte esse encanamento em obrigação legal com prazo e multa, transformando registro de supervisão humana e mitigação de viés em linha de custo.\n\nO nódulo que conecta os eixos de IA, design e marca é a intermediação por modelo. Na triagem de candidaturas, com redator e avaliador ambos sendo LLMs, a escolha do modelo do candidato altera o resultado independentemente da qualificação, por marcas de estilo que avaliadores premiam de forma quase unânime. Na descoberta de produto pelo consumidor, a marca aparece em 96% das primeiras respostas e sobrevive como recomendação final em 13%, eliminada pelas restrições acrescentadas turno a turno. São o mesmo fenômeno em dois mercados: quando a seleção passa a ser mediada por modelo, o critério migra do mérito declarado para propriedades estruturais da interação, e métricas de menção ou citação medem a etapa errada do funil. É também por isso que os dois textos do Nielsen Norman Group pedem redefinição de escopo — tratar a passagem de controle entre humano e agente como objeto de projeto, e recuperar para UX os portões que os ciclos \"AI-native\" publicados por Anthropic, Google e OpenAI atribuíram apenas a product owner, engenheiro e líder técnico.\n\nNo eixo de capital, o ciclo capital → infraestrutura → custo de inferência → preço cobrável → graduação de startups aparece inteiro e documentado. O BIS descreve o capex de IA migrando para dívida de longo prazo e estruturas fora do balanço, com bancos expostos simultaneamente aos veículos de financiamento e aos investidores que carregam o papel; o paper de Wharton mostra o elo seguinte já rompendo, com crédito a empresas de software remarcado por disrupção de IA disparando resgates em fundos semilíquidos; a leitura por camadas de Tunguz liga o custo de financiamento de GPU ao valor do harness e registra CDS em máximas; e os dados da Crunchbase mostram o efeito na ponta empreendedora, com a taxa de graduação de seed caindo de 55% até 2020 para 16% na safra de 2024. Registro de escassez desta rodada: as fontes brasileiras e latino-americanas de maior cadência (MIT Sloan Review Brasil e UX Collective 🇧🇷) retornaram HTTP 403 na verificação de conteúdo e foram descartadas, de modo que a lente LATAM se sustenta nesta semana quase exclusivamente pelo marco legal de IA brasileiro.",
+  "tensions": [
+    {
+      "title_ptbr": "A combinação humano-IA entrega sinergia ou apenas supera o humano sozinho?",
+      "side_a": "A meta-análise de 1.955 tamanhos de efeito em 420 estudos encontra que times humano-IA superam humanos trabalhando sozinhos, mas ficam abaixo do melhor desempenho isolado entre humano e IA. Ou seja, boa parte do ganho relatado na literatura vem de uma linha de base generosa, e sinergia real — bater também a IA operando sozinha — é exceção e não regra.",
+      "side_b": "Relatos de operação em escala mostram ganhos grandes e medidos no arranjo humano-IA: no Capital One, queda de 85% em erros de qualidade em auditoria e compliance, cerca de 5.000 horas economizadas por 30 auditores em poucos meses e uma tarefa que saiu de cinco horas para três minutos, com o diferencial atribuído a governança de dados e tokenização, não ao modelo. O caso não publica a linha de base de IA sem humano, o que é precisamente a comparação que a meta-análise exige.",
+      "refs": [
+        "https://arxiv.org/abs/2610.42001v1",
+        "https://sloanreview.mit.edu/article/ai-is-thriving-at-capital-one"
+      ]
+    },
+    {
+      "title_ptbr": "O financiamento da infraestrutura de IA é risco contido ou já em transmissão?",
+      "side_a": "O BIS mediu os transbordamentos em dias de notícia sobre financiamento de IA ao longo de 2026 e os encontrou pequenos e de curta duração nos mercados de Treasuries e de crédito investment grade: o risco está na estrutura — dívida longa, arranjos fora do balanço, rating sustentado por compromissos de poucas empresas grandes —, mas ainda não se transmitiu ao preço do crédito soberano e de alta qualidade.",
+      "side_b": "Fora desses dois mercados a transmissão já ocorreu: o estudo de 52 BDCs semilíquidos atribui a crédito de software remarcado por disrupção de IA a primeira saída líquida da história desses fundos no 2T2026, com US$ 7,1 bilhões de resgates contra US$ 3,8 bilhões de captação e US$ 10,7 bilhões barrados pelo limite trimestral, enquanto a leitura por camadas registra CDS de cinco anos em máximas, com 1.090 bps na CoreWeave e 322 bps na Oracle.",
+      "refs": [
+        "https://www.bis.org/publications/bulletin-140-building-ai-credit--structures-and-spillovers",
+        "https://knowledge.wharton.upenn.edu/article/why-semi-liquid-private-credit-funds-are-in-fragile-territory",
+        "https://tomtunguz.com/the-four-questions-of-ai"
+      ]
+    }
+  ],
+  "feedback_processed": [],
+  "fetch_report": {
+    "failed_sources": [
+      { "id": "import-ai-jack-clark", "error": "HTTP 403" },
+      { "id": "the-beautiful-mess-john-cutler", "error": "HTTP 403" },
+      { "id": "latitud-newsletter", "error": "HTTP 403" },
+      { "id": "jakob-nielsen-ux-tigers", "error": "HTTP 403" },
+      { "id": "the-convivial-society", "error": "HTTP 403" },
+      { "id": "w3c-wai-news", "error": "HTTP 403" },
+      { "id": "branding-strategy-insider", "error": "HTTP 403" },
+      { "id": "lavca", "error": "HTTP 403" },
+      { "id": "clouded-judgement", "error": "HTTP 403" }
+    ]
+  }
+}

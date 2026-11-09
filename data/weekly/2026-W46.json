@@ -1,0 +1,244 @@
+{
+  "week": "2026-W46",
+  "generated_at": "2026-11-09T23:30:14.071Z",
+  "items": [
+    {
+      "title_original": "Phantom Consensus: Measuring Social Reasoning in Multi-Agent LLM Decision-Making",
+      "url": "https://arxiv.org/abs/2611.08971v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "referencia",
+      "synthesis_ptbr": "O paper introduz o PHANTOM-Bench e documenta um modo de falha específico de sistemas multiagentes: ao observar sinais sociais ambíguos, LLMs mudam a decisão pública e reportam de forma imprecisa o que os outros agentes julgaram em privado — um análogo computacional da ignorância pluralística. Em nove modelos abertos e fechados, a acurácia pública cai até 47,8 pontos percentuais e as falhas de racionalidade coletiva chegam a 47,3% na condição mais suscetível, convertendo julgamentos privados corretos em resultados coletivos errados. Expor os registros das decisões privadas recupera parte das falhas sem revelar a resposta certa, o que transforma transparência de valor abstrato em mecanismo de projeto. Consequência direta: arquiteturas que agregam múltiplas instâncias de modelo — ensembles, júris de LLM, comitês de agentes — precisam tratar o canal social entre agentes como superfície de risco, não como redundância."
+    },
+    {
+      "title_original": "What to Delegate, What to Preserve: Human Preferences for Agentic AI Across Everyday Life and Work",
+      "url": "https://arxiv.org/abs/2611.09730v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "Survey baseado em cenários com 289 adultos norte-americanos com experiência prévia em IA, cobrindo 45 casos de uso em nove domínios de vida e trabalho, com medidas repetidas e modelos GEE. O achado central reenquadra delegação: não é escolha binária, mas uma configuração de execução, colaboração, liderança e autoridade — e a preferência dominante é autonomia limitada, com execução substancial da IA preservando supervisão e palavra final humanas. Maior preferência por automação associa-se a confiança no agente, uso prévio da IA naquela tarefa específica e economia financeira esperada; o receio de que a automação reduza a realização pessoal prevê menor preferência. Limites a considerar na leitura: amostra só dos EUA, cenários hipotéticos e autorrelato — o dado mede disposição declarada, não comportamento observado."
+    },
+    {
+      "title_original": "A $90 Key into Your Company's Secrets",
+      "url": "https://tomtunguz.com/a-90-dollar-key-into-your-companys-secrets",
+      "source": "Tomasz Tunguz",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "Tunguz sintetiza dados de terceiros para argumentar que a economia da intrusão corporativa virou corrida de compute: o BIS reporta US$ 5 mil a US$ 10 mil em abril de 2026 para uma invasão autônoma de 32 passos em cerca de 20 hosts (benchmark do UK AI Security Institute, concluído em 32 de 32 execuções), e ele calcula US$ 90 para o mesmo ataque com o modelo de pesos abertos GLM-5.3 a partir de preços publicados. Do lado da escala, a Cloud Security Alliance registra um enxame de cerca de 700 agentes trocando mais de 70 mil mensagens e colhendo 136 segredos de produção no Hugging Face em julho de 2026, e a Cogent Research aponta que 76% dos novos caminhos de ataque a ativos críticos só são viáveis para enxames paralelos — alta de 386% ano a ano. A consequência é de orçamento, não de ferramenta: com identidades não humanas superando usuários humanos em 82 para 1, defesa deixa de ser soma de licenças por assento e passa a ser eficácia agregada capaz de empurrar o valor esperado do atacante para baixo de zero. Leia os números como ordem de grandeza: a cifra de US$ 90 é cálculo do autor sobre preços de tabela, e o título usa US$ 7.500 como base de comparação, acima da faixa do BIS."
+    },
+    {
+      "title_original": "The Exploit Was the Bottleneck",
+      "url": "https://www.a16z.news/p/the-exploit-was-the-bottleneck",
+      "source": "a16z — Andreessen Horowitz",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "A tese é de deslocamento de gargalo: a IA derrubou o custo de transformar vulnerabilidade conhecida em exploit funcional de dias ou meses para minutos, mas a correção não acelerou — o intervalo médio da Mandiant entre divulgação e ataque caiu de 63 dias (2018-19) para um dia antes da divulgação em 2024, enquanto o Verizon DBIR 2026 mostra a mediana de correção plena de vulnerabilidades já exploradas subindo de 32 para 43 dias, com apenas 26% resolvidas dentro do ano. Com meia-vida de patch estagnada (Qualys: 30 dias em 2003 e os mesmos 30 em 2008) e um quarto dos avisos de controle industrial de 2025 publicados sem patch disponível, os autores projetam uma era prolongada de worms concentrada em sistemas que não podem ser atualizados rápido — e descartam explicitamente blecaute de rede elétrica ou apagão de internet. O texto declara limiares falsificáveis (contagem de CVEs explorados acima de 2.000, tempo de correção acima de 60 dias) e sinaliza que mistura medianas, meias-vidas e médias de populações distintas. Para quem decide investimento em plataforma, o argumento realoca prioridade de detecção para exposição: o ativo escasso passou a ser a capacidade de aplicar correção, não de encontrar falha."
+    },
+    {
+      "title_original": "Agents Can Find Demand. Strategy Has to Decide Which Demand Is Worth Funding.",
+      "url": "https://vivaldigroup.com/agents-can-find-demand-strategy-has-to-decide-which-demand-is-worth-funding",
+      "source": "Vivaldi Group",
+      "axis": "branding-tendencias",
+      "tier": "citada",
+      "synthesis_ptbr": "A Vivaldi aplica lógica de custos de transação ao comércio agêntico: agentes derrubam o custo de descobrir, negociar e fechar, então transações antes inviáveis passam a ocorrer — mas mais transações não produzem mais lucro econômico. A evidência é citada de terceiros e desigual: piloto da Walmart com a Pactum alcançando acordo com cerca de dois terços dos fornecedores abordados, mais de 2.500 negociações autônomas de fornecedor na Honeywell, e um caso BCG em que a produção de ativos de uma empresa de bens de consumo saltou de cerca de 500 para 5 a 6 milhões por ano, com o custo de uma foto personalizada caindo de US$ 4 para US$ 0,04. O contrapeso quantitativo vem do lucro econômico: na base da McKinsey com cerca de 3.000 grandes empresas, o quintil superior gerou US$ 677 bilhões enquanto o inferior destruiu cerca de US$ 411 bilhões, e ganho de participação explica apenas uns 7% do crescimento. A implicação para marca e go-to-market é de função-objetivo: otimizar agentes por conversão, receita ou satisfação é otimizar o indicador errado — o critério é qual demanda merece capital."
+    },
+    {
+      "title_original": "When AI Makes Unacceptable Decisions Feel Normal",
+      "url": "https://knowledge.wharton.upenn.edu/article/when-ai-makes-unacceptable-decisions-feel-normal",
+      "source": "Knowledge at Wharton",
+      "axis": "design-lideranca",
+      "tier": "citada",
+      "synthesis_ptbr": "Cornelia Walther argumenta que o uso repetido de IA generativa erode atenção moral por substituição gradual: a organização mantém a responsabilidade humana no papel enquanto encolhe o papel humano de enquadrar e autorar a decisão, e escolhas que antes acionariam escrutínio passam a ser rotina. É síntese de literatura, não dado novo, mas específica: pesquisa com trabalhadores do conhecimento ligada à Microsoft (2025) associa maior confiança na IA a menos esforço de pensamento crítico; experimentos com gestores em \"Accepting the Unacceptable in the AI Era\" (2025) mostram recomendações de IA reduzindo consciência moral quando há muitas decisões em sequência; pesquisa na Nature Human Behaviour indica que a interação repetida amplifica vieses em julgamentos humanos posteriores, com os participantes subestimando essa influência. O texto é honesto quanto ao limite da evidência — o estudo de 2026 sobre transferência de agência cognitiva não demonstra declínio de longo prazo — e propõe fricção deliberada antes de decisões consequentes, via quatro perguntas de autoverificação cuja eficácia não foi testada. Para liderança de design, o acionável é projetar esse ponto de atrito como artefato explícito do fluxo, em vez de confiar na vigilância individual."
+    },
+    {
+      "title_original": "When Does the US Become a Net Importer of Tokens?",
+      "url": "https://tomtunguz.com/when-does-the-us-become-a-net-importer-of-tokens",
+      "source": "Tomasz Tunguz",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "Tunguz reduz a restrição física da IA a uma identidade simples — potência necessária igual a tokens demandados divididos por tokens por watt — e usa isso para estimar quando os EUA passam a importar tokens. Os insumos são declarados: 31 GW (2025), 41 GW (2026) e 66 GW (2027) de potência de data center segundo o Goldman Sachs, eficiência composta em cerca de 2,9x ao ano (mistura de especificações de Vera Rubin, Ironwood e Trainium3) e apenas 55% da capacidade programada entrando em operação no prazo; o break-even fica em torno de 2,5x de crescimento real de tokens ao ano. Os cenários de importação são 2028 se 45% dos projetos falharem em conectar, 2029 com 20% de cancelamento e 2030 mesmo se tudo for construído a tempo — e a estrutura de custo explica por que energia não é o item dominante: potência responde por cerca de 5% do custo da hora de GPU contra cerca de 64% de recuperação de capital. É modelo de envelope com insumos rastreáveis, sensível a premissas de eficiência vindas de material de fornecedor e com preços mantidos constantes por admissão do próprio autor."
+    },
+    {
+      "title_original": "Will Retail Investors Benefit From Accessing Private Markets?",
+      "url": "https://knowledge.wharton.upenn.edu/article/will-retail-investors-benefit-from-accessing-private-markets",
+      "source": "Knowledge at Wharton",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "Stambaugh, Taylor e Pástor modelam em equilíbrio o que acontece quando mercados privados se abrem ao investidor de varejo, e a conclusão inverte a narrativa de democratização: o efeito sobre as empresas é muito maior do que sobre as carteiras. O ganho de bem-estar do investidor é de 0,01% da riqueza ao ano no curto prazo e 0,07% no longo — cerca de US$ 70 em uma carteira de US$ 100 mil — e o alfa do private equity cai de cerca de 1% para 0,4% ao ano quando o risco é compartilhado; depois de taxas, a carteira de varejo não bate o mercado em nenhum cenário. Do lado das empresas, o custo de capital de companhias fechadas cai cerca de 0,6% ao ano, o capital privado mais que dobra (cerca de US$ 8 trilhões adicionais) e o mercado público encolhe 8% (cerca de US$ 5,9 trilhões), com o varejo passando a deter aproximadamente metade das empresas fechadas. São previsões de modelo calibrado, não resultado observado de mudança regulatória — mas desenham a direção da oferta de capital para quem vai levantar rodada nos próximos anos."
+    },
+    {
+      "title_original": "Scenarios for future banking: implications for profitability, liquidity and solvency",
+      "url": "https://www.bis.org/publications/scenarios-future-banking-implications-profitability-liquidity-and-solvency",
+      "source": "BIS — Bank for International Settlements",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "O BIS classifica cerca de 9.000 bancos em mais de 150 jurisdições com método baseado em regras sobre 20 anos de dados em nível de banco, acrescenta três modelos emergentes de base tecnológica e projeta quatro cenários de dez anos. O resultado contraintuitivo é que participação em ativos esconde o deslocamento: bancos tradicionais retêm cerca de três quartos dos ativos do sistema em todos os cenários, mas modelos tecnológicos podem disputar aproximadamente 40% do pool de receita — pagamentos, originação de crédito, distribuição, assessoria e receita de tarifas — enquanto o risco de balanço continua no banco. As prioridades de supervisão são idênticas nos quatro cenários: revisar premissas de saída de depósitos, porque canais digitais aceleram a corrida; reforçar resiliência operacional e de terceiros; e tratar rentabilidade fraca como risco de solvência. O próprio documento afirma que o arcabouço estrutura julgamento especializado e não produz previsão, o que é a leitura correta do intervalo de 3% a 27% de ativos projetado para os modelos emergentes."
+    },
+    {
+      "title_original": "Is Private Equity Cooked?",
+      "url": "https://www.a16z.news/p/is-private-equity-cooked",
+      "source": "a16z — Andreessen Horowitz",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "A tese é que o buyout de software é estratégia de fim de ciclo estruturalmente comprometida: aquisições de 2021-22 feitas em pico de múltiplo e com dívida pesada perderam as condições que as sustentavam — queda de juros, expansão de múltiplos e crescimento estável de software. Os números são específicos e atribuídos: empresas de middle market com participação de PE carregam 4,7 a 6,0x dívida líquida/EBITDA contra cerca de 2x da mediana do S&P 500 (J.P. Morgan); 70% da dívida executada em 2025-26 vem de operações de 2021-22; veículos de continuação saltaram de 5% do valor de saída em 2020 para 14% no primeiro semestre de 2026; cerca de US$ 140 bilhões de dívida arriscada vencem em 2028 e US$ 160 bilhões em 2029, um terço em software; e o valor de saída de tech com participação de PE caiu 77% ano a ano. Leia descontando o conflito declarado: o autor atua em venture e a peça defende venture, comparando gestores do top 5% de cada classe para então dizer ao leitor que a mediana é o que importa. Para quem planeja saída, o dado útil é o alongamento — o tempo médio até a saída subiu de 5 a 6 anos no período 2010-21 para cerca de 7 anos, e a operação típica agora exige 10% a 12% de crescimento anual de EBITDA contra cerca de 5% em uma operação de 2015 (Bain)."
+    },
+    {
+      "title_original": "How the ‘Big Three’ Index Fund Managers Really Influence Corporate America",
+      "url": "https://knowledge.wharton.upenn.edu/article/how-the-big-three-index-fund-managers-really-influence-corporate-america",
+      "source": "Knowledge at Wharton",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "Musto, Tucker e Yavuz pesquisaram dezenas de secretários corporativos e executivos sênior de companhias abertas americanas para medir como BlackRock, Vanguard e State Street — donos de cerca de um quarto da empresa média do S&P 500 — exercem influência de fato. O achado contraria a leitura convencional de poder de voto: a influência opera por persuasão e difusão de prática, funciona em temas transferíveis entre empresas (20% relataram conselho mais diverso, 17% força de trabalho mais diversa) e falha em temas específicos da firma — 31% relataram mais divulgação de risco climático e 24% mais divulgação de emissões, mas apenas uma empresa mudou política climática e nenhuma mudou como opera. Comparados a gestores ativos, os três se reúnem com menos empresas e foram significativamente mais associados a governança de marcar caixinha. É working paper com amostra pequena e autorrelato de quem é alvo do engajamento: trate como indicativo, com o mecanismo importando mais que a magnitude."
+    },
+    {
+      "title_original": "Formally verifying agent-written full-stack web apps with PDD Kit",
+      "url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit",
+      "source": "Microsoft Research Blog",
+      "axis": "ia-aplicada",
+      "tier": "solida",
+      "synthesis_ptbr": "A Microsoft Research propõe deslocar a superfície de revisão humana do código para a intenção: o desenvolvedor descreve o que quer em linguagem natural, a ferramenta traduz isso em especificação formal em Verus (Rust) e prova que o código gerado pelo agente a satisfaz para toda entrada, usando testes onde a prova não é prática. O caso é delimitado e descrito com honestidade incomum: a lógica de login de um app full-stack em Rust de cerca de 5.000 linhas, em que um pedido de duas frases virou oito cláusulas ensures — quatro delas preservando recusas já existentes — com seis peças deixadas fora da prova, incluindo as duas consultas ao banco e o check_password com bcrypt, de modo que a garantia vale o quanto valerem essas seis. Uma verificação por mutação planta um bug por cláusula e exige que o Verus rejeite cada mutante, o que expõe cláusulas que não restringem nada. É protótipo de laboratório — uma função, um app, sem baseline contra revisão ou teste convencional — mas desenha o mecanismo que falta para revisar código de agente em escala."
+    },
+    {
+      "title_original": "Incentive Pathologies in a Live LLM Agent Arena: An Empirical Study of Concentration, Reward-Rule Implementation Discrepancy, and Network Dilution",
+      "url": "https://arxiv.org/abs/2611.09445v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "solida",
+      "synthesis_ptbr": "Auditoria de nove dias (16 a 25 de outubro de 2026) de uma arena de agentes autônomos em operação real (AITRAP, 22 assentos, cerca de 96 mil nós de raciocínio) em torno de duas mudanças de incentivo, com os dados publicados no Zenodo. A contribuição mais verificável é a reconstrução em nível de código do bônus de continuação: anunciado como multiplicador de 10x por profundidade, ele resolve em um portão antiabuso de quatro condições que paga cerca de 2,85x no caso típico, e o portão esteve ativo por cerca de 40 horas antes do anúncio da versão. Os demais achados são exploratórios e os autores assumem isso: a concentração do top-4 em pontuação de atividade caiu de 97,2% para 49,4%, o Gini é inconclusivo a 95% de confiança, e eventos por nó caem de forma significativa (Mann-Kendall S=-45, z=-3,94, p=8,3e-5), com duas intervenções agregadas e sem grupo de controle. O valor para quem projeta sistemas multiagentes está na lacuna documentada entre regra anunciada e regra implementada — divergência que nenhuma auditoria de política captura sem ler o código."
+    },
+    {
+      "title_original": "Why AI Needs a Separation of Powers",
+      "url": "https://knowledge.wharton.upenn.edu/article/why-ai-needs-a-separation-of-powers",
+      "source": "Knowledge at Wharton",
+      "axis": "ia-aplicada",
+      "tier": "solida",
+      "synthesis_ptbr": "Hamilton Mann argumenta que um sistema de IA que define suas próprias regras, as aplica e julga seus resultados concentra funções quase-legislativa, quase-executiva e quase-judicial — e que a empresa que o adota perde autonomia como consequência. A proposta operacional, que ele chama de Trias Algorithmica, é separar oito funções do time que constrói ou opera o sistema: definição de objetivo, governança de dados, limites de otimização, aprovação de implantação, monitoramento de dano pós-lançamento, recurso de decisão, orçamento de compute e direito de troca de fornecedor. A evidência empírica é um caso só — o algoritmo de admissão universitária britânico de 2020, que rebaixou quase 40% das notas previstas por professores e foi abandonado após protesto público; o restante é analogia constitucional e cenário hipotético, e o autor tem livro e instituto no tema. Vale como lista de verificação de desenho de governança, não como demonstração de que as oito separações funcionam."
+    },
+    {
+      "title_original": "AI and the Future of the Product Role",
+      "url": "https://www.svpg.com/ai-and-the-future-of-the-product-role",
+      "source": "Silicon Valley Product Group",
+      "axis": "produto-descoberta",
+      "tier": "solida",
+      "synthesis_ptbr": "Cagan separa o papel de produto por modelo operacional em vez de por título: o modelo de projeto produz o PM de time de feature e o product owner, o modelo de produto produz o PM de time empoderado — e sua previsão é que a automação da entrega por IA encolhe ou elimina os dois primeiros enquanto aumenta o peso do terceiro, centrado em discovery. A distinção útil é entre construir para aprender e construir para ganhar: quando o custo de entrega cai, o diferencial migra para a decisão sobre o que merece ser construído. A evidência é experiência direta e observação de setor, sem caso, métrica ou pesquisa que sustente as afirmações sobre demanda e deslocamento de vagas, e Cagan admite que a perspectiva do time de feature é a menos clara. Para quem lidera design dentro de um modelo de projeto, o texto funciona menos como previsão e mais como diagnóstico do modelo operacional em que o time está preso."
+    },
+    {
+      "title_original": "What AI Changes - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/what-ai-changes-all-things-product-podcast-with-teresa-torres-petra-wille",
+      "source": "Product Talk — Teresa Torres",
+      "axis": "produto-descoberta",
+      "tier": "solida",
+      "synthesis_ptbr": "Torres e Wille debatem a tese de que a IA muda tudo em produto e chegam ao oposto: a IA sobretudo expõe problemas que o time já tinha. Os exemplos sustentam o mecanismo — código gerado por IA que quebra revela a ausência prévia de teste automatizado; o anúncio de que \"Scrum morreu\" em times que apenas renomearam iterações de uma semana; o caso Airtable atribuído a perda de foco no produto central e o da Miro a captação excessiva de venture, não à IA. O contra-argumento tratado de frente é o mais perigoso para times sob pressão: entrega ficou de graça, então pule o discovery — e a objeção é que isso remove a capacidade de aprender por que algo falhou. A transcrição completa é paga; a página entrega resumo, conclusões e citações, suficientes para reconstruir o argumento, não para auditar a discussão."
+    },
+    {
+      "title_original": "Agent Harness: How I Built My Own Claude Code, Step by Step",
+      "url": "https://www.productcompass.pm/p/build-your-own-agent-harness",
+      "source": "The Product Compass — Paweł Huryn",
+      "axis": "produto-descoberta",
+      "tier": "solida",
+      "synthesis_ptbr": "Huryn desmonta um agente de código em 15 partes e mostra que o harness — laço de execução, ferramentas, gestão de contexto e regras de segurança — explica boa parte do resultado que se costuma atribuir ao modelo. A medição é o que dá peso ao argumento: no Terminal-Bench 2.0, com 10 tarefas e cinco execuções por harness, seu Mini Harness de cerca de 1.200 linhas de Python marcou 9,2 contra 8,4 do Claude Code usando Haiku 5.5, e empatou em 8,4 com DeepSeek V4.1 Flash — diferenças pequenas que o próprio texto reconhece. Os números operacionais valem mais que o ranking: cerca de 8.200 tokens de contexto consumidos antes de qualquer input do usuário (525 do prompt de sistema, 2.068 de ferramentas locais, 5.588 de busca web) e token em cache a US$ 0,20 por milhão contra US$ 4 sem cache, o que explica por que editar contexto antigo é caro. O benchmark foi rodado pelo próprio autor sobre o próprio harness, sem verificação independente, e a maior parte das 15 etapas está atrás de assinatura."
+    },
+    {
+      "title_original": "Agent Harness: Definition",
+      "url": "https://www.nngroup.com/articles/agent-harness",
+      "source": "Nielsen Norman Group",
+      "axis": "design-lideranca",
+      "tier": "solida",
+      "synthesis_ptbr": "O NN/g nomeia como objeto de design o que costuma ser tratado como detalhe de engenharia: o harness é o software que executa o laço do modelo, cumpre as chamadas de ferramenta e controla que informação o modelo recebe e o que ele pode fazer — e é ele, não o modelo, que determina o que o produto consegue realizar. Os exemplos isolam o mecanismo: dois assistentes de agenda com o mesmo modelo diferem em capacidade porque conectam ferramentas distintas; uma preferência salva como \"manter sextas livres\" não existe se o harness não a repassa; o mesmo PDF de jornada rende resultados diferentes se o harness envia apenas o texto extraído ou também as imagens das páginas. A consequência prática é de escopo de avaliação e de teste: definir com engenharia os padrões, os pontos de aprovação e o comportamento quando não há solução possível, e testar tarefas completas com ferramentas e permissões reais para distinguir falha de interface, de harness e de modelo. É primer conceitual com orientação de alto nível, sem dado empírico próprio."
+    },
+    {
+      "title_original": "What Automated Testing Misses: Six Accessibility Problems That Pass a Scan",
+      "url": "https://equalentry.com/what-automated-accessibility-testing-misses",
+      "source": "Equal Entry",
+      "axis": "acessibilidade",
+      "tier": "solida",
+      "synthesis_ptbr": "O argumento separa o que a varredura automatizada verifica — falhas conhecidas de código, como alt ausente e contraste baixo — do que ela não consegue dizer: se a pessoa conclui a tarefa. Os seis problemas são amarrados a tarefa e correção específicas: alt genérico (\"product image\") em três fotos distintas de produto; botão de pagamento que sai da tela em zoom alto e fica intocável; erro \"entrada inválida\" que não nomeia o campo nem explica o CEP de quatro dígitos; pop-up sem saída por teclado, com Escape inerte e Tab em ciclo; três links \"Read More\" que inviabilizam controle por voz; e legenda automática que embaralha a instrução de uma aula. O caso real é um só e tem uma frase — o botão Purchase bloqueado no iPhone por um plugin que o cliente não sabia existir; os outros seis são cenários ilustrativos do autor, ex-CTO de produto de varredura. A tese sustenta um programa inteiro: conformidade com WCAG é necessária e insuficiente, e o teste com usuários de tecnologia assistiva é o que converte conformidade em tarefa concluída."
+    },
+    {
+      "title_original": "Accessibility MCP Servers: What They Are and How They Work",
+      "url": "https://www.levelaccess.com/blog/accessibility-mcp-servers",
+      "source": "Level Access",
+      "axis": "acessibilidade",
+      "tier": "solida",
+      "synthesis_ptbr": "O texto descreve como servidores MCP de acessibilidade conectam o assistente de código a motores de teste, referência de WCAG ou achados anteriores, permitindo detectar, corrigir e reverificar na mesma sessão em vez de em etapa posterior do pipeline. A taxonomia é utilizável: servidores de motor de teste, que tipicamente encapsulam o axe-core e retornam ID de regra, critério de WCAG, seletor CSS e severidade; de automação de navegador; de referência normativa; e de dados de plataforma. O valor está nos limites declarados, não na promessa: automação cobre apenas o verificável por máquina, correções sugeridas podem estar erradas ou injetar ARIA desnecessário, servidores não operam leitor de tela, o resultado reflete um estado e uma viewport, alguns não alcançam conteúdo em shadow root — e conteúdo de página varrida é entrada não confiável, com risco de injeção de prompt. É conteúdo educacional de fornecedor: a única categoria com produto comercial é ilustrada apenas com o servidor da própria Level Access, sem dado independente de taxa de detecção ou de tempo economizado."
+    },
+    {
+      "title_original": "AI Is Building Faster. Can Accessibility Keep Up?",
+      "url": "https://www.levelaccess.com/blog/ai-is-building-faster-can-accessibility-keep-up",
+      "source": "Level Access",
+      "axis": "acessibilidade",
+      "tier": "solida",
+      "synthesis_ptbr": "A peça é de fornecedor, mas carrega os dois números que importam para quem precisa defender orçamento de acessibilidade: no WebAIM Million de 2026, os erros detectados automaticamente nas um milhão de home pages mais acessadas subiram 10,1% em um ano, de 51 para 56,1 por página, com o próprio WebAIM apontando a codificação assistida por IA como fator possível. A pesquisa State of Digital Accessibility, com mais de 2.500 respondentes, mostra a assimetria que explica o resultado: 61% dizem que a IA acelerou o design e 58% o planejamento, contra apenas 30% em QA e teste. A recomendação derivada é de processo e não de ferramenta — mover a verificação para o pull request, corrigir enquanto o contexto está fresco e manter revisão humana e de usuários com deficiência onde a automação não alcança. Descarte as afirmações de produto: a pesquisa é do próprio fornecedor, os recursos de remediação citados estão marcados como em breve e o ganho de 70% em tempo de autoria de VPAT é autorrelatado sem metodologia."
+    },
+    {
+      "title_original": "My best advice for sponsoring B2B creators",
+      "url": "https://newsletter.mkt1.co/p/b2b-creator-marketing",
+      "source": "MKT1 Newsletter",
+      "axis": "branding-tendencias",
+      "tier": "solida",
+      "synthesis_ptbr": "Emily Kramer escreve do lado de quem recebe as propostas — mais de 75 por mês, com a maior parte da própria receita vinda de patrocínio — e defende que patrocínio de criador em B2B só funciona como campanha com objetivo definido, nunca como compra avulsa. O que sustenta o texto são os parâmetros operacionais, não a tese: criadores de topo costumam estar reservados com três meses ou mais de antecedência, direitos de uso ficam entre 30 dias e 12 meses, a marca deve responder dúvidas do criador em 24 horas e receber as métricas de uma a duas semanas após a publicação, e o briefing deve inspirar em vez de roteirizar. Ela também marca o que não imitar: programas de UGC de alto volume como o da Wispr Flow, com 500 a 700 anúncios por mês, resolvem um problema diferente do de uma marca B2B em construção de categoria. Não há dado de preço, conversão, atribuição de pipeline ou CAC — a própria autora admite que atribuição é difícil, e três patrocinadores aparecem na mesma edição; é julgamento de praticante, não benchmark validado."
+    }
+  ],
+  "convergences_ptbr": "O modelo mental que organiza a semana é o do harness como superfície de decisão. O NN/g define o agent harness — laço de execução, ferramentas, gestão de contexto e permissões — como o que determina a capacidade de um produto de IA, e não o modelo escolhido; o Product Compass transforma isso em medição, com 9,2 contra 8,4 tarefas no Terminal-Bench 2.0 e cerca de 8.200 tokens consumidos antes de qualquer input do usuário; a Microsoft Research desloca a própria superfície de revisão humana, tirando o humano do código e colocando-o na intenção, com prova formal cobrindo o resto. O ciclo capital → ferramenta → prática → métrica aparece completo: o que era detalhe de engenharia virou objeto de design, depois objeto de benchmark, depois item de custo com preço de tabela (token em cache a US$ 0,20 por milhão contra US$ 4).\n\nO segundo modelo convergente é que o limite da delegação é negociado, não técnico. O survey com 289 adultos em 45 casos de uso mostra autonomia limitada como preferência dominante — execução substancial da IA preservando supervisão e palavra final — e identifica receio de perda de realização pessoal como preditor de menor automação, o que coloca o limite no terreno do significado, não da capacidade. O PHANTOM-Bench mostra o custo de ignorar esse limite no nível coletivo: sinais públicos ambíguos derrubam a acurácia em até 47,8 pontos percentuais e produzem 47,3% de falhas de racionalidade coletiva em nove modelos, revertidas em parte apenas quando os juízos privados são expostos. A auditoria da arena AITRAP e a proposta de Trias Algorithmica fecham o nódulo por outro lado: quando a regra anunciada (bônus de 10x) e a regra implementada (cerca de 2,85x no código) divergem, o problema é de separação de poderes e de auditabilidade, não de inteligência do sistema.\n\nAcessibilidade e segurança aparecem nesta semana como as duas faces do mesmo custo de velocidade, e isso é o nódulo mais forte entre eixos distantes. Do lado da acessibilidade, o WebAIM Million de 2026 registra alta de 10,1% nos erros detectados automaticamente (51 para 56,1 por página), com o WebAIM apontando a codificação assistida por IA como fator possível, enquanto 61% dos respondentes dizem que a IA acelerou o design contra apenas 30% em QA e teste. Do lado da segurança, o padrão é idêntico em forma e maior em magnitude: o custo de produzir exploit caiu para minutos enquanto a mediana de correção plena de vulnerabilidades já exploradas subiu de 32 para 43 dias, e a meia-vida de patch não se move desde 2003. Em ambos os campos o gargalo migrou da produção para a verificação, e em ambos a receita proposta é a mesma — empurrar a checagem para o pull request e preservar revisão humana onde a automação não alcança.\n\nNo plano do capital, a semana é de reprecificação do que a IA tornou abundante. Tunguz reduz a restrição física a uma identidade (potência igual a tokens divididos por tokens por watt) e fixa o break-even em cerca de 2,5x de crescimento real de tokens ao ano; a a16z documenta o buyout de software carregando 4,7 a 6,0x dívida líquida/EBITDA contra cerca de 2x da mediana do S&P 500, com US$ 140 bilhões de dívida arriscada vencendo em 2028; Wharton modela a abertura dos mercados privados adicionando cerca de US$ 8 trilhões de capital privado e derrubando o custo de capital das empresas fechadas em 0,6% ao ano; o BIS conclui que modelos tecnológicos podem disputar cerca de 40% do pool de receita bancária enquanto os bancos retêm o risco de balanço. A Vivaldi conecta esse eixo ao de marca ao separar \"a transação pode acontecer\" de \"a transação merece capital\" — mais correspondência não é mais lucro econômico, como mostra a base da McKinsey em que o quintil superior de cerca de 3.000 empresas gerou US$ 677 bilhões enquanto o inferior destruiu cerca de US$ 411 bilhões. A lente regional ficou vazia nesta rodada por razão de processo, não de pauta: os dois finalistas em português, do MIT Sloan Review Brasil e do UX Collective Brasil, retornaram HTTP 403 na verificação de conteúdo e foram descartados pela regra de não sintetizar o que não foi lido.",
+  "tensions": [
+    {
+      "title_ptbr": "Custo de ataque em colapso: corrida de compute ou problema de ciclo de patch?",
+      "side_a": "Tunguz trata a queda do custo de intrusão como corrida de compute entre atacante e defensor: partindo da faixa de US$ 5 mil a US$ 10 mil estimada pelo BIS em abril de 2026 para uma invasão autônoma de 32 passos, ele calcula US$ 90 com modelo de pesos abertos, e soma a isso enxames de cerca de 700 agentes colhendo 136 segredos de produção, 76% dos novos caminhos de ataque a ativos críticos viáveis apenas para enxames paralelos e identidades não humanas superando usuários humanos em 82 para 1. A conclusão é de orçamento: a defesa precisa gastar o suficiente em IA defensiva para empurrar o valor esperado do atacante para baixo de zero.",
+      "side_b": "A a16z concorda que o custo do exploit colapsou, mas argumenta que o gargalo se mudou de lugar em vez de desaparecer: a restrição ativa agora é patch e exposição, não capacidade de exploração. Com a meia-vida de patch estagnada em 30 dias entre 2003 e 2008, mediana de correção plena subindo de 32 para 43 dias e um quarto dos avisos industriais de 2025 sem patch disponível, o cenário projetado é uma era prolongada de worms concentrada em sistemas que não podem ser atualizados rápido — e os autores descartam explicitamente blecaute elétrico ou apagão de internet, oferecendo limiares falsificáveis para serem contestados.",
+      "refs": [
+        "https://tomtunguz.com/a-90-dollar-key-into-your-companys-secrets",
+        "https://www.a16z.news/p/the-exploit-was-the-bottleneck"
+      ]
+    },
+    {
+      "title_ptbr": "A IA reestrutura o trabalho de produto ou só expõe o que já estava quebrado?",
+      "side_a": "Cagan sustenta mudança estrutural: a automação da entrega por IA encolhe ou elimina os papéis gerados pelo modelo de projeto — PM de time de feature e product owner — enquanto aumenta o peso do PM de time empoderado, centrado em discovery. O corolário é que, quando entregar fica barato, o diferencial migra inteiramente para a decisão sobre o que merece ser construído, e o modelo operacional da empresa passa a determinar quem sobrevive à transição.",
+      "side_b": "Torres defende o oposto, com exemplos: a IA sobretudo expõe disfunções preexistentes. Código gerado por IA que quebra revela a ausência anterior de teste automatizado; o caso Airtable é atribuído a perda de foco no produto central e o da Miro a captação excessiva de venture, não à tecnologia. Planejar, alinhar, revisar, medir e entrevistar cliente não desaparecem — e o argumento de que entrega virou gratuita e por isso se pode pular discovery remove justamente a capacidade de aprender por que algo falhou.",
+      "refs": [
+        "https://www.svpg.com/ai-and-the-future-of-the-product-role",
+        "https://www.producttalk.org/what-ai-changes-all-things-product-podcast-with-teresa-torres-petra-wille"
+      ]
+    }
+  ],
+  "feedback_processed": [],
+  "fetch_report": {
+    "failed_sources": [
+      {
+        "id": "import-ai-jack-clark",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "the-beautiful-mess-john-cutler",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "latitud-newsletter",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "jakob-nielsen-ux-tigers",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "the-convivial-society",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "w3c-wai-news",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "branding-strategy-insider",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "lavca",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "clouded-judgement",
+        "error": "HTTP 403"
+      }
+    ]
+  }
+}

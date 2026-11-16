@@ -1,0 +1,275 @@
+{
+  "week": "2026-W47",
+  "generated_at": "2026-11-16T23:29:57.367Z",
+  "items": [
+    {
+      "title_original": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
+      "url": "https://arxiv.org/abs/2611.17610v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "referencia",
+      "synthesis_ptbr": "Sintetiza nove avaliações empíricas primárias e 516 configurações multiagente e mostra que a vantagem atribuída à coordenação desaparece quando o baseline é igualado em número de amostras e em orçamento de inferência: a diferença média de acurácia fica em -0,042 e o sistema multiagente empata ou perde em 74% dos contrastes comparáveis. Trocar um baseline guloso por um baseline amostrado move o resultado em -0,038, o que indica que boa parte da literatura mediu compute e multiplicidade de amostras, não colaboração. O autor conclui que comunicação só agrega quando há evidência particionada, verificação externa ou diversidade de erro entre modelos — critério direto para decidir quando vale orquestrar agentes em vez de simplesmente rodar mais passes."
+    },
+    {
+      "title_original": "Only as Safe as the Weakest Agent: A Break That Appears Only When the System Is Multi-Agent",
+      "url": "https://arxiv.org/abs/2611.17520v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "referencia",
+      "synthesis_ptbr": "A segurança de um sistema multiagente converge para a do agente mais fraco, não para a do orquestrador: com um registro falsificado plantado em disco, orquestradores fortes quase não produziram revisões danosas em mais de mil tentativas isoladas, mas falharam em 20/180, 44/180, 75/180 e 553/900 tentativas quando delegaram a busca a um subagente mais barato. Em simulação com 18 modelos, cinco agregadores praticamente seguros sozinhos repetiram o erro de um subagente corrompido em 751 de 757 rodadas. O teste roda sobre Claude Code e Codex sem modificação, com os mecanismos nativos de subagente, o que converte a economia de delegar para modelo barato em decisão de segurança, não de custo."
+    },
+    {
+      "title_original": "IA para verificação robusta de acessibilidade",
+      "url": "https://reinaldoferraz.com.br/ia-para-verificacao-robusta-de-acessibilidade",
+      "source": "Reinaldo Ferraz",
+      "axis": "acessibilidade",
+      "tier": "referencia",
+      "synthesis_ptbr": "Apresenta o artigo \"On the Limits for Web Accessibility Evaluation Using AI Agents\" (Santana, Ferraz e Vieira de Deus, conferência W4A), que testou sete critérios WCAG de verificação difícil — 1.1.1, 1.2.2, 1.2.5, 1.2.6, 1.3.3, 2.1.2 e 2.3.2 — em pares de páginas conforme e não conforme, contra agentes de navegação (Atlas e Comet), LLMs e frameworks de agentes, usando avaliação humana especializada como referência. Nenhuma ferramenta detectou legendas, audiodescrição, janela de língua de sinais ou vídeo com vários flashes por segundo, porque todas leem HTML e metadados sem perceber o conteúdo dentro do vídeo; algumas identificaram dependência de cor e bloqueio de teclado, e a verificação humana acertou todos os casos. A consequência operacional é delimitada: IA amplia a varredura, mas não substitui o especialista nos critérios que dependem de percepção audiovisual.",
+      "latam_note": "Pesquisa de especialistas ligados ao Ceweb.br/W3C Brasil publicada em português, com a ressalva explícita de que o experimento testou ASL e não Libras — o resultado para o contexto brasileiro ainda está aberto."
+    },
+    {
+      "title_original": "MaRCo@BIS: AI-agentic econometric analysis for central bankers",
+      "url": "https://www.bis.org/publications/working-paper-1395-marcobis-ai-agentic-econometric-analysis-central-bankers",
+      "source": "BIS — Bank for International Settlements",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "O BIS publica e libera como bem público o MaRCo@BIS: arquivos de workflow em texto puro, dicionário verificado de especificações canônicas e biblioteca de métodos testada, operados por um ambiente agêntico de codificação comum, com registro do racional, das alternativas consideradas e dos resultados em cada etapa. A validação reproduziu três VARs estruturais publicados quando especificação e dados estavam suficientemente definidos, com incerteza maior em identificação por conjunto e dados incompletos; num exercício aberto de política fiscal, os efeitos de curto prazo se mostraram mais robustos que os de médio prazo, dependentes de escolhas de modelagem. O desenho exige que o pesquisador confirme ou rejeite cada decisão consequente e nomeia os riscos — garimpo de especificação e viés de automação —, o que o torna caso documentado de agente como extensão de julgamento especializado dentro de uma instituição."
+    },
+    {
+      "title_original": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
+      "url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient",
+      "source": "Microsoft Research Blog",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "Plugin open-source que reduz desperdício de agentes de codificação sem alterar o agente nem o modelo, combinando microskills aprendidas do histórico do repositório, poda de ferramentas que o histórico indica como não usadas e intervenção quando um laço de falha é detectado. Em 277 tarefas do SWE-Bench sobre seis repositórios e cinco combinações agente-modelo, o custo médio caiu de 18,4% a 30,9% com pass@1 estável, e no Web-Bench a queda foi de 16,0% a 21,2%; reduzir esforço de raciocínio economizava o mesmo ou mais, mas degradava desempenho. A medição de base mostra onde o dinheiro vaza: após cinco tarefas, cerca de 30% das chamadas de ferramenta repetiam ação anterior no mesmo repositório, 16 das 23 descrições de ferramenta recebidas por turno não eram usadas, e os 17% de tarefas que falhavam consumiam 32% do gasto."
+    },
+    {
+      "title_original": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+      "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents",
+      "source": "Microsoft Research Blog",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "Pesquisadores da Microsoft demonstram o Lazarus, técnica que reprograma menos de dez neurônios dormentes nos pesos de um modelo para transformá-los em detectores de gatilho — sem retreinamento, com compute de inferência e com um classificador linear ajustado em cerca de 50 exemplos. O modelo resultante passa nas avaliações padrão e se comporta normalmente até o gatilho aparecer; no exemplo, a virada do calendário para 2027 faz o agente baixar e executar código do atacante. A detecção confiável exige comparar os pesos contra o checkpoint original e nenhuma varredura prova que um modelo é seguro, e como basta acesso de escrita ao checkpoint o risco atinge também modelos desenvolvidos internamente — daí a recomendação de tratar modelos como risco de pessoa interna: proveniência verificada, permissão mínima, monitoramento de ações e revisão humana do que é consequente."
+    },
+    {
+      "title_original": "TradeGauntlet: Evaluating Compliance Controls for Autonomous Trading Agents",
+      "url": "https://arxiv.org/abs/2611.18493v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "ia-aplicada",
+      "tier": "citada",
+      "synthesis_ptbr": "Simulador replicável de livro de ofertas que separa detecção, prevenção e custo de execução para agentes de negociação autônomos, com 1.680 sessões usando Claude Haiku 5.5 e Sonnet 5.5, 2.400 episódios de busca por estratégias de evasão e 240 rodadas de prompt adversarial. Todos os alertas de conduta nas rodadas com LLM foram self-matches e os portões os eliminaram rejeitando ordens que se cruzavam, mas o portão agregado reduziu em cerca de 15% as execuções bilaterais do Sonnet, e o detector aprendido pegou os 2.400 episódios ao custo de sinalizar 15% das sessões de um grande formador de mercado legítimo. A tese operacional é que ausência de alerta não estabelece conformidade: controle de agente tem preço mensurável em atividade legítima, e esse preço precisa entrar na decisão de governança."
+    },
+    {
+      "title_original": "DesignSpecs: A DESIGN.md Dataset of Visual Design Specifications for AI Agents",
+      "url": "https://arxiv.org/abs/2611.17713v1",
+      "source": "arXiv — Agentes autônomos e interação humano-IA",
+      "axis": "design-lideranca",
+      "tier": "citada",
+      "synthesis_ptbr": "Primeiro dataset de pesquisa de arquivos DESIGN.md, formato que descreve identidade visual por tokens nomeados e prosa em Markdown, originado na ferramenta Stitch do Google e aberto em abril de 2026. Os autores partiram de 613.207 arquivos com esse nome coletados em outubro de 2026 e filtraram por front matter YAML, nome de design system, ao menos um token reconhecido e zero erros no linter oficial, chegando a 36.906 arquivos de 15.794 repositórios públicos não-fork, com 17.240 conteúdos únicos. Interessa à liderança de design porque torna observável em escala como times estão especificando identidade visual em formato legível por agente: o design system deixa de ser documentação para humanos e passa a ser contrato de entrada de quem gera interface."
+    },
+    {
+      "title_original": "The AI Regulation Fight Is About Speed. It Should Be About Measurement",
+      "url": "https://knowledge.wharton.upenn.edu/article/the-ai-regulation-fight-is-about-speed-it-should-be-about-measurement",
+      "source": "Knowledge at Wharton",
+      "axis": "design-lideranca",
+      "tier": "citada",
+      "synthesis_ptbr": "Burcu Esmer (Wharton) e N. Bugra Ozel (UT Dallas) argumentam que o debate de regulação de IA travou em velocidade quando o problema é contabilidade: falta um sistema confiável que registre o que os sistemas fazem, quem afetam e com que frequência falham de forma grave. A assimetria da evidência sustenta o ponto — o relatório de crimes na internet do FBI de 2025, o primeiro com seção de IA, registrou 22.364 queixas e cerca de US$ 893 milhões em perdas, mas apenas com menção a IA, enquanto um candidato filtrado por triagem automática ou um crédito negado não deixam registro nacional comparável. A proposta é mecânica e auditável: definições e formulários comuns publicados pelo NIST, relato padronizado de avaliações pré-lançamento e incidentes graves, obrigações escalonadas por alcance e risco para grandes empregadores, hospitais e credores via reguladores setoriais, verificação por auditor independente e toda métrica com denominador."
+    },
+    {
+      "title_original": "The missing quadrant in responses to AI",
+      "url": "https://www.normaltech.ai/p/the-missing-quadrant-in-responses",
+      "source": "AI as Normal Technology",
+      "axis": "design-lideranca",
+      "tier": "citada",
+      "synthesis_ptbr": "Os autores organizam as respostas à IA em dois eixos — quão a sério se leva o potencial transformador e quão a sério se levam os gargalos a jusante, como regulação, normas profissionais e inércia organizacional — e mostram que o quadrante que leva ambos a sério está pouco povoado, o que alimenta a polarização entre determinismo tecnológico e defesa do status quo. O argumento é que a velocidade da transformação é limitada por mudança humana e organizacional, não por capacidade: carros autônomos enfrentam resistência mesmo sendo mais seguros que motoristas humanos, o gargalo em medicina costuma ser o ensaio clínico e não a descoberta, e a adoção corporativa ainda não aparece em ganho agregado de produtividade enquanto o trabalho de engenharia de software já mudou sem mexer no número de pessoas. A consequência para quem decide é deslocar a pergunta de qual é o gargalo para como se remove o gargalo, e priorizar IA que amplia o trabalho em vez de substituí-lo."
+    },
+    {
+      "title_original": "EAA: what happened in year one?",
+      "url": "https://tetralogical.com/blog/2026/11/12/EAA-year-one",
+      "source": "TetraLogical",
+      "axis": "acessibilidade",
+      "tier": "citada",
+      "synthesis_ptbr": "Balanço do primeiro ano de fiscalização do European Accessibility Act com jurisprudência concreta: na França, duas associações de pessoas com deficiência reclamaram contra quatro grandes varejistas em julho de 2025 e processaram em novembro; em 2026 a Justiça deu ao Carrefour seis meses para se adequar, com multa diária, cobrindo site e aplicativo — primeira decisão a abranger app. O caso é o ponto operacional da matéria: o Carrefour já estava em 71% de conformidade com o RGAA francês, e o tribunal afirmou que a questão é se as pessoas conseguem usar o serviço, não quanto a empresa melhorou. O caso Auchan, tido como o primeiro do EAA, foi extinto por um limiar de receita de 250 milhões de euros da lei francesa, com recurso pendente e o laudo que reprovou 9 de 13 seções avaliadas já nos autos, e em setembro de 2026 a norma referenciada passou de WCAG 2.1 para 2.2, somando nove critérios de sucesso.",
+      "latam_note": "O EAA vale pelo local do cliente e não pela sede da empresa, de modo que operação brasileira que atende consumidor na União Europeia está no escopo e precisa migrar o mapeamento de WCAG 2.1 para 2.2."
+    },
+    {
+      "title_original": "Accessibility and the EU AI Act",
+      "url": "https://tetralogical.com/blog/2026/11/11/accessibility-and-the-eu-ai-act",
+      "source": "TetraLogical",
+      "axis": "acessibilidade",
+      "tier": "citada",
+      "synthesis_ptbr": "A TetraLogical mapeia onde o EU AI Act encosta em acessibilidade: a partir de dezembro de 2027, fornecedores de IA de alto risco — triagem de currículos, score de crédito, admissão universitária, elegibilidade a benefícios — passam a ter obrigação legal de conformidade com EN 301 549 e WCAG 2.2, somada a gestão de risco, supervisão humana e prova de conformidade. O dever de informar que há IA ou conteúdo gerado por IA vale além do alto risco, e essa informação, inclusive os rótulos de conteúdo gerado, precisa ser acessível; embutir IA de terceiro no próprio produto transforma a empresa em fornecedora, e o dever de letramento em IA atravessa todos os níveis de risco. As recomendações são de processo: inventariar onde a IA entra, embutir acessibilidade na governança de IA, exigir evidência de acessibilidade do fornecedor na compra e documentar o trabalho para poder comprová-lo se questionado."
+    },
+    {
+      "title_original": "Band-aid accessibility",
+      "url": "https://yatil.net/blog/band-aid-accessibility",
+      "source": "Eric Eggert (yatil)",
+      "axis": "acessibilidade",
+      "tier": "citada",
+      "synthesis_ptbr": "Eggert sustenta sem reservas o direito de pessoas com deficiência usarem ferramentas de código com LLM para construir as funcionalidades acessíveis que os produtos lhes negam, e no mesmo texto nomeia o custo estrutural disso: caminhos separados saem de sincronia com o produto principal, e o custo crescente de geração por LLM limita o que se consegue manter — um imposto da deficiência cobrado de quem já é excluído. O risco que ele projeta é de retroalimentação: empresas desprioritizam acessibilidade supondo que a própria comunidade cobre a lacuna, o que aumenta o imposto. A base empírica é a sua revisão de dezenas de projetos por ano, que ele descreve como mostrando qualidade de acessibilidade em baixa em 2026, e a conclusão é o oposto do remendo: acessibilidade desde o início, escuta de usuários com deficiência e contratação de especialistas cegos em interface."
+    },
+    {
+      "title_original": "Discovery & The 4 Risks - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/discovery-the-4-risks-all-things-product-podcast-with-teresa-torres-petra-wille",
+      "source": "Product Talk — Teresa Torres",
+      "axis": "produto-descoberta",
+      "tier": "citada",
+      "synthesis_ptbr": "Torres aplica os quatro riscos de produto à própria prática de discovery contínuo e conclui que ela tem ajuste em nível individual e de time, mas não em nível organizacional. A viabilidade não é o gargalo — empresas querem discovery melhor e pagam por treinamento —, e sim a disposição de reservar tempo e proteger acesso a cliente: conselhos premiam resultado previsível e executivos são recompensados por parecer certos e ditar solução, de modo que a adoção raramente sobrevive a troca de liderança ou ao crescimento além do número de Dunbar. A implicação é incômoda e acionável: em vez de pedir que a organização mude, desenhar o discovery para caber nas restrições que ela já tem, com a ressalva de Wille de que adoção parcial ainda vale porque um time que trabalhou assim não desaprende."
+    },
+    {
+      "title_original": "What Estée Lauder’s Founder Knew About Compounding",
+      "url": "https://vivaldigroup.com/what-estee-lauders-founder-knew-about-compounding",
+      "source": "Vivaldi Group",
+      "axis": "branding-tendencias",
+      "tier": "citada",
+      "synthesis_ptbr": "A Vivaldi usa a Estée Lauder para defender que marca, inovação, modelo de negócio e investimento sejam geridos como um sistema único ancorado em onde a demanda se forma e medidos por lucro econômico, em vez de por ganho de participação. O caso traz números de divulgação da empresa: crescimento orgânico de 3% sobre cerca de US$ 15 bilhões no ano fiscal 2026, margem operacional ajustada subindo de 8,0% para 11,2%, 6% de crescimento orgânico no primeiro trimestre fiscal de 2027 e custos não voltados ao consumidor caindo de 29,1% para 27,7% das vendas, com meta de 16,5% a 18,5% de margem até 2030 sustentada sobretudo em programas de custo. O argumento central é o Youth-Dew de 1953, que converteu perfume de presente ocasional em compra diária para si mesma — demanda criada fora da categoria existente, não participação disputada dentro dela. O texto é peça de consultoria e promove o próprio arcabouço."
+    },
+    {
+      "title_original": "Welcome to the B2A Economy",
+      "url": "https://www.a16z.news/p/welcome-to-the-b2a-economy",
+      "source": "a16z — Andreessen Horowitz",
+      "axis": "branding-tendencias",
+      "tier": "citada",
+      "synthesis_ptbr": "A tese é que agentes se tornam os principais usuários da internet e os selecionadores de compra, e que empresas que bloqueiam esse tráfego perdem um canal de distribuição em formação. Os números citados vêm de fornecedores: tráfego de loja originado em IA crescendo cerca de 8x ano a ano na Shopify no primeiro trimestre de 2026 e pedidos por busca com IA quase 13x; mais de 40% dos pull requests do GitHub começando como rascunho de agente em setembro de 2026, contra 17% seis meses antes; agentes respondendo por cerca de 40% do tráfego de documentação e 70% das requisições de CLI na Stripe. A consequência de marca é que otimizar para descoberta deixa de bastar: a disputa migra para avaliação e execução — como o agente compara opções e conclui a transação —, o que transforma feeds, APIs, listagens e delegação de identidade em ativo competitivo. Os autores são investidores da própria tese, e as projeções devem ser lidas como opinião informada."
+    },
+    {
+      "title_original": "Strategic Decision or Structural Advantage?",
+      "url": "https://tomtunguz.com/two-pricing-strategies-in-enterprise-ai",
+      "source": "Tomasz Tunguz",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "Dezesseis semanas de telemetria do Databricks Unity Gateway em mais de 10 mil empresas mostram o mercado corporativo se partindo por faixa de capacidade: a Anthropic foi de 81% para 94% do volume de tokens de ponta entre julho e 2 de novembro, enquanto a OpenAI saiu de 30% para 81% na faixa baixa depois de cortar o preço do Luna em 90% em duas rodadas, e passou de 0% para 47% da faixa intermediária. O dado mais relevante para planejamento é lateral: a participação de modelos de peso aberto subiu semana a semana de 7% em julho para 33% em setembro e estancou em 31% justamente na semana dos cortes de preço — substituição que raramente entra na conta de quem só olha o próprio volume. O autor não resolve se a diferença é subsídio estratégico ou vantagem estrutural de custo, e a distinção importa porque subsídio se reverte e estrutura de custo não; a amostra é de um único fornecedor, com viés para cargas de dados e codificação."
+    },
+    {
+      "title_original": "No Shirt, No Shoes, No Service for Bots",
+      "url": "https://tomtunguz.com/no-shirt-no-shoes-no-service-for-bots",
+      "source": "Tomasz Tunguz",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "Bots chegaram a 54% do tráfego global da web e o tráfego de agentes cresceu 8x entre agosto e outubro de 2026, e o autor explica por aritmética de balanço por que varejo e aviação bloqueiam agentes no checkout: a publicidade da Amazon rendeu US$ 68,6 bilhões a margem de cerca de 50%, contra US$ 34,4 bilhões de lucro operacional fora da AWS, e na United os upgrades de assento e bagagem somaram US$ 4,8 bilhões e outras taxas e comissões US$ 3,2 bilhões, contra US$ 4,7 bilhões de lucro operacional. Quando o produto-base é precificado perto do custo e o lucro mora em adicionais que o agente ignora, bloquear é defesa de margem — e a Shopify acolhe agentes porque cobra cerca de 3,1% do volume transacionado, independentemente de quem clica. As saídas são três e todas explícitas: reprecificar o funil, cobrar taxa de checkout por agente ou pagar incentivo para que o agente venda o adicional. A relação causal é inferência do autor; as empresas alegam segurança."
+    },
+    {
+      "title_original": "Como acabar com a jabuticaba dos juros. Sem truque",
+      "url": "https://braziljournal.com/como-acabar-com-a-jabuticaba-dos-juros-sem-truque",
+      "source": "Brazil Journal",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "Estudo de Carlos Eduardo Gonçalves (FMI) e Tiago Cavalcanti (Cambridge), com 52 países — 21 emergentes — e dados dos últimos vinte anos, estima que o juro real brasileiro deveria ter ficado em torno de 3% entre 2020 e 2025, enquanto o realizado foi de 5,4%, acima dos pares comparáveis. A anomalia não vem do déficit primário, que está perto de zero, mas da combinação de dívida maior que a dos pares, prazo médio muito curto e prêmio de risco cobrado por desconfiança fiscal, numa dinâmica autorrealizável em que a percepção de crise se concretiza. As propostas são coordenação entre política fiscal e monetária, ajuste que preserve educação, saúde e pesquisa, e revisão de indexações como a regra do salário mínimo — e explicitamente não elevar a meta de inflação, porque com a indexação atual isso levaria a inflação de 4,5% para cerca de 6%.",
+      "latam_note": "Com juro real nesse patamar, o custo de capital no Brasil pressiona qualquer aposta de produto cujo retorno dependa de prazo longo, e a dívida curta mantém a sensibilidade a choques de confiança."
+    },
+    {
+      "title_original": "Banking System Vulnerability: 2026 Update",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/11/banking-system-vulnerability-2026-update",
+      "source": "Liberty Street Economics — Federal Reserve Bank of New York",
+      "axis": "macro-capital",
+      "tier": "citada",
+      "synthesis_ptbr": "Atualização anual do Fed de Nova York com quatro modelos de vulnerabilidade bancária sobre dados até o segundo trimestre de 2026: três das quatro medidas pioraram em relação ao ano anterior. O hiato de capital no cenário \"2008 redux\" saltou de US$ 1,9 bilhão para US$ 16,9 bilhões, enquanto o cenário \"2022 redux\", que incorpora ganhos e perdas não realizados em títulos, ficou praticamente estável em US$ 151,1 bilhões; o índice de liquidez sob estresse está no maior nível desde 2014, ainda em pouco mais da metade do pico de 2007, e os índices de venda forçada e de vulnerabilidade a corrida subiram, moderados em perspectiva histórica mas acima do período 2015-2022. Os motores nomeados são queda de ativos líquidos, mais financiamento instável e exposições fora de balanço, com alavancagem a valor justo explicando a alta do risco de venda forçada — leitura direta de quanto o ciclo de crédito tende a encarecer capital adiante."
+    },
+    {
+      "title_original": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
+      "url": "https://www.nngroup.com/articles/research-in-the-loop",
+      "source": "Nielsen Norman Group",
+      "axis": "design-lideranca",
+      "tier": "solida",
+      "synthesis_ptbr": "A NN/g propõe que, com agentes de codificação tornando a construção barata, o time passe a lançar primeiro e aprender pelo uso — e que a pesquisa não desapareça, mas se desloque para dentro do ciclo, definindo o que cada release precisa medir e o que ele pode ajudar a descobrir. O artefato concreto é uma seção de pesquisa na própria especificação: resultados esperados, sinais de sucesso, sinais de dano, o que instrumentar e quando conversar com pessoas — material que um agente de codificação converte em instrumentação. O modelo separa três atividades (avaliação, investigação e descoberta) e três modos de engajamento qualitativo (cadência fixa, investigação de anomalia no dado e evidência antes de decisão difícil de reverter), e a própria NN/g registra as questões abertas: como validar evidência vinda de release, como evitar síntese enviesada por IA e como não sobreinstrumentar."
+    },
+    {
+      "title_original": "Designing for participation: What transit and technology can learn from disability advocacy",
+      "url": "https://equalentry.com/accessible-transit-and-technology-design",
+      "source": "Equal Entry",
+      "axis": "acessibilidade",
+      "tier": "solida",
+      "synthesis_ptbr": "Sasha Blair-Goldensohn, que lidera projetos de acessibilidade no Google Maps e é usuário de cadeira de rodas, separa conformidade de utilidade com um caso próprio: em 2011 o Google Maps passava no WCAG e não informava se um local tinha entrada acessível para cadeira de rodas. O paralelo com o metrô de Nova York fixa a métrica certa — a acessibilidade de estações saiu de cerca de 20% para cerca de 30%, e a ação judicial elevou a construção de 3 ou 4 elevadores por ano para cerca de 12, mas o acordo de manutenção não garantiu confiabilidade e sim o anúncio de interrupções, porque elevador que existe e está quebrado continua bloqueando a viagem. Hoje o Maps tem dados de acessibilidade de cerca de 50 milhões de locais, com precisão relatada de cerca de 8 em 10 nos Estados Unidos — e o argumento operacional é medir se a pessoa conclui a tarefa, não a nota da auditoria."
+    },
+    {
+      "title_original": "How Founders Can Reduce Platform Risk Before It Threatens Growth",
+      "url": "https://news.crunchbase.com/ai/startup-founders-reduce-platform-risk-filippenko-intch",
+      "source": "Crunchbase News",
+      "axis": "produto-descoberta",
+      "tier": "solida",
+      "synthesis_ptbr": "O fundador da Intch relata a remoção do próprio aplicativo da App Store, cerca de um mês tentando descobrir o motivo e um recurso com janela de 30 dias encerrado em rejeição genérica, e argumenta que dependência de loja é risco de infraestrutura, não de canal. O que sustentou a operação foi uma versão web criada dois anos antes e já promovida a canal primário de pagamento, o que permitiu continuar publicando atualizações; ele cita o relatório de transparência de 2025 da Apple, com 166.899 apps removidos e 423 restaurados após recurso, e descreve o congelamento dos três meses anteriores de recebíveis e o desligamento das assinaturas recorrentes. As práticas propostas são verificáveis antes da crise: estimar quanto da receita depende do acesso à loja, testar o canal alternativo de pagamento enquanto o app está no ar e levar essa exposição para a conversa de investimento. A evidência é de um único caso, com números de recuperação não divulgados."
+    },
+    {
+      "title_original": "Why Employees Choose Purpose Over Pay",
+      "url": "https://knowledge.wharton.upenn.edu/podcast/this-week-in-business/why-employees-choose-purpose-over-pay",
+      "source": "Knowledge at Wharton",
+      "axis": "branding-tendencias",
+      "tier": "solida",
+      "synthesis_ptbr": "Pesquisa de J. Daniel Kim (Wharton) indica que candidatos aceitam até 15% menos remuneração para entrar em startups com missão social forte, o que faz do propósito declarado um instrumento de custo de folha, e não apenas de reputação. O mesmo sinal corta nos dois sentidos: os valores declarados criam expectativa sobre que tipo de empregador a empresa será, e a vantagem na atração não se traduz automaticamente em retenção ou satisfação no trabalho. Para quem cuida de marca empregadora, a consequência prática é tratar missão como promessa auditável pelo próprio funcionário e tratar retenção como problema separado, com instrumento próprio."
+    },
+    {
+      "title_original": "Serviço Geológico do Brasil prepara a maior campanha de sua história",
+      "url": "https://braziljournal.com/servico-geologico-brasileiro-prepara-a-maior-campanha-de-sua-historia",
+      "source": "Brazil Journal",
+      "axis": "macro-capital",
+      "tier": "solida",
+      "synthesis_ptbr": "O Serviço Geológico do Brasil prepara a maior campanha de pesquisa mineral de sua história: R$ 1,2 bilhão em quatro anos, dos quais R$ 800 milhões em geofísica, com o orçamento de pesquisa saindo de R$ 47 milhões em 2026 para R$ 300 milhões previstos em 2027 e o gasto em geofísica de R$ 8 milhões para R$ 194 milhões. O problema atacado é de informação pública: o mapeamento em escala pré-competitiva cobre de 28% a 30% do território continental, o urânio não tem levantamento de potencial há 40 anos, e o país detém a maior reserva mundial conhecida de nióbio e a segunda de terras raras. O precedente citado dá a ordem de grandeza do efeito: depois da campanha concluída em 2014, os requerimentos privados de pesquisa subiram mais de 300%, chegando a 1000% em alguns locais, e a estimativa de retorno é de R$ 8 a R$ 14 por real investido.",
+      "latam_note": "As entregas são semestrais e anuais e alimentam a recém-aprovada Política Nacional de Minerais Críticos, antecipando onde a cadeia física de cobre, lítio, nióbio e terras raras no Brasil ganha informação pública antes de atrair capital."
+    }
+  ],
+  "convergences_ptbr": "O objeto de estudo da semana deixou de ser o modelo e passou a ser a cadeia de delegação. Três trabalhos independentes atacam o mesmo ponto por ângulos diferentes: a meta-análise multiagente mostra que o ganho atribuído à coordenação desaparece quando se igualam amostras e orçamento de inferência; o estudo sobre o agente mais fraco mostra que a segurança do sistema converge para a do subagente barato, não para a do orquestrador; e a técnica de backdoor por neurônios dormentes mostra que o elo frágil pode estar nos pesos do checkpoint, antes de qualquer prompt. O modelo mental que emerge é o de cadeia de suprimentos: a propriedade relevante não está em nenhum componente isolado, e sim na junta entre eles — o que coloca arquitetura de delegação, proveniência de modelo e permissão mínima no mesmo plano de decisão.\n\nUm segundo bloco fecha o ciclo capital → ferramenta → prática → métrica. A telemetria de mais de 10 mil empresas mostra o preço do token sendo usado como arma de participação de mercado, com a faixa baixa comprada a 90% de desconto e a adoção de peso aberto estancando na mesma semana; o TokenEconomizer transforma esse preço em engenharia, cortando de 18,4% a 30,9% do custo ao aprender do histórico do próprio repositório; o dataset de arquivos DESIGN.md mostra a prática de design sendo reescrita em formato que o agente lê; e a proposta de pesquisa-no-ciclo da NN/g reescreve a prática de pesquisa em torno do que cada release instrumenta. O custo de inferência deixa de ser linha de infraestrutura e passa a ser variável de desenho: define quantos passes se pode rodar, quanta especificação vale escrever e o que se mede depois de lançar.\n\nO nódulo que conecta os seis eixos nesta semana é medição verificável por terceiro, em oposição a conformidade declarada. A proposta de contabilidade de danos de IA argumenta que falta denominador e auditoria independente para saber o que os sistemas fazem; o primeiro ano do European Accessibility Act dá a versão judicial do mesmo argumento, com o tribunal francês dizendo ao Carrefour que 71% de conformidade com a norma não responde se a pessoa consegue usar o serviço; a pesquisa brasileira sobre limites da IA em verificação de acessibilidade mostra ferramentas que leem metadados e não percebem legenda, audiodescrição ou Libras; o relato sobre participação no transporte troca nota de auditoria por elevador que funciona; o simulador de conformidade para agentes de negociação mostra que ausência de alerta não prova conformidade e que o portão tem preço em execução legítima; e a autocrítica de Torres sobre discovery contínuo diz o mesmo em nível organizacional, ao distinguir empresa que compra treinamento de empresa que reserva tempo. Em todos os casos a régua se desloca de autodeclaração para evidência que alguém de fora pode conferir.\n\nPor fim, o agente aparece como contraparte econômica, e é aqui que a lente latino-americana entra. A economia B2A propõe tratar agentes como clientes de primeira classe e converter feeds e APIs em ativo de distribuição, enquanto a aritmética de balanço de varejo e aviação explica por que bloquear ainda é defesa de margem — e a tese da Estée Lauder, sobre criar demanda fora da categoria em vez de disputar participação dentro dela, descreve o mesmo deslocamento no vocabulário de marca. O quadrante ausente nas respostas à IA dá o contorno: o limite é mudança organizacional, não capacidade. No Brasil esse limite é financeiro e físico antes de ser técnico: juro real realizado de 5,4% contra 3% estimado pelos fundamentos encurta o horizonte de qualquer aposta de produto, enquanto os R$ 1,2 bilhão do Serviço Geológico tratam informação pública sobre cobre, lítio e terras raras como pré-condição de atração de capital. Vale registrar que, nesta rodada, as fontes editoriais brasileiras de produto e design recusaram a leitura automatizada na verificação, e a lente regional veio sobretudo de macro e de acessibilidade.",
+  "tensions": [
+    {
+      "title_ptbr": "Multiagente: ganho de coordenação ou compute disfarçado?",
+      "side_a": "A coordenação entre agentes não paga o que promete. Igualando número de amostras e orçamento de inferência, o sistema multiagente empata ou perde em 74% dos contrastes comparáveis, com diferença média de acurácia de -0,042, e a comunicação não agrega informação quando todos os agentes compartilham a mesma evidência. Pior: delegar a busca a um subagente mais barato derrubou orquestradores que, sozinhos, quase não erravam em mais de mil tentativas — em uma configuração, 553 falhas em 900 tentativas.",
+      "side_b": "Com escopo delimitado, portões e aprendizado de histórico, a delegação entrega resultado medido. O TokenEconomizer cortou de 18,4% a 30,9% do custo em 277 tarefas do SWE-Bench sem perda de pass@1; o MaRCo@BIS reproduziu três VARs estruturais publicados com o pesquisador confirmando cada decisão consequente; e portões de conformidade eliminaram todos os alertas de conduta dos agentes de negociação, ao custo explícito de cerca de 15% das execuções bilaterais. O que falha é delegação sem partição de evidência e sem verificação, não delegação.",
+      "refs": [
+        "https://arxiv.org/abs/2611.17610v1",
+        "https://arxiv.org/abs/2611.17520v1",
+        "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient",
+        "https://www.bis.org/publications/working-paper-1395-marcobis-ai-agentic-econometric-analysis-central-bankers",
+        "https://arxiv.org/abs/2611.18493v1"
+      ]
+    },
+    {
+      "title_ptbr": "Agente no checkout: bloquear para proteger margem ou cortejar como canal?",
+      "side_a": "Bloquear é defesa de margem, não conservadorismo. Onde o produto-base é precificado perto do custo, o lucro mora nos adicionais que o agente ignora: publicidade de US$ 68,6 bilhões a cerca de 50% de margem contra US$ 34,4 bilhões de lucro operacional fora da AWS na Amazon; US$ 4,8 bilhões de upgrades e US$ 3,2 bilhões de taxas contra US$ 4,7 bilhões de lucro operacional na United. Sem reprecificar o funil, aceitar agente no checkout é vender ao custo.",
+      "side_b": "Quem bloqueia perde um canal em formação. O tráfego de loja originado em IA cresceu cerca de 8x ano a ano na Shopify e os pedidos por busca com IA quase 13x; mais de 40% dos pull requests do GitHub já começam como rascunho de agente, e agentes respondem por cerca de 70% das requisições de CLI na Stripe. Quem cobra percentual do volume transacionado ganha com o agente, e a disputa migra de descoberta para avaliação e execução — tornando feeds, APIs e listagens ativo competitivo.",
+      "refs": [
+        "https://tomtunguz.com/no-shirt-no-shoes-no-service-for-bots",
+        "https://www.a16z.news/p/welcome-to-the-b2a-economy"
+      ]
+    }
+  ],
+  "feedback_processed": [],
+  "fetch_report": {
+    "failed_sources": [
+      {
+        "id": "import-ai-jack-clark",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "the-beautiful-mess-john-cutler",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "latitud-newsletter",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "jakob-nielsen-ux-tigers",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "the-convivial-society",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "w3c-wai-news",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "branding-strategy-insider",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "lavca",
+        "error": "HTTP 403"
+      },
+      {
+        "id": "clouded-judgement",
+        "error": "HTTP 403"
+      }
+    ]
+  }
+}
